@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4801"}, "freq": 1,
   "signals": [
-    {"id": "MACHE_HVBAT_SOC", "path": "Battery", "fmt": {"len": 16, "max": 100, "div": 500, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "MACHE_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 500, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]}
 ]
 }
