@@ -18,6 +18,24 @@ TEST_CASES = [
         "tests": [
             # State of charge
             ("7EC0562480120B1", {"MACHE_HVBAT_SOC": 16.738}),
+            ("7EC04624845B1", {"MACHE_HVBAT_SOC_DISP": 88.5}),
+            ("7EC04624845B6", {"MACHE_HVBAT_SOC_DISP": 91}),
+
+            # State of health
+            ("7EC0462490CC6", {"MACHE_HVBAT_SOH": 99}),
+
+            # HV battery voltage
+            ("7EC0562480D9123", {"MACHE_HVBAT_V": 371.55}),
+            ("7EC0562480D93E8", {"MACHE_HVBAT_V": 378.64}),
+
+            # HV battery temperature
+            ("7EC0462480042", {"MACHE_HVBAT_T": 16.0}),
+
+            # HV battery age? pid is theoretically in months
+            ("7EC056248100F45", {"MACHE_HVBAT_AGE": 14072.4}),
+
+            # Charge state
+            ("7EC0462484F00", {"MACHE_CHRG_STATE": "NOT_READY"}),
         ]
     },
 ]
