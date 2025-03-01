@@ -7,7 +7,7 @@
   "signals": [
     {"id": "MACHE_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 500, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge", "description": "High resolution state of charge."}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "dbg": true, "cmd": {"22": "480D"}, "freq": 30,
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "480D"}, "freq": 1,
   "signals": [
     {"id": "MACHE_HVBAT_V", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "volts" }, "name": "HV battery voltage"}
   ]},
