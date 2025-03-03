@@ -43,7 +43,7 @@
   "signals": [
     {"id": "MACHE_HVBAT_SOC_DISP", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge", "description": "The state of charge displayed on the vehicle's dashboard."}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4848"}, "freq": 3600,
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "4848"}, "freq": 5,
   "signals": [
     {"id": "MACHE_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 131.07, "div": 500, "unit": "kilowattHours" }, "name": "HV battery energy"}
   ]},
