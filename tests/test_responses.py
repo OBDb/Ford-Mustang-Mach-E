@@ -13,6 +13,40 @@ REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
     {
+        "model_year": "2022",
+        "signalset": "default.json",
+        "tests": [
+            # Front left tire pressure
+            ("72E0562281302E5", {"MACHE_TP_FL": 37.05}),
+            ("72E05622813033F", {"MACHE_TP_FL": 41.55}),
+
+            # Front right tire pressure
+            ("72E0562281402EA", {"MACHE_TP_FR": 37.3}),
+            ("72E056228140344", {"MACHE_TP_FR": 41.8}),
+
+            # Rear right tire pressure
+            ("72E0562281502DB", {"MACHE_TP_RR": 36.55}),
+            ("72E056228150344", {"MACHE_TP_RR": 41.8}),
+
+            # Rear left tire pressure
+            ("72E0562281602DB", {"MACHE_TP_RL": 36.55}),
+            ("72E056228160344", {"MACHE_TP_RL": 41.8}),
+
+            # Interior temperature
+            ("7EA0462DD0426", {"MACHE_IAT": -2}),
+            ("7EA0462DD043E", {"MACHE_IAT": 22}),
+
+            # Exterior temperature
+            ("7EA0462DD0521", {"MACHE_AAT": -7}),
+            ("7EA0462DD0527", {"MACHE_AAT": -1}),
+
+            # Transmission temperature
+            ("7EE05621E1C0001", {"MACHE_TT": 0.0625}),
+            ("7EE05621E1C0120", {"MACHE_TT": 18}),
+            ("7EE05621E1CFFFD", {"MACHE_TT": -0.1875}),
+        ]
+    },
+    {
         "model_year": "2023",
         "signalset": "default.json",
         "tests": [
