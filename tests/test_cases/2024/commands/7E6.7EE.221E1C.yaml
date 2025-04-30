@@ -1,0 +1,52 @@
+command_id: 7E6.7EE.221E1C
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EE05621E1C0055
+  expected_values:
+    MACHE_TT: 5.3125
+- response: 7EE05621E1C0056
+  expected_values:
+    MACHE_TT: 5.375
+- response: 7EE05621E1C0057
+  expected_values:
+    MACHE_TT: 5.4375
+- response: 7EE05621E1C0058
+  expected_values:
+    MACHE_TT: 5.5
+- response: 7EE05621E1C0059
+  expected_values:
+    MACHE_TT: 5.5625
+- response: 7EE05621E1C005A
+  expected_values:
+    MACHE_TT: 5.625
+- response: 7EE05621E1C005B
+  expected_values:
+    MACHE_TT: 5.6875
+- response: 7EE05621E1C005C
+  expected_values:
+    MACHE_TT: 5.75
+- response: 7EE05621E1C005D
+  expected_values:
+    MACHE_TT: 5.8125
+- response: 7EE05621E1C023E
+  expected_values:
+    MACHE_TT: 35.875
+- response: 7EE05621E1C0245
+  expected_values:
+    MACHE_TT: 36.3125
+- response: 7EE05621E1C0247
+  expected_values:
+    MACHE_TT: 36.4375
+- response: 7EE05621E1C024C
+  expected_values:
+    MACHE_TT: 36.75
+- response: 7EE05621E1C0255
+  expected_values:
+    MACHE_TT: 37.3125
+- response: 7EE05621E1C0265
+  expected_values:
+    MACHE_TT: 38.3125
+- response: 7EE05621E1C0273
+  expected_values:
+    MACHE_TT: 39.1875

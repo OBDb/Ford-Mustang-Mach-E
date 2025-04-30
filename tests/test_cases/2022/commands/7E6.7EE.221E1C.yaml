@@ -1,0 +1,781 @@
+command_id: 7E6.7EE.221E1C
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EE05621E1C0001
+  expected_values:
+    MACHE_TT: 0.0625
+- response: 7EE05621E1C0004
+  expected_values:
+    MACHE_TT: 0.25
+- response: 7EE05621E1C0006
+  expected_values:
+    MACHE_TT: 0.375
+- response: 7EE05621E1C0007
+  expected_values:
+    MACHE_TT: 0.4375
+- response: 7EE05621E1C0008
+  expected_values:
+    MACHE_TT: 0.5
+- response: 7EE05621E1C0009
+  expected_values:
+    MACHE_TT: 0.5625
+- response: 7EE05621E1C000A
+  expected_values:
+    MACHE_TT: 0.625
+- response: 7EE05621E1C001A
+  expected_values:
+    MACHE_TT: 1.625
+- response: 7EE05621E1C001F
+  expected_values:
+    MACHE_TT: 1.9375
+- response: 7EE05621E1C0024
+  expected_values:
+    MACHE_TT: 2.25
+- response: 7EE05621E1C0027
+  expected_values:
+    MACHE_TT: 2.4375
+- response: 7EE05621E1C0029
+  expected_values:
+    MACHE_TT: 2.5625
+- response: 7EE05621E1C0036
+  expected_values:
+    MACHE_TT: 3.375
+- response: 7EE05621E1C003E
+  expected_values:
+    MACHE_TT: 3.875
+- response: 7EE05621E1C0040
+  expected_values:
+    MACHE_TT: 4
+- response: 7EE05621E1C004E
+  expected_values:
+    MACHE_TT: 4.875
+- response: 7EE05621E1C0050
+  expected_values:
+    MACHE_TT: 5
+- response: 7EE05621E1C0054
+  expected_values:
+    MACHE_TT: 5.25
+- response: 7EE05621E1C0058
+  expected_values:
+    MACHE_TT: 5.5
+- response: 7EE05621E1C0059
+  expected_values:
+    MACHE_TT: 5.5625
+- response: 7EE05621E1C005A
+  expected_values:
+    MACHE_TT: 5.625
+- response: 7EE05621E1C005B
+  expected_values:
+    MACHE_TT: 5.6875
+- response: 7EE05621E1C005D
+  expected_values:
+    MACHE_TT: 5.8125
+- response: 7EE05621E1C005E
+  expected_values:
+    MACHE_TT: 5.875
+- response: 7EE05621E1C0065
+  expected_values:
+    MACHE_TT: 6.3125
+- response: 7EE05621E1C0066
+  expected_values:
+    MACHE_TT: 6.375
+- response: 7EE05621E1C0067
+  expected_values:
+    MACHE_TT: 6.4375
+- response: 7EE05621E1C0068
+  expected_values:
+    MACHE_TT: 6.5
+- response: 7EE05621E1C0069
+  expected_values:
+    MACHE_TT: 6.5625
+- response: 7EE05621E1C006D
+  expected_values:
+    MACHE_TT: 6.8125
+- response: 7EE05621E1C006E
+  expected_values:
+    MACHE_TT: 6.875
+- response: 7EE05621E1C0071
+  expected_values:
+    MACHE_TT: 7.0625
+- response: 7EE05621E1C0072
+  expected_values:
+    MACHE_TT: 7.125
+- response: 7EE05621E1C007E
+  expected_values:
+    MACHE_TT: 7.875
+- response: 7EE05621E1C0080
+  expected_values:
+    MACHE_TT: 8
+- response: 7EE05621E1C0081
+  expected_values:
+    MACHE_TT: 8.0625
+- response: 7EE05621E1C0086
+  expected_values:
+    MACHE_TT: 8.375
+- response: 7EE05621E1C0088
+  expected_values:
+    MACHE_TT: 8.5
+- response: 7EE05621E1C0089
+  expected_values:
+    MACHE_TT: 8.5625
+- response: 7EE05621E1C008C
+  expected_values:
+    MACHE_TT: 8.75
+- response: 7EE05621E1C0094
+  expected_values:
+    MACHE_TT: 9.25
+- response: 7EE05621E1C0097
+  expected_values:
+    MACHE_TT: 9.4375
+- response: 7EE05621E1C0099
+  expected_values:
+    MACHE_TT: 9.5625
+- response: 7EE05621E1C009A
+  expected_values:
+    MACHE_TT: 9.625
+- response: 7EE05621E1C009E
+  expected_values:
+    MACHE_TT: 9.875
+- response: 7EE05621E1C00A3
+  expected_values:
+    MACHE_TT: 10.1875
+- response: 7EE05621E1C00AB
+  expected_values:
+    MACHE_TT: 10.6875
+- response: 7EE05621E1C00AD
+  expected_values:
+    MACHE_TT: 10.8125
+- response: 7EE05621E1C00B0
+  expected_values:
+    MACHE_TT: 11
+- response: 7EE05621E1C00B3
+  expected_values:
+    MACHE_TT: 11.1875
+- response: 7EE05621E1C00BD
+  expected_values:
+    MACHE_TT: 11.8125
+- response: 7EE05621E1C00C4
+  expected_values:
+    MACHE_TT: 12.25
+- response: 7EE05621E1C00C8
+  expected_values:
+    MACHE_TT: 12.5
+- response: 7EE05621E1C00CA
+  expected_values:
+    MACHE_TT: 12.625
+- response: 7EE05621E1C00CB
+  expected_values:
+    MACHE_TT: 12.6875
+- response: 7EE05621E1C00CD
+  expected_values:
+    MACHE_TT: 12.8125
+- response: 7EE05621E1C00CF
+  expected_values:
+    MACHE_TT: 12.9375
+- response: 7EE05621E1C00D5
+  expected_values:
+    MACHE_TT: 13.3125
+- response: 7EE05621E1C00DA
+  expected_values:
+    MACHE_TT: 13.625
+- response: 7EE05621E1C00DE
+  expected_values:
+    MACHE_TT: 13.875
+- response: 7EE05621E1C00E0
+  expected_values:
+    MACHE_TT: 14
+- response: 7EE05621E1C00E3
+  expected_values:
+    MACHE_TT: 14.1875
+- response: 7EE05621E1C00EA
+  expected_values:
+    MACHE_TT: 14.625
+- response: 7EE05621E1C00EB
+  expected_values:
+    MACHE_TT: 14.6875
+- response: 7EE05621E1C00EC
+  expected_values:
+    MACHE_TT: 14.75
+- response: 7EE05621E1C00F1
+  expected_values:
+    MACHE_TT: 15.0625
+- response: 7EE05621E1C00F5
+  expected_values:
+    MACHE_TT: 15.3125
+- response: 7EE05621E1C00F9
+  expected_values:
+    MACHE_TT: 15.5625
+- response: 7EE05621E1C00FA
+  expected_values:
+    MACHE_TT: 15.625
+- response: 7EE05621E1C00FC
+  expected_values:
+    MACHE_TT: 15.75
+- response: 7EE05621E1C0105
+  expected_values:
+    MACHE_TT: 16.3125
+- response: 7EE05621E1C0109
+  expected_values:
+    MACHE_TT: 16.5625
+- response: 7EE05621E1C010A
+  expected_values:
+    MACHE_TT: 16.625
+- response: 7EE05621E1C010C
+  expected_values:
+    MACHE_TT: 16.75
+- response: 7EE05621E1C0112
+  expected_values:
+    MACHE_TT: 17.125
+- response: 7EE05621E1C0115
+  expected_values:
+    MACHE_TT: 17.3125
+- response: 7EE05621E1C0116
+  expected_values:
+    MACHE_TT: 17.375
+- response: 7EE05621E1C011A
+  expected_values:
+    MACHE_TT: 17.625
+- response: 7EE05621E1C011B
+  expected_values:
+    MACHE_TT: 17.6875
+- response: 7EE05621E1C011D
+  expected_values:
+    MACHE_TT: 17.8125
+- response: 7EE05621E1C011E
+  expected_values:
+    MACHE_TT: 17.875
+- response: 7EE05621E1C0120
+  expected_values:
+    MACHE_TT: 18
+- response: 7EE05621E1C0121
+  expected_values:
+    MACHE_TT: 18.0625
+- response: 7EE05621E1C0122
+  expected_values:
+    MACHE_TT: 18.125
+- response: 7EE05621E1C012B
+  expected_values:
+    MACHE_TT: 18.6875
+- response: 7EE05621E1C012C
+  expected_values:
+    MACHE_TT: 18.75
+- response: 7EE05621E1C012D
+  expected_values:
+    MACHE_TT: 18.8125
+- response: 7EE05621E1C0135
+  expected_values:
+    MACHE_TT: 19.3125
+- response: 7EE05621E1C0138
+  expected_values:
+    MACHE_TT: 19.5
+- response: 7EE05621E1C013A
+  expected_values:
+    MACHE_TT: 19.625
+- response: 7EE05621E1C013B
+  expected_values:
+    MACHE_TT: 19.6875
+- response: 7EE05621E1C013C
+  expected_values:
+    MACHE_TT: 19.75
+- response: 7EE05621E1C013D
+  expected_values:
+    MACHE_TT: 19.8125
+- response: 7EE05621E1C013E
+  expected_values:
+    MACHE_TT: 19.875
+- response: 7EE05621E1C013F
+  expected_values:
+    MACHE_TT: 19.9375
+- response: 7EE05621E1C0140
+  expected_values:
+    MACHE_TT: 20
+- response: 7EE05621E1C0141
+  expected_values:
+    MACHE_TT: 20.0625
+- response: 7EE05621E1C0143
+  expected_values:
+    MACHE_TT: 20.1875
+- response: 7EE05621E1C0144
+  expected_values:
+    MACHE_TT: 20.25
+- response: 7EE05621E1C0145
+  expected_values:
+    MACHE_TT: 20.3125
+- response: 7EE05621E1C0146
+  expected_values:
+    MACHE_TT: 20.375
+- response: 7EE05621E1C0147
+  expected_values:
+    MACHE_TT: 20.4375
+- response: 7EE05621E1C0149
+  expected_values:
+    MACHE_TT: 20.5625
+- response: 7EE05621E1C014B
+  expected_values:
+    MACHE_TT: 20.6875
+- response: 7EE05621E1C014C
+  expected_values:
+    MACHE_TT: 20.75
+- response: 7EE05621E1C014D
+  expected_values:
+    MACHE_TT: 20.8125
+- response: 7EE05621E1C014F
+  expected_values:
+    MACHE_TT: 20.9375
+- response: 7EE05621E1C0151
+  expected_values:
+    MACHE_TT: 21.0625
+- response: 7EE05621E1C0153
+  expected_values:
+    MACHE_TT: 21.1875
+- response: 7EE05621E1C0154
+  expected_values:
+    MACHE_TT: 21.25
+- response: 7EE05621E1C0155
+  expected_values:
+    MACHE_TT: 21.3125
+- response: 7EE05621E1C0157
+  expected_values:
+    MACHE_TT: 21.4375
+- response: 7EE05621E1C0158
+  expected_values:
+    MACHE_TT: 21.5
+- response: 7EE05621E1C0159
+  expected_values:
+    MACHE_TT: 21.5625
+- response: 7EE05621E1C015B
+  expected_values:
+    MACHE_TT: 21.6875
+- response: 7EE05621E1C015C
+  expected_values:
+    MACHE_TT: 21.75
+- response: 7EE05621E1C015E
+  expected_values:
+    MACHE_TT: 21.875
+- response: 7EE05621E1C015F
+  expected_values:
+    MACHE_TT: 21.9375
+- response: 7EE05621E1C0160
+  expected_values:
+    MACHE_TT: 22
+- response: 7EE05621E1C0164
+  expected_values:
+    MACHE_TT: 22.25
+- response: 7EE05621E1C0168
+  expected_values:
+    MACHE_TT: 22.5
+- response: 7EE05621E1C016C
+  expected_values:
+    MACHE_TT: 22.75
+- response: 7EE05621E1C0173
+  expected_values:
+    MACHE_TT: 23.1875
+- response: 7EE05621E1C0176
+  expected_values:
+    MACHE_TT: 23.375
+- response: 7EE05621E1C0177
+  expected_values:
+    MACHE_TT: 23.4375
+- response: 7EE05621E1C0178
+  expected_values:
+    MACHE_TT: 23.5
+- response: 7EE05621E1C017F
+  expected_values:
+    MACHE_TT: 23.9375
+- response: 7EE05621E1C0181
+  expected_values:
+    MACHE_TT: 24.0625
+- response: 7EE05621E1C0184
+  expected_values:
+    MACHE_TT: 24.25
+- response: 7EE05621E1C0185
+  expected_values:
+    MACHE_TT: 24.3125
+- response: 7EE05621E1C0187
+  expected_values:
+    MACHE_TT: 24.4375
+- response: 7EE05621E1C0188
+  expected_values:
+    MACHE_TT: 24.5
+- response: 7EE05621E1C018D
+  expected_values:
+    MACHE_TT: 24.8125
+- response: 7EE05621E1C0191
+  expected_values:
+    MACHE_TT: 25.0625
+- response: 7EE05621E1C0193
+  expected_values:
+    MACHE_TT: 25.1875
+- response: 7EE05621E1C0198
+  expected_values:
+    MACHE_TT: 25.5
+- response: 7EE05621E1C0199
+  expected_values:
+    MACHE_TT: 25.5625
+- response: 7EE05621E1C019D
+  expected_values:
+    MACHE_TT: 25.8125
+- response: 7EE05621E1C019E
+  expected_values:
+    MACHE_TT: 25.875
+- response: 7EE05621E1C01A1
+  expected_values:
+    MACHE_TT: 26.0625
+- response: 7EE05621E1C01A3
+  expected_values:
+    MACHE_TT: 26.1875
+- response: 7EE05621E1C01A7
+  expected_values:
+    MACHE_TT: 26.4375
+- response: 7EE05621E1C01A8
+  expected_values:
+    MACHE_TT: 26.5
+- response: 7EE05621E1C01AA
+  expected_values:
+    MACHE_TT: 26.625
+- response: 7EE05621E1C01AE
+  expected_values:
+    MACHE_TT: 26.875
+- response: 7EE05621E1C01B0
+  expected_values:
+    MACHE_TT: 27
+- response: 7EE05621E1C01B2
+  expected_values:
+    MACHE_TT: 27.125
+- response: 7EE05621E1C01B3
+  expected_values:
+    MACHE_TT: 27.1875
+- response: 7EE05621E1C01B4
+  expected_values:
+    MACHE_TT: 27.25
+- response: 7EE05621E1C01B8
+  expected_values:
+    MACHE_TT: 27.5
+- response: 7EE05621E1C01BA
+  expected_values:
+    MACHE_TT: 27.625
+- response: 7EE05621E1C01BB
+  expected_values:
+    MACHE_TT: 27.6875
+- response: 7EE05621E1C01BC
+  expected_values:
+    MACHE_TT: 27.75
+- response: 7EE05621E1C01BD
+  expected_values:
+    MACHE_TT: 27.8125
+- response: 7EE05621E1C01BE
+  expected_values:
+    MACHE_TT: 27.875
+- response: 7EE05621E1C01BF
+  expected_values:
+    MACHE_TT: 27.9375
+- response: 7EE05621E1C01C0
+  expected_values:
+    MACHE_TT: 28
+- response: 7EE05621E1C01C1
+  expected_values:
+    MACHE_TT: 28.0625
+- response: 7EE05621E1C01C2
+  expected_values:
+    MACHE_TT: 28.125
+- response: 7EE05621E1C01C3
+  expected_values:
+    MACHE_TT: 28.1875
+- response: 7EE05621E1C01C4
+  expected_values:
+    MACHE_TT: 28.25
+- response: 7EE05621E1C01C5
+  expected_values:
+    MACHE_TT: 28.3125
+- response: 7EE05621E1C01C6
+  expected_values:
+    MACHE_TT: 28.375
+- response: 7EE05621E1C01C8
+  expected_values:
+    MACHE_TT: 28.5
+- response: 7EE05621E1C01CC
+  expected_values:
+    MACHE_TT: 28.75
+- response: 7EE05621E1C01CE
+  expected_values:
+    MACHE_TT: 28.875
+- response: 7EE05621E1C01CF
+  expected_values:
+    MACHE_TT: 28.9375
+- response: 7EE05621E1C01D3
+  expected_values:
+    MACHE_TT: 29.1875
+- response: 7EE05621E1C01D8
+  expected_values:
+    MACHE_TT: 29.5
+- response: 7EE05621E1C01D9
+  expected_values:
+    MACHE_TT: 29.5625
+- response: 7EE05621E1C01DA
+  expected_values:
+    MACHE_TT: 29.625
+- response: 7EE05621E1C01DE
+  expected_values:
+    MACHE_TT: 29.875
+- response: 7EE05621E1C01DF
+  expected_values:
+    MACHE_TT: 29.9375
+- response: 7EE05621E1C01E5
+  expected_values:
+    MACHE_TT: 30.3125
+- response: 7EE05621E1C01E7
+  expected_values:
+    MACHE_TT: 30.4375
+- response: 7EE05621E1C01EB
+  expected_values:
+    MACHE_TT: 30.6875
+- response: 7EE05621E1C01EC
+  expected_values:
+    MACHE_TT: 30.75
+- response: 7EE05621E1C01EE
+  expected_values:
+    MACHE_TT: 30.875
+- response: 7EE05621E1C01F1
+  expected_values:
+    MACHE_TT: 31.0625
+- response: 7EE05621E1C01F2
+  expected_values:
+    MACHE_TT: 31.125
+- response: 7EE05621E1C01F3
+  expected_values:
+    MACHE_TT: 31.1875
+- response: 7EE05621E1C01F4
+  expected_values:
+    MACHE_TT: 31.25
+- response: 7EE05621E1C01F5
+  expected_values:
+    MACHE_TT: 31.3125
+- response: 7EE05621E1C01F6
+  expected_values:
+    MACHE_TT: 31.375
+- response: 7EE05621E1C01F7
+  expected_values:
+    MACHE_TT: 31.4375
+- response: 7EE05621E1C01F8
+  expected_values:
+    MACHE_TT: 31.5
+- response: 7EE05621E1C01F9
+  expected_values:
+    MACHE_TT: 31.5625
+- response: 7EE05621E1C01FB
+  expected_values:
+    MACHE_TT: 31.6875
+- response: 7EE05621E1C01FE
+  expected_values:
+    MACHE_TT: 31.875
+- response: 7EE05621E1C01FF
+  expected_values:
+    MACHE_TT: 31.9375
+- response: 7EE05621E1C0201
+  expected_values:
+    MACHE_TT: 32.0625
+- response: 7EE05621E1C0204
+  expected_values:
+    MACHE_TT: 32.25
+- response: 7EE05621E1C0205
+  expected_values:
+    MACHE_TT: 32.3125
+- response: 7EE05621E1C0206
+  expected_values:
+    MACHE_TT: 32.375
+- response: 7EE05621E1C0208
+  expected_values:
+    MACHE_TT: 32.5
+- response: 7EE05621E1C020E
+  expected_values:
+    MACHE_TT: 32.875
+- response: 7EE05621E1C0211
+  expected_values:
+    MACHE_TT: 33.0625
+- response: 7EE05621E1C0217
+  expected_values:
+    MACHE_TT: 33.4375
+- response: 7EE05621E1C021C
+  expected_values:
+    MACHE_TT: 33.75
+- response: 7EE05621E1C021E
+  expected_values:
+    MACHE_TT: 33.875
+- response: 7EE05621E1C0221
+  expected_values:
+    MACHE_TT: 34.0625
+- response: 7EE05621E1C0226
+  expected_values:
+    MACHE_TT: 34.375
+- response: 7EE05621E1C022B
+  expected_values:
+    MACHE_TT: 34.6875
+- response: 7EE05621E1C022F
+  expected_values:
+    MACHE_TT: 34.9375
+- response: 7EE05621E1C0231
+  expected_values:
+    MACHE_TT: 35.0625
+- response: 7EE05621E1C0232
+  expected_values:
+    MACHE_TT: 35.125
+- response: 7EE05621E1C0235
+  expected_values:
+    MACHE_TT: 35.3125
+- response: 7EE05621E1C0236
+  expected_values:
+    MACHE_TT: 35.375
+- response: 7EE05621E1C0238
+  expected_values:
+    MACHE_TT: 35.5
+- response: 7EE05621E1C0239
+  expected_values:
+    MACHE_TT: 35.5625
+- response: 7EE05621E1C023A
+  expected_values:
+    MACHE_TT: 35.625
+- response: 7EE05621E1C023C
+  expected_values:
+    MACHE_TT: 35.75
+- response: 7EE05621E1C023E
+  expected_values:
+    MACHE_TT: 35.875
+- response: 7EE05621E1C023F
+  expected_values:
+    MACHE_TT: 35.9375
+- response: 7EE05621E1C0241
+  expected_values:
+    MACHE_TT: 36.0625
+- response: 7EE05621E1C0244
+  expected_values:
+    MACHE_TT: 36.25
+- response: 7EE05621E1C0246
+  expected_values:
+    MACHE_TT: 36.375
+- response: 7EE05621E1C0247
+  expected_values:
+    MACHE_TT: 36.4375
+- response: 7EE05621E1C0248
+  expected_values:
+    MACHE_TT: 36.5
+- response: 7EE05621E1C0249
+  expected_values:
+    MACHE_TT: 36.5625
+- response: 7EE05621E1C024B
+  expected_values:
+    MACHE_TT: 36.6875
+- response: 7EE05621E1C024C
+  expected_values:
+    MACHE_TT: 36.75
+- response: 7EE05621E1C024D
+  expected_values:
+    MACHE_TT: 36.8125
+- response: 7EE05621E1C024E
+  expected_values:
+    MACHE_TT: 36.875
+- response: 7EE05621E1C024F
+  expected_values:
+    MACHE_TT: 36.9375
+- response: 7EE05621E1C0251
+  expected_values:
+    MACHE_TT: 37.0625
+- response: 7EE05621E1C0252
+  expected_values:
+    MACHE_TT: 37.125
+- response: 7EE05621E1C0253
+  expected_values:
+    MACHE_TT: 37.1875
+- response: 7EE05621E1C0254
+  expected_values:
+    MACHE_TT: 37.25
+- response: 7EE05621E1C0256
+  expected_values:
+    MACHE_TT: 37.375
+- response: 7EE05621E1C0257
+  expected_values:
+    MACHE_TT: 37.4375
+- response: 7EE05621E1C0258
+  expected_values:
+    MACHE_TT: 37.5
+- response: 7EE05621E1C025A
+  expected_values:
+    MACHE_TT: 37.625
+- response: 7EE05621E1C025D
+  expected_values:
+    MACHE_TT: 37.8125
+- response: 7EE05621E1C0260
+  expected_values:
+    MACHE_TT: 38
+- response: 7EE05621E1C0261
+  expected_values:
+    MACHE_TT: 38.0625
+- response: 7EE05621E1C0266
+  expected_values:
+    MACHE_TT: 38.375
+- response: 7EE05621E1C0269
+  expected_values:
+    MACHE_TT: 38.5625
+- response: 7EE05621E1C026A
+  expected_values:
+    MACHE_TT: 38.625
+- response: 7EE05621E1C026F
+  expected_values:
+    MACHE_TT: 38.9375
+- response: 7EE05621E1C0272
+  expected_values:
+    MACHE_TT: 39.125
+- response: 7EE05621E1C0273
+  expected_values:
+    MACHE_TT: 39.1875
+- response: 7EE05621E1C0274
+  expected_values:
+    MACHE_TT: 39.25
+- response: 7EE05621E1C0277
+  expected_values:
+    MACHE_TT: 39.4375
+- response: 7EE05621E1C0279
+  expected_values:
+    MACHE_TT: 39.5625
+- response: 7EE05621E1C0281
+  expected_values:
+    MACHE_TT: 40.0625
+- response: 7EE05621E1C0284
+  expected_values:
+    MACHE_TT: 40.25
+- response: 7EE05621E1CFF9C
+  expected_values:
+    MACHE_TT: -6.25
+- response: 7EE05621E1CFFA4
+  expected_values:
+    MACHE_TT: -5.75
+- response: 7EE05621E1CFFA9
+  expected_values:
+    MACHE_TT: -5.4375
+- response: 7EE05621E1CFFAF
+  expected_values:
+    MACHE_TT: -5.0625
+- response: 7EE05621E1CFFB4
+  expected_values:
+    MACHE_TT: -4.75
+- response: 7EE05621E1CFFB9
+  expected_values:
+    MACHE_TT: -4.4375
+- response: 7EE05621E1CFFCC
+  expected_values:
+    MACHE_TT: -3.25
+- response: 7EE05621E1CFFD3
+  expected_values:
+    MACHE_TT: -2.8125
+- response: 7EE05621E1CFFDB
+  expected_values:
+    MACHE_TT: -2.3125
+- response: 7EE05621E1CFFE1
+  expected_values:
+    MACHE_TT: -1.9375
+- response: 7EE05621E1CFFFA
+  expected_values:
+    MACHE_TT: -0.375
+- response: 7EE05621E1CFFFD
+  expected_values:
+    MACHE_TT: -0.1875
