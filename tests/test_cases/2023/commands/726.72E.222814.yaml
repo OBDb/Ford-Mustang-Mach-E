@@ -1,0 +1,142 @@
+command_id: 726.72E.222814
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 72E0562281402B0
+  expected_values:
+    MACHE_TP_FR: 34.4
+- response: 72E0562281402C7
+  expected_values:
+    MACHE_TP_FR: 35.55
+- response: 72E0562281402CC
+  expected_values:
+    MACHE_TP_FR: 35.8
+- response: 72E0562281402D1
+  expected_values:
+    MACHE_TP_FR: 36.05
+- response: 72E0562281402D6
+  expected_values:
+    MACHE_TP_FR: 36.3
+- response: 72E0562281402DB
+  expected_values:
+    MACHE_TP_FR: 36.55
+- response: 72E0562281402E0
+  expected_values:
+    MACHE_TP_FR: 36.8
+- response: 72E0562281402E5
+  expected_values:
+    MACHE_TP_FR: 37.05
+- response: 72E0562281402E7
+  expected_values:
+    MACHE_TP_FR: 37.15
+- response: 72E0562281402EA
+  expected_values:
+    MACHE_TP_FR: 37.3
+- response: 72E0562281402EC
+  expected_values:
+    MACHE_TP_FR: 37.4
+- response: 72E0562281402EF
+  expected_values:
+    MACHE_TP_FR: 37.55
+- response: 72E0562281402F1
+  expected_values:
+    MACHE_TP_FR: 37.65
+- response: 72E0562281402F4
+  expected_values:
+    MACHE_TP_FR: 37.8
+- response: 72E0562281402F6
+  expected_values:
+    MACHE_TP_FR: 37.9
+- response: 72E0562281402F9
+  expected_values:
+    MACHE_TP_FR: 38.05
+- response: 72E0562281402FB
+  expected_values:
+    MACHE_TP_FR: 38.15
+- response: 72E0562281402FE
+  expected_values:
+    MACHE_TP_FR: 38.3
+- response: '72E056228140300'
+  expected_values:
+    MACHE_TP_FR: 38.4
+- response: '72E056228140303'
+  expected_values:
+    MACHE_TP_FR: 38.55
+- response: '72E056228140305'
+  expected_values:
+    MACHE_TP_FR: 38.65
+- response: '72E056228140308'
+  expected_values:
+    MACHE_TP_FR: 38.8
+- response: 72E05622814030D
+  expected_values:
+    MACHE_TP_FR: 39.05
+- response: 72E05622814030E
+  expected_values:
+    MACHE_TP_FR: 39.1
+- response: '72E056228140312'
+  expected_values:
+    MACHE_TP_FR: 39.3
+- response: '72E056228140313'
+  expected_values:
+    MACHE_TP_FR: 39.35
+- response: '72E056228140317'
+  expected_values:
+    MACHE_TP_FR: 39.55
+- response: '72E056228140318'
+  expected_values:
+    MACHE_TP_FR: 39.6
+- response: 72E05622814031C
+  expected_values:
+    MACHE_TP_FR: 39.8
+- response: 72E05622814031D
+  expected_values:
+    MACHE_TP_FR: 39.85
+- response: '72E056228140320'
+  expected_values:
+    MACHE_TP_FR: 40
+- response: '72E056228140322'
+  expected_values:
+    MACHE_TP_FR: 40.1
+- response: '72E056228140325'
+  expected_values:
+    MACHE_TP_FR: 40.25
+- response: '72E056228140326'
+  expected_values:
+    MACHE_TP_FR: 40.3
+- response: 72E05622814032A
+  expected_values:
+    MACHE_TP_FR: 40.5
+- response: 72E05622814032C
+  expected_values:
+    MACHE_TP_FR: 40.6
+- response: 72E05622814032F
+  expected_values:
+    MACHE_TP_FR: 40.75
+- response: '72E056228140331'
+  expected_values:
+    MACHE_TP_FR: 40.85
+- response: '72E056228140334'
+  expected_values:
+    MACHE_TP_FR: 41
+- response: '72E056228140339'
+  expected_values:
+    MACHE_TP_FR: 41.25
+- response: '72E056228140340'
+  expected_values:
+    MACHE_TP_FR: 41.6
+- response: '72E056228140344'
+  expected_values:
+    MACHE_TP_FR: 41.8
+- response: '72E056228140345'
+  expected_values:
+    MACHE_TP_FR: 41.85
+- response: '72E056228140349'
+  expected_values:
+    MACHE_TP_FR: 42.05
+- response: 72E05622814034E
+  expected_values:
+    MACHE_TP_FR: 42.3
+- response: '72E056228140354'
+  expected_values:
+    MACHE_TP_FR: 42.6

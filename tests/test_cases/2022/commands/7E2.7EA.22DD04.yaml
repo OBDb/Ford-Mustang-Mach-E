@@ -1,0 +1,73 @@
+command_id: 7E2.7EA.22DD04
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EA0462DD0426
+  expected_values:
+    MACHE_IAT: -2
+- response: 7EA0462DD0427
+  expected_values:
+    MACHE_IAT: -1
+- response: 7EA0462DD0428
+  expected_values:
+    MACHE_IAT: 0
+- response: 7EA0462DD042A
+  expected_values:
+    MACHE_IAT: 2
+- response: 7EA0462DD042B
+  expected_values:
+    MACHE_IAT: 3
+- response: 7EA0462DD042C
+  expected_values:
+    MACHE_IAT: 4
+- response: 7EA0462DD042E
+  expected_values:
+    MACHE_IAT: 6
+- response: 7EA0462DD042F
+  expected_values:
+    MACHE_IAT: 7
+- response: 7EA0462DD0430
+  expected_values:
+    MACHE_IAT: 8
+- response: 7EA0462DD0431
+  expected_values:
+    MACHE_IAT: 9
+- response: 7EA0462DD0432
+  expected_values:
+    MACHE_IAT: 10
+- response: 7EA0462DD0433
+  expected_values:
+    MACHE_IAT: 11
+- response: 7EA0462DD0434
+  expected_values:
+    MACHE_IAT: 12
+- response: 7EA0462DD0435
+  expected_values:
+    MACHE_IAT: 13
+- response: 7EA0462DD0436
+  expected_values:
+    MACHE_IAT: 14
+- response: 7EA0462DD0437
+  expected_values:
+    MACHE_IAT: 15
+- response: 7EA0462DD0438
+  expected_values:
+    MACHE_IAT: 16
+- response: 7EA0462DD0439
+  expected_values:
+    MACHE_IAT: 17
+- response: 7EA0462DD043A
+  expected_values:
+    MACHE_IAT: 18
+- response: 7EA0462DD043B
+  expected_values:
+    MACHE_IAT: 19
+- response: 7EA0462DD043C
+  expected_values:
+    MACHE_IAT: 20
+- response: 7EA0462DD043D
+  expected_values:
+    MACHE_IAT: 21
+- response: 7EA0462DD043E
+  expected_values:
+    MACHE_IAT: 22

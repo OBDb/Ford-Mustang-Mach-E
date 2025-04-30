@@ -1,0 +1,75 @@
+command_id: 7E2.7EA.22DD05
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    22DD05
+    7EA0462DD0527
+  expected_values:
+    MACHE_AAT: -1
+- response: 7EA0462DD0527
+  expected_values:
+    MACHE_AAT: -1
+- response: 7EA0462DD052C
+  expected_values:
+    MACHE_AAT: 4
+- response: 7EA0462DD052D
+  expected_values:
+    MACHE_AAT: 5
+- response: 7EA0462DD052E
+  expected_values:
+    MACHE_AAT: 6
+- response: 7EA0462DD052F
+  expected_values:
+    MACHE_AAT: 7
+- response: 7EA0462DD0530
+  expected_values:
+    MACHE_AAT: 8
+- response: 7EA0462DD0531
+  expected_values:
+    MACHE_AAT: 9
+- response: 7EA0462DD0532
+  expected_values:
+    MACHE_AAT: 10
+- response: 7EA0462DD0533
+  expected_values:
+    MACHE_AAT: 11
+- response: 7EA0462DD0537
+  expected_values:
+    MACHE_AAT: 15
+- response: 7EA0462DD0539
+  expected_values:
+    MACHE_AAT: 17
+- response: 7EA0462DD053C
+  expected_values:
+    MACHE_AAT: 20
+- response: 7EA0462DD053E
+  expected_values:
+    MACHE_AAT: 22
+- response: 7EA0462DD053F
+  expected_values:
+    MACHE_AAT: 23
+- response: 7EA0462DD0541
+  expected_values:
+    MACHE_AAT: 25
+- response: 7EA0462DD0542
+  expected_values:
+    MACHE_AAT: 26
+- response: 7EA0462DD0543
+  expected_values:
+    MACHE_AAT: 27
+- response: 7EA0462DD0544
+  expected_values:
+    MACHE_AAT: 28
+- response: 7EA0462DD0545
+  expected_values:
+    MACHE_AAT: 29
+- response: 7EA0462DD0546
+  expected_values:
+    MACHE_AAT: 30
+- response: 7EA0462DD0547
+  expected_values:
+    MACHE_AAT: 31
+- response: 7EA0462DD0548
+  expected_values:
+    MACHE_AAT: 32

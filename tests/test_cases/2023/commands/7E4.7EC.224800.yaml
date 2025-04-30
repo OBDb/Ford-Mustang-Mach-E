@@ -1,0 +1,13 @@
+command_id: 7E4.7EC.224800
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EC0462480034
+  expected_values:
+    MACHE_HVBAT_T: 2
+- response: 7EC0462480042
+  expected_values:
+    MACHE_HVBAT_T: 16
+- response: 7EC046248004D
+  expected_values:
+    MACHE_HVBAT_T: 27
