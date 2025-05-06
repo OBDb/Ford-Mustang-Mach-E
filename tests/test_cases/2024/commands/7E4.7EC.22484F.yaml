@@ -1,0 +1,7 @@
+command_id: 7E4.7EC.22484F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EC0462484F00
+  expected_values:
+    MACHE_CHRG_STATE: NOT_READY
