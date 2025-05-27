@@ -1,6 +1,4 @@
-command_id: 7E4.7EC.224800
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 7E4.7EC.224800|fc=1
 test_cases:
 - response: 7EC0462480034
   expected_values:
