@@ -1,6 +1,4 @@
 model_year: 2023
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 supported_commands_by_ecu:
   7E0:
   - 0101:ACRF_RDY,ACRF_SUP,AIR_RDY,AIR_SUP,CAT_RDY,CAT_SUP,CCM_RDY,CCM_SUP,CIM_SUP,DTC_CNT,EGR_RDY,EGR_SUP,EVAP_RDY,EVAP_SUP,FUEL_RDY,FUEL_SUP,HCAT_RDY,HCAT_SUP,HTR_RDY,HTR_SUP,MIL,MIS_RDY,MIS_SUP,O2S_RDY,O2S_SUP
@@ -66,14 +64,3 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   - 0149:APP_D
-unsupported_commands_by_ecu:
-  726:
-  - 726.72E.224028
-  - 726.72E.22402A
-  7E2:
-  - 7E2.72E.224028
-  - 7E2.7EA.0100
-  7E4:
-  - 7E4.7EC.0100
-  7E6:
-  - 7E6.7EE.0100
