@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.22490C|fc=1
 test_cases:
-- response: 7EC0462490CC3
-  expected_values:
+- expected_values:
     MACHE_HVBAT_SOH: 97.5
-- response: 7EC0462490CC6
-  expected_values:
+  response: 7EC0462490CC3
+- expected_values:
     MACHE_HVBAT_SOH: 99
+  response: 7EC0462490CC6

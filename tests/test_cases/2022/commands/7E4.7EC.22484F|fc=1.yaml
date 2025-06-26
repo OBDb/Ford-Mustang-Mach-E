@@ -1,5 +1,5 @@
 command_id: 7E4.7EC.22484F|fc=1
 test_cases:
-- response: 7EC0462484F00
-  expected_values:
+- expected_values:
     MACHE_CHRG_STATE: NOT_READY
+  response: 7EC0462484F00
