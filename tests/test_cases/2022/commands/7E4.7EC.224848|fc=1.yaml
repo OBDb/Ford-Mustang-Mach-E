@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224848|fc=1
+test_cases:
+- expected_values:
+    MACHE_HVBAT_KWH: 58.152
+  response: 7EC056248487194
+- expected_values:
+    MACHE_HVBAT_KWH: 63.498
+  response: 7EC056248487C05
+- expected_values:
+    MACHE_HVBAT_KWH: 63.994
+  response: 7EC056248487CFD
+- expected_values:
+    MACHE_HVBAT_KWH: 64.018
+  response: 7EC056248487D09
