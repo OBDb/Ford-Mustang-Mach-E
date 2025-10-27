@@ -22,5 +22,11 @@ test_cases:
     MACHE_TP_FR: 34.3
   response: 72E0562281402AE
 - expected_values:
+    MACHE_TP_FR: 34.55
+  response: 72E0562281402B3
+- expected_values:
     MACHE_TP_FR: 34.65
   response: 72E0562281402B5
+- expected_values:
+    MACHE_TP_FR: 34.8
+  response: 72E0562281402B8
