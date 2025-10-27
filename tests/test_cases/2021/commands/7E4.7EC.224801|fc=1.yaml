@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.224801|fc=1
+test_cases:
+- expected_values:
+    MACHE_HVBAT_SOC: 72.058
+  response: 7EC056248018CBD
+- expected_values:
+    MACHE_HVBAT_SOC: 79.832
+  response: 7EC056248019BEC
+- expected_values:
+    MACHE_HVBAT_SOC: 79.906
+  response: 7EC056248019C11
