@@ -32,6 +32,7 @@ supported_commands_by_ecu:
   - 01A6:ODO
   - 7E0.0103:FUELSYS1,FUELSYS2
   - 7E0.010D:VSS
+  - 7E0.011F:RUNTM
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
   - 7E0.0142:VPWR
