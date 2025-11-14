@@ -1,8 +1,0 @@
-command_id: 7E2.7EA.22DD04|fc=1
-test_cases:
-- expected_values:
-    MACHE_IAT: -2
-  response: 7EA0462DD0426
-- expected_values:
-    MACHE_IAT: 22
-  response: 7EA0462DD043E
