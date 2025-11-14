@@ -1,0 +1,5 @@
+command_id: 7E6.7EE.224824
+test_cases:
+- expected_values:
+    MACHE_PRI_MOTOR_INV_T: 43
+  response: 7EE05624824002B

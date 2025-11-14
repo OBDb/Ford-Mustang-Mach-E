@@ -1,0 +1,5 @@
+command_id: 6F5.224899
+test_cases:
+- expected_values:
+    MACHE_HVDC_CHG_MAX_C: 655.35
+  response: 6FD05624899FFFF

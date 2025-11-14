@@ -1,0 +1,5 @@
+command_id: 7E6.7EE.2248DE
+test_cases:
+- expected_values:
+    MACHE_COOLANT_HTR_PWR: 0
+  response: 7EE056248DE0000
