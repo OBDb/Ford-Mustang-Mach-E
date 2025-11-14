@@ -4,6 +4,12 @@ test_cases:
     MACHE_12V_SOC: 84
   response: '72E0462402854'
 - expected_values:
+    MACHE_12V_SOC: 85
+  response: '72E0462402855'
+- expected_values:
+    MACHE_12V_SOC: 86
+  response: '72E0462402856'
+- expected_values:
     MACHE_12V_SOC: 87
   response: '72E0462402857'
 - expected_values:

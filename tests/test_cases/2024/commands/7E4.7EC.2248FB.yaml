@@ -1,5 +1,8 @@
 command_id: 7E4.7EC.2248FB
 test_cases:
 - expected_values:
-    MACHE_HVBAT_CHG_PWR_LIM: 152.2
-  response: 7EC056248FB05F2
+    MACHE_HVBAT_CHG_PWR_LIM: 151.1
+  response: 7EC056248FB05E7
+- expected_values:
+    MACHE_HVBAT_CHG_PWR_LIM: 153
+  response: 7EC056248FB05FA
