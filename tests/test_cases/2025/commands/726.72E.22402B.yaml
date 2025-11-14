@@ -1,0 +1,32 @@
+command_id: 726.72E.22402B
+test_cases:
+- expected_values:
+    MACHE_12V_A: -22
+  response: 72E0462402B69
+- expected_values:
+    MACHE_12V_A: -9
+  response: 72E0462402B76
+- expected_values:
+    MACHE_12V_A: -3
+  response: 72E0462402B7C
+- expected_values:
+    MACHE_12V_A: -1
+  response: 72E0462402B7E
+- expected_values:
+    MACHE_12V_A: 0
+  response: 72E0462402B7F
+- expected_values:
+    MACHE_12V_A: 1
+  response: 72E0462402B80
+- expected_values:
+    MACHE_12V_A: 2
+  response: 72E0462402B81
+- expected_values:
+    MACHE_12V_A: 3
+  response: 72E0462402B82
+- expected_values:
+    MACHE_12V_A: 4
+  response: 72E0462402B83
+- expected_values:
+    MACHE_12V_A: 6
+  response: 72E0462402B85
