@@ -1,0 +1,11 @@
+command_id: 7E7.7EF.22481A
+test_cases:
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: 0
+  response: 7EF0562481A0000
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: -16.5
+  response: 7EF0562481AFF5B
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: -0.1
+  response: 7EF0562481AFFFF

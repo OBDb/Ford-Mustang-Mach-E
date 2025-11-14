@@ -1,0 +1,11 @@
+command_id: 7E7.7EF.224821
+test_cases:
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 0
+  response: 7EF056248210000
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 7422
+  response: 7EF056248211CFE
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: -241
+  response: 7EF05624821FF0F
