@@ -1,4 +1,20 @@
 { "commands": [
+{ "hdr": "6F5", "dbg": true, "cmd": {"22": "4899"}, "freq": 1,
+  "signals": [
+    {"id": "MACHE_HVDC_CHG_MAX_C", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "amps" }, "name": "HV DC charger maximum current"}
+  ]},
+{ "hdr": "6F5", "dbg": true, "cmd": {"22": "489D"}, "freq": 1,
+  "signals": [
+    {"id": "MACHE_HVDC_CHG_MAX_V", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "HV DC charger maximum voltage"}
+  ]},
+{ "hdr": "726", "dbg": true, "cmd": {"22": "4028"}, "freq": 1,
+  "signals": [
+    {"id": "MACHE_12V_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Aux 12V battery state of charge"}
+  ]},
+{ "hdr": "726", "dbg": true, "cmd": {"22": "402A"}, "freq": 1,
+  "signals": [
+    {"id": "MACHE_12V_V", "path": "Battery", "fmt": { "len": 8, "max": 18.75, "div": 20, "add": 6, "unit": "volts" }, "name": "Aux 12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
+  ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
@@ -15,6 +31,26 @@
   "signals": [
     {"id": "MACHE_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
+{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "DD01"}, "freq": 5,
+  "signals": [
+    {"id": "MACHE_ODO_BCM", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, battery control module", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0580"}, "freq": 1,
+  "signals": [
+    {"id": "MACHE_GRILL_SHUTTER_POSITION", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter position"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1505"}, "freq": 0.1,
+  "signals": [
+    {"id": "MACHE_VSS_HD", "path": "Movement", "fmt": { "len": 16, "max": 200, "div": 128, "unit": "kilometersPerHour" }, "name": "Vehicle speed, high resolution", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "DD01"}, "freq": 5,
+  "signals": [
+    {"id": "MACHE_ODO_ECM", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, engine control module", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F41F"}, "freq": 1,
+  "signals": [
+    {"id": "MACHE_RUN_TIME", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Engine run time"}
+  ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "DD04"}, "freq": 5, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "MACHE_IAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Interior temperature"}
@@ -30,6 +66,13 @@
 { "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4801"}, "freq": 1, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 500, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge", "description": "High resolution state of charge."}
+  ]},
+{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4808"}, "freq": 15,
+  "signals": [
+    {"id": "MACHE_T_RANGE_MAX", "path": "Battery", "fmt": {           "len": 8, "max": 300, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery temperature range, maximum"},
+    {"id": "MACHE_T_RANGE_MIN", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 300, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery temperature range, minimum"},
+    {"id": "MACHE_T_RANGE",     "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 300, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery temperature range"},
+    {"id": "MACHE_T_RANGE_AVG", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 300, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery temperature range, average"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "cmd": {"22": "480D"}, "freq": 1, "dbgfilter": { "from": 2025 },
   "signals": [
