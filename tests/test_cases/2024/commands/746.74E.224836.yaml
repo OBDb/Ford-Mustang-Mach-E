@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_DCDC_LV_A: 0
   response: '74E0462483600'
+- expected_values:
+    MACHE_DCDC_LV_A: 70
+  response: '74E0462483646'

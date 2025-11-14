@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     MACHE_DCDC_ENABLE: DISABLED
   response: 74E0562483D0086
+- expected_values:
+    MACHE_DCDC_ENABLE: ENABLED
+  response: 74E0562483D0186
+- expected_values:
+    MACHE_DCDC_ENABLE: ENABLED
+  response: 74E0562483D0191
+- expected_values:
+    MACHE_DCDC_ENABLE: ENABLED
+  response: 74E0562483D0192

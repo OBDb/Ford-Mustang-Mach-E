@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     MACHE_CHG_OUT_V: 0
   response: 7EA0562484A0000
+- expected_values:
+    MACHE_CHG_OUT_V: 349
+  response: 7EA0562484A8854
+- expected_values:
+    MACHE_CHG_OUT_V: 352
+  response: 7EA0562484A8980
+- expected_values:
+    MACHE_CHG_OUT_V: 353
+  response: 7EA0562484A89E4
+- expected_values:
+    MACHE_CHG_OUT_V: 354
+  response: 7EA0562484A8A48
+- expected_values:
+    MACHE_CHG_OUT_V: 355
+  response: 7EA0562484A8AAC
+- expected_values:
+    MACHE_CHG_OUT_V: 356
+  response: 7EA0562484A8B10
+- expected_values:
+    MACHE_CHG_OUT_V: 357
+  response: 7EA0562484A8B74
+- expected_values:
+    MACHE_CHG_OUT_V: 358
+  response: 7EA0562484A8BD8
+- expected_values:
+    MACHE_CHG_OUT_V: 360
+  response: 7EA0562484A8CA0

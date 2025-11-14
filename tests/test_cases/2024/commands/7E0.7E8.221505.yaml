@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_VSS_HD: 0
   response: '7E8056215050000'
+- expected_values:
+    MACHE_VSS_HD: 99.94531
+  response: 7E80562150531F9

@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     MACHE_AAT: 13
   response: 7EA0462DD0535
+- expected_values:
+    MACHE_AAT: 24
+  response: 7EA0462DD0540

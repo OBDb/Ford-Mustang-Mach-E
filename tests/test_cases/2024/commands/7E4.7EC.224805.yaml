@@ -2,13 +2,13 @@ command_id: 7E4.7EC.224805
 test_cases:
 - expected_values:
     MACHE_CONTACTOR_V_POS: 300
-  response: 7EC056248050D3C
-- expected_values:
-    MACHE_CONTACTOR_V_POS: 300
-  response: 7EC056248050DEB
-- expected_values:
-    MACHE_CONTACTOR_V_POS: 300
-  response: 7EC056248050DF3
+  response: 7EC056248050CCA
 - expected_values:
     MACHE_CONTACTOR_V_POS: 300
   response: 7EC056248050DFA
+- expected_values:
+    MACHE_CONTACTOR_V_POS: 300
+  response: 7EC056248058D02
+- expected_values:
+    MACHE_CONTACTOR_V_POS: 300
+  response: 7EC056248058E3A
