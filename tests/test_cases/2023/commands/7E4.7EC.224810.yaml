@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.224810
+test_cases:
+- expected_values:
+    MACHE_HVBAT_AGE: 11210.4
+  response: 7EC056248100C2A
+- expected_values:
+    MACHE_HVBAT_AGE: 14072.4
+  response: 7EC056248100F45
