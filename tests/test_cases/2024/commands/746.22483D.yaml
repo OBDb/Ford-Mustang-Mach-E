@@ -1,0 +1,5 @@
+command_id: 746.22483D
+test_cases:
+- expected_values:
+    MACHE_DCDC_ENABLE: DISABLED
+  response: 74E0562483D0086

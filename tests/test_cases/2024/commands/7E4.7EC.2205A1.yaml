@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.2205A1
+test_cases:
+- expected_values:
+    MACHE_TARGET_SOC: 100
+  response: 7EC046205A164

@@ -1,0 +1,17 @@
+command_id: 726.72E.22402B
+test_cases:
+- expected_values:
+    MACHE_12V_A: -14
+  response: 72E0462402B71
+- expected_values:
+    MACHE_12V_A: -11
+  response: 72E0462402B74
+- expected_values:
+    MACHE_12V_A: -7
+  response: 72E0462402B78
+- expected_values:
+    MACHE_12V_A: -5
+  response: 72E0462402B7A
+- expected_values:
+    MACHE_12V_A: -2
+  response: 72E0462402B7D
