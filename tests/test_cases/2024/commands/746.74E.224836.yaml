@@ -1,4 +1,4 @@
-command_id: '746.224836'
+command_id: 746.74E.224836
 test_cases:
 - expected_values:
     MACHE_DCDC_LV_A: 0

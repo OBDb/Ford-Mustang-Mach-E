@@ -1,4 +1,4 @@
-command_id: '726.224028'
+command_id: 726.72E.224028
 test_cases:
 - expected_values:
     MACHE_12V_SOC: 87

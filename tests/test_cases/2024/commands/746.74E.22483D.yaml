@@ -1,4 +1,4 @@
-command_id: 746.22483D
+command_id: 746.74E.22483D
 test_cases:
 - expected_values:
     MACHE_DCDC_ENABLE: DISABLED
