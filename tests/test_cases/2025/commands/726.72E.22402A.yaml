@@ -1,0 +1,5 @@
+command_id: 726.72E.22402A
+test_cases:
+- expected_values:
+    MACHE_12V_V: 14.8
+  response: 72E0462402AB0
