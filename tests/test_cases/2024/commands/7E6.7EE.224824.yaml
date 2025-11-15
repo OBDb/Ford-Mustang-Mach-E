@@ -1,8 +1,8 @@
 command_id: 7E6.7EE.224824
 test_cases:
 - expected_values:
-    MACHE_PRI_MOTOR_INV_T: 33
-  response: 7EE056248240021
+    MACHE_PRI_MOTOR_INV_T: 23
+  response: 7EE056248240017
 - expected_values:
     MACHE_PRI_MOTOR_INV_T: 54
   response: 7EE056248240036

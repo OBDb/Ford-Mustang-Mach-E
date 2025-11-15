@@ -1,6 +1,12 @@
 command_id: 7E4.7EC.224808
 test_cases:
 - expected_values:
+    MACHE_T_RANGE: 0
+    MACHE_T_RANGE_AVG: 18
+    MACHE_T_RANGE_MAX: 18
+    MACHE_T_RANGE_MIN: 17
+  response: 7EC0762480844433244
+- expected_values:
     MACHE_T_RANGE: 2
     MACHE_T_RANGE_AVG: 23
     MACHE_T_RANGE_MAX: 25

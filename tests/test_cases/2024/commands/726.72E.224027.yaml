@@ -1,5 +1,8 @@
 command_id: 726.72E.224027
 test_cases:
 - expected_values:
+    MACHE_12V_AGE: 9240
+  response: '72E056240270181'
+- expected_values:
     MACHE_12V_AGE: 12912
   response: 72E05624027021A

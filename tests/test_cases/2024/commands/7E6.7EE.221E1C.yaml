@@ -4,6 +4,9 @@ test_cases:
     MACHE_TT: 5.3125
   response: 7EE05621E1C0055
 - expected_values:
+    MACHE_TT: 16.5
+  response: 7EE05621E1C0108
+- expected_values:
     MACHE_TT: 35.875
   response: 7EE05621E1C023E
 - expected_values:
