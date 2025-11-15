@@ -1,0 +1,5 @@
+command_id: 746.74E.22483D
+test_cases:
+- expected_values:
+    MACHE_DCDC_ENABLED: 1
+  response: 74E0562483D0191

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    MACHE_RUN_TIME: 1483
+  response: 7E80562F41F05CB
