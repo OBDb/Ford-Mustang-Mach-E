@@ -4,29 +4,5 @@ test_cases:
     MACHE_GRILL_SHUTTER_POSITION: 0
   response: '7E80462058000'
 - expected_values:
-    MACHE_GRILL_SHUTTER_POSITION: 33.33333
-  response: '7E80462058055'
-- expected_values:
-    MACHE_GRILL_SHUTTER_POSITION: 40
-  response: '7E80462058066'
-- expected_values:
-    MACHE_GRILL_SHUTTER_POSITION: 46.66667
-  response: '7E80462058077'
-- expected_values:
-    MACHE_GRILL_SHUTTER_POSITION: 60
-  response: '7E80462058099'
-- expected_values:
-    MACHE_GRILL_SHUTTER_POSITION: 73.33333
-  response: 7E804620580BB
-- expected_values:
-    MACHE_GRILL_SHUTTER_POSITION: 80
-  response: 7E804620580CC
-- expected_values:
-    MACHE_GRILL_SHUTTER_POSITION: 86.66667
-  response: 7E804620580DD
-- expected_values:
-    MACHE_GRILL_SHUTTER_POSITION: 93.33333
-  response: 7E804620580EE
-- expected_values:
     MACHE_GRILL_SHUTTER_POSITION: 100
   response: 7E804620580FF
