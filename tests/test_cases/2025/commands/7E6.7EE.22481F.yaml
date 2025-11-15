@@ -4,5 +4,5 @@ test_cases:
     MACHE_PRI_MOTOR_COIL_T: 13
   response: 7EE0562481F000D
 - expected_values:
-    MACHE_PRI_MOTOR_COIL_T: 53
-  response: 7EE0562481F0035
+    MACHE_PRI_MOTOR_COIL_T: 56
+  response: 7EE0562481F0038
