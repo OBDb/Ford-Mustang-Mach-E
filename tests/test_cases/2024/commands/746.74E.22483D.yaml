@@ -1,14 +1,14 @@
 command_id: 746.74E.22483D
 test_cases:
 - expected_values:
-    MACHE_DCDC_ENABLE: DISABLED
+    MACHE_DCDC_ENABLED: 0
   response: 74E0562483D0086
 - expected_values:
-    MACHE_DCDC_ENABLE: ENABLED
+    MACHE_DCDC_ENABLED: 1
   response: 74E0562483D0186
 - expected_values:
-    MACHE_DCDC_ENABLE: ENABLED
+    MACHE_DCDC_ENABLED: 1
   response: 74E0562483D0191
 - expected_values:
-    MACHE_DCDC_ENABLE: ENABLED
+    MACHE_DCDC_ENABLED: 1
   response: 74E0562483D0192
