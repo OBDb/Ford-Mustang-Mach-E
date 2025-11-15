@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_12V_AGE: 3984
   response: 72E0562402700A6
+- expected_values:
+    MACHE_12V_AGE: 4008
+  response: 72E0562402700A7
