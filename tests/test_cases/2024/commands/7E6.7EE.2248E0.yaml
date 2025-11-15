@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_HVBAT_THERMAL_OP_MODE: 'OFF'
   response: 7EE046248E000
+- expected_values:
+    MACHE_HVBAT_THERMAL_OP_MODE: EQUALIZE
+  response: 7EE046248E001
