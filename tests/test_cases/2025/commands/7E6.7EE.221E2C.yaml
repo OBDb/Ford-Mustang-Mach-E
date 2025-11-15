@@ -4,8 +4,8 @@ test_cases:
     MACHE_PRI_MOTOR_RPM: 0
   response: 7EE05621E2C0000
 - expected_values:
-    MACHE_PRI_MOTOR_RPM: 2553
-  response: 7EE05621E2C09F9
+    MACHE_PRI_MOTOR_RPM: 766
+  response: 7EE05621E2C02FE
 - expected_values:
     MACHE_PRI_MOTOR_RPM: -245
   response: 7EE05621E2CFF0B
