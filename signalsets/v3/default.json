@@ -49,11 +49,7 @@
   ]},
 { "hdr": "746", "rax": "74E", "cmd": {"22": "483D"}, "freq": 10, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "MACHE_DCDC_ENABLE", "path": "Battery", "name": "LV DC-DC converter enable", "fmt": {"len": 8, "map": {
-          "0": { "description": "Disabled", "value": "DISABLED" },
-          "1": { "description": "Enabled",  "value": "ENABLED" }
-        }}
-    }
+    {"id": "MACHE_DCDC_ENABLED", "path": "Battery", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "DC-DC converter"}
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
