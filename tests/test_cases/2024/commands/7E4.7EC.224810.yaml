@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_HVBAT_AGE: 5439.6
   response: 7EC0562481005E7
+- expected_values:
+    MACHE_HVBAT_AGE: 9129.6
+  response: 7EC0562481009E8
