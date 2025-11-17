@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     MACHE_12V_SOC: 90
   response: 72E046240285A
+- expected_values:
+    MACHE_12V_SOC: 91
+  response: 72E046240285B

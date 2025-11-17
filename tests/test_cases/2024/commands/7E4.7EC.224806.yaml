@@ -10,6 +10,9 @@ test_cases:
     MACHE_CONTACTOR_V_NEG: 9.1
   response: 7EC05624806005B
 - expected_values:
+    MACHE_CONTACTOR_V_NEG: 9.4
+  response: 7EC05624806005E
+- expected_values:
     MACHE_CONTACTOR_V_NEG: 20.1
   response: 7EC0562480600C9
 - expected_values:
