@@ -4,5 +4,5 @@ test_cases:
     MACHE_12V_V: 11.9
   response: 72E0462402A76
 - expected_values:
-    MACHE_12V_V: 14.8
-  response: 72E0462402AB0
+    MACHE_12V_V: 15
+  response: 72E0462402AB4
