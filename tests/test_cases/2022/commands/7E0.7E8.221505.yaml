@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221505
+test_cases:
+- expected_values:
+    MACHE_VSS_HD: 0
+  response: '7E8056215050000'
+- expected_values:
+    MACHE_VSS_HD: 23.875
+  response: 7E8056215050BF0
+- expected_values:
+    MACHE_VSS_HD: 28.89844
+  response: 7E8056215050E73

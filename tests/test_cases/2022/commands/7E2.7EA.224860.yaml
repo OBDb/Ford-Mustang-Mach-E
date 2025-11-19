@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.224860
+test_cases:
+- expected_values:
+    MACHE_AC_CHG_IN_FREQ: 30
+  response: 7EA0462486000

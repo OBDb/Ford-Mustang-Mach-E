@@ -1,0 +1,14 @@
+command_id: 7E6.7EE.22481F
+test_cases:
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 19
+  response: 7EE0562481F0013
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 20
+  response: 7EE0562481F0014
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 21
+  response: 7EE0562481F0015
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 22
+  response: 7EE0562481F0016
