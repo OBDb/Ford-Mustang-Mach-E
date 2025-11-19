@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.224888
+test_cases:
+- expected_values:
+    MACHE_AC_CHG_COUPLER_T: 11
+  response: 7EA0462488833
+- expected_values:
+    MACHE_AC_CHG_COUPLER_T: 12
+  response: 7EA0462488834
