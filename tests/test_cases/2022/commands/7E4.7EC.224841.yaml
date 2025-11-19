@@ -1,0 +1,32 @@
+command_id: 7E4.7EC.224841
+test_cases:
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.794
+  response: 7EC056248410ED2
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.797
+  response: 7EC056248410ED5
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.801
+  response: 7EC056248410ED9
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.802
+  response: 7EC056248410EDA
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.803
+  response: 7EC056248410EDB
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.805
+  response: 7EC056248410EDD
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.806
+  response: 7EC056248410EDE
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.807
+  response: 7EC056248410EDF
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.808
+  response: 7EC056248410EE0
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.819
+  response: 7EC056248410EEB
