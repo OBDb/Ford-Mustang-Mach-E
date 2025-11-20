@@ -221,7 +221,7 @@
   "signals": [
     {"id": "MACHE_IAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Interior temperature"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "DD05"}, "freq": 5, "dbgfilter": { "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "DD05"}, "freq": 5, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Exterior temperature"}
   ]},
