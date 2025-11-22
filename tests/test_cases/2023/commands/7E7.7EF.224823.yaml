@@ -1,0 +1,11 @@
+command_id: 7E7.7EF.224823
+test_cases:
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 343.8
+  response: 7EF056248230D6E
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 357.8
+  response: 7EF056248230DFA
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 358.4
+  response: 7EF056248230E00
