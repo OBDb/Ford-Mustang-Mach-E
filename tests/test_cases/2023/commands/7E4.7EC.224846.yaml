@@ -1,0 +1,29 @@
+command_id: 7E4.7EC.224846
+test_cases:
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 14
+  response: 7EC0462484640
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 16
+  response: 7EC0462484642
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 17
+  response: 7EC0462484643
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 18
+  response: 7EC0462484644
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 19
+  response: 7EC0462484645
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 20
+  response: 7EC0462484646
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 21
+  response: 7EC0462484647
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 22
+  response: 7EC0462484648
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 23
+  response: 7EC0462484649

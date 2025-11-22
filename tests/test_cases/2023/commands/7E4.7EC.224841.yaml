@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.224841
+test_cases:
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.73
+  response: 7EC056248410E92
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.834
+  response: 7EC056248410EFA
+- expected_values:
+    MACHE_HVBAT_AVG_MOD_V: 3.849
+  response: 7EC056248410F09

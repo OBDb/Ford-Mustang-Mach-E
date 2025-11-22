@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.224897
+test_cases:
+- expected_values:
+    MACHE_DC_CHG_COUPLER_T1: 0
+  response: 7EA0462489728

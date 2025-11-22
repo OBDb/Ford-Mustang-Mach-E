@@ -1,9 +1,9 @@
 { "commands": [
-{ "hdr": "6F5", "rax": "6FD", "cmd": {"22": "4899"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "6F5", "rax": "6FD", "cmd": {"22": "4899"}, "freq": 1, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MACHE_HVDC_CHG_MAX_C", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "amps" }, "name": "HV DC charger maximum current"}
   ]},
-{ "hdr": "6F5", "rax": "6FD", "cmd": {"22": "489D"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "6F5", "rax": "6FD", "cmd": {"22": "489D"}, "freq": 1, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MACHE_HVDC_CHG_MAX_V", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "HV DC charger maximum voltage"}
   ]},
@@ -23,43 +23,43 @@
   "signals": [
     {"id": "MACHE_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "years": [2023], "from": 2026 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_12V_AGE", "path": "Battery", "fmt": { "len": 16, "max": 1572840, "mul": 24, "unit": "hours" }, "name": "Aux 12V battery age"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2026 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_12V_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Aux 12V battery state of charge"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "402A"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2026 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "402A"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_12V_V", "path": "Battery", "fmt": { "len": 8, "max": 18.75, "div": 20, "add": 6, "unit": "volts" }, "name": "Aux 12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "402B"}, "freq": 5, "dbgfilter": { "years": [2023], "from": 2026 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "402B"}, "freq": 5, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_12V_A", "path": "Battery", "fmt": { "len": 8, "max": 128, "min": -127, "add": -127, "unit": "amps" }, "name": "Aux 12V battery current"}
   ]},
-{ "hdr": "746", "rax": "74E", "cmd": {"22": "4836"}, "freq": 5, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "746", "rax": "74E", "cmd": {"22": "4836"}, "freq": 5, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MACHE_DCDC_LV_A", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "amps" }, "name": "LV DC-DC converter low voltage current"}
   ]},
-{ "hdr": "746", "rax": "74E", "cmd": {"22": "483A"}, "freq": 5, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "746", "rax": "74E", "cmd": {"22": "483A"}, "freq": 5, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MACHE_DCDC_HV_A", "path": "Battery", "fmt": { "len": 8, "max": 25, "div": 10, "unit": "amps" }, "name": "LV DC-DC converter high voltage current"}
   ]},
-{ "hdr": "746", "rax": "74E", "cmd": {"22": "483D"}, "freq": 10, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "746", "rax": "74E", "cmd": {"22": "483D"}, "freq": 10, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MACHE_DCDC_ENABLED", "path": "Battery", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "DC-DC converter"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "years": [2023], "from": 2026 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_ODO_BCM", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, battery control module", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7C7", "cmd": {"22": "99AB"}, "freq": 5, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "7C7", "cmd": {"22": "99AB"}, "freq": 5, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MACHE_AC_COMP_A", "path": "Climate", "fmt": { "len": 16, "max": 100, "min": -100, "mul": 100, "div": 32767, "sign": true, "unit": "amps" }, "name": "A/C compressor current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0580"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0580"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_GRILL_SHUTTER_POSITION", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter position"}
   ]},
@@ -71,11 +71,11 @@
   "signals": [
     {"id": "MACHE_THROTTLE_POS_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 8192, "unit": "percent" }, "name": "Throttle position actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1505"}, "freq": 0.1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1505"}, "freq": 0.1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_VSS_HD", "path": "Movement", "fmt": { "len": 16, "max": 200, "div": 128, "unit": "kilometersPerHour" }, "name": "Vehicle speed, high resolution", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_ODO_ECM", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, engine control module", "suggestedMetric": "odometer"}
   ]},
@@ -83,19 +83,19 @@
   "signals": [
     {"id": "MACHE_ECU_V", "path": "ECU", "fmt": { "len": 8, "max": 100, "div": 10, "unit": "volts" }, "name": "Main ECU voltage supply"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_RUN_TIME", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Engine run time"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "484A"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "484A"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CHG_OUT_V", "path": "Battery", "fmt": { "len": 16, "max": 600, "div": 100, "unit": "volts" }, "name": "HV charger output voltage"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "484E"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "484E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CHG_PWR_AVAIL", "path": "Battery", "fmt": { "len": 16, "max": 327.675, "div": 200, "unit": "kilowatts" }, "name": "HV charger input power available"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4851"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4851"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_EVSE_TYPE", "path": "Battery", "name": "Charger type", "fmt": {"len": 8, "map": {
           "0":  { "description": "None",             "value": "NONE" },
@@ -113,23 +113,23 @@
         }}
     }
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "485E"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "485E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_AC_CHG_IN_V", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 100, "unit": "volts" }, "name": "HV AC charger input voltage"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "485F"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "485F"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_AC_CHG_IN_A", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "amps" }, "name": "HV AC charger input current"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4860"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4860"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_AC_CHG_IN_FREQ", "path": "Battery", "fmt": { "len": 8, "max": 90, "min": 30, "div": 2, "unit": "hertz" }, "name": "HV AC charger input frequency"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4861"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4861"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CHG_PILOT_DUTY", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV charger pilot duty cycle"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4862"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4862"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CHG_PROX_STATUS", "path": "Battery", "name": "HV charger proximity status", "fmt": {"len": 8, "map": {
           "0":  { "description": "Off",            "value": "OFF" },
@@ -151,15 +151,15 @@
         }}
     }
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4888"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4888"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_AC_CHG_COUPLER_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "HV AC charger coupler temperature"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4897"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "4897"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_DC_CHG_COUPLER_T1", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "HV DC charger coupler temperature 1"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "489E"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "489E"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_DC_CHG_STATUS", "path": "Battery", "name": "HV DC charger status", "fmt": {"len": 8, "map": {
           "0":  { "description": "Not ready",     "value": "NOT_READY" },
@@ -176,23 +176,23 @@
         }}
     }
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48A0"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48A0"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CHG_PROX_V", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV charger proximity voltage"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48A4"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48A4"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_DC_CHG_COUPLER_T3", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "HV DC charger coupler temperature 3"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48A5"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48A5"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CHG_OUT_REDUCT_T", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "HV charger output reduction temperature"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48B6"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48B6"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CHG_PILOT_V", "path": "Battery", "fmt": { "len": 8, "max": 15, "div": 10, "unit": "volts" }, "name": "HV charger pilot voltage"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48B7"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48B7"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_EVSE_DIGITAL_MODE", "path": "Battery", "name": "Charger digital mode", "fmt": {"len": 8, "map": {
           "0":  { "description": "None",      "value": "NONE" },
@@ -209,11 +209,11 @@
         }}
     }
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48BC"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48BC"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_MAX_CHG_A", "path": "Battery", "fmt": { "len": 16, "max": 15, "div": 20, "unit": "amps" }, "name": "HV battery maximum charge current"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48C4"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "48C4"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CHG_MAX_PWR", "path": "Battery", "fmt": { "len": 16, "max": 500, "div": 20, "unit": "kilowatts" }, "name": "HV charger maximum power"}
   ]},
@@ -225,7 +225,7 @@
   "signals": [
     {"id": "MACHE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Exterior temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "05A1"}, "freq": 60, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "05A1"}, "freq": 60, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_TARGET_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Target/desired state of charge"}
   ]},
@@ -237,23 +237,23 @@
   "signals": [
     {"id": "MACHE_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 500, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge", "description": "High resolution state of charge."}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4803"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4803"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HV_POS_LEAK_V", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "HV positive leakage voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4804"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4804"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HV_NEG_LEAK_V", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "HV negative leakage voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4805"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4805"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CONTACTOR_V_POS", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 10, "unit": "volts" }, "name": "Contactor voltage positive"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4806"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4806"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CONTACTOR_V_NEG", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 10, "unit": "volts" }, "name": "Contactor voltage negative"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4808"}, "freq": 15, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4808"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_T_RANGE_MAX", "path": "Battery", "fmt": {           "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery temperature range, maximum"},
     {"id": "MACHE_T_RANGE_MIN", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery temperature range, minimum"},
@@ -280,23 +280,23 @@
   "signals": [
     {"id": "MACHE_MAX_DISCH_PWR_LIM", "path": "Battery", "fmt": { "len": 8, "max": 63.75, "mul": 25, "div": 100, "unit": "kilowatts" }, "name": "Maximum discharge power limit"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "483F"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "483F"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_MOD_V", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "HV battery modules voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4840"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4840"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_MIN_MOD_V", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "HV battery minimum module voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4841"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4841"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_AVG_MOD_V", "path": "Battery", "fmt": { "len": 16, "max": 50, "div": 1000, "unit": "volts" }, "name": "HV battery average module voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4842"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4842"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_CCR", "path": "Battery", "fmt": { "len": 16, "max": 600, "div": 100, "unit": "amps" }, "name": "HV battery charge current requested"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4844"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4844"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_CVR", "path": "Battery", "fmt": { "len": 8, "max": 500, "mul": 2, "unit": "volts" }, "name": "HV battery charge voltage requested"}
   ]},
@@ -304,7 +304,7 @@
   "signals": [
     {"id": "MACHE_HVBAT_SOC_DISP", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge", "description": "The state of charge displayed on the vehicle's dashboard."}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4846"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4846"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_COOLANT_INLET_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery coolant inlet temperature"}
   ]},
@@ -312,7 +312,7 @@
   "signals": [
     {"id": "MACHE_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 131.07, "div": 500, "unit": "kilowattHours" }, "name": "HV battery energy"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "484D"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "484D"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_CHG_STATUS", "path": "Battery", "name": "HV battery charging status", "fmt": {"len": 8, "map": {
           "0": { "description": "Not ready", "value": "NOT_READY" },
@@ -339,15 +339,15 @@
         }}
     }
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4850"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4850"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_CHG_OUT_A", "path": "Battery", "fmt": { "len": 16, "max": 600, "div": 100, "unit": "amps" }, "name": "HV charger output current measured"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "48F9"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "48F9"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_A", "path": "Battery", "fmt": { "len": 16, "max": 600, "min": -600, "div": 10, "sign": true, "unit": "amps" }, "name": "HV battery current"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "48FB"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "48FB"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_CHG_PWR_LIM", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 10, "unit": "kilowatts" }, "name": "HV battery charge power limit"}
   ]},
@@ -355,7 +355,7 @@
   "signals": [
     {"id": "MACHE_HVBAT_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery state of health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E12"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E12"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_GEAR_CMD", "path": "Transmission", "name": "Gear commanded", "fmt": {"len": 8, "map": {
           "0":   { "description": "Unknown", "value": "UNKNOWN" },
@@ -372,31 +372,31 @@
   "signals": [
     {"id": "MACHE_TT", "path": "Transmission", "fmt": { "len": 16, "max": 300, "min": -300, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission temperature"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E2C"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E2C"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_PRI_MOTOR_RPM", "path": "Drivetrain", "fmt": { "len": 16, "max": 12000, "min": -6000, "sign": true, "unit": "rpm" }, "name": "Primary motor speed"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "481C"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "481C"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_PRI_MOTOR_TQ", "path": "Drivetrain", "fmt": { "len": 16, "max": 200, "min": -200, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Primary motor torque"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "481D"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "481D"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_PRI_MOTOR_INV_V", "path": "Drivetrain", "fmt": { "len": 16, "max": 400, "min": -400, "div": 10, "sign": true, "unit": "volts" }, "name": "Primary motor inverter voltage"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "481F"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "481F"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_PRI_MOTOR_COIL_T", "path": "Drivetrain", "fmt": { "len": 16, "max": 300, "min": -40, "sign": true, "unit": "celsius" }, "name": "Primary motor coil temperature"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "4824"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "4824"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_PRI_MOTOR_INV_T", "path": "Drivetrain", "fmt": { "len": 16, "max": 300, "min": -40, "sign": true, "unit": "celsius" }, "name": "Primary motor inverter temperature"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "48DE"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "48DE"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_COOLANT_HTR_PWR", "path": "Climate", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "kilowatts" }, "name": "Coolant heater power"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "48DF"}, "freq": 10, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "48DF"}, "freq": 10, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_COOLANT_HTR_OP_MODE", "path": "Climate", "name": "Coolant heater operation mode", "fmt": {"len": 8, "map": {
           "0": { "description": "Off",         "value": "OFF" },
@@ -410,7 +410,7 @@
         }}
     }
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "48E0"}, "freq": 10, "dbgfilter": { "to": 2021, "years": [2023], "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "48E0"}, "freq": 10, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "MACHE_HVBAT_THERMAL_OP_MODE", "path": "Battery", "name": "HV battery thermal operation mode", "fmt": {"len": 8, "map": {
           "0":  { "description": "Off",              "value": "OFF" },
@@ -423,23 +423,23 @@
         }}
     }
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "481A"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "481A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_TQ", "path": "Drivetrain", "fmt": { "len": 16, "max": 200, "min": -200, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Secondary motor torque"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "481E"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "481E"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_INV_T", "path": "Drivetrain", "fmt": { "len": 16, "max": 300, "min": -40, "sign": true, "unit": "celsius" }, "name": "Secondary motor inverter temperature"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4820"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4820"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_COIL_T", "path": "Drivetrain", "fmt": { "len": 16, "max": 300, "min": -40, "sign": true, "unit": "celsius" }, "name": "Secondary motor coil temperature"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4821"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4821"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_RPM", "path": "Drivetrain", "fmt": { "len": 16, "max": 12000, "min": -6000, "sign": true, "unit": "rpm" }, "name": "Secondary motor speed"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4823"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4823"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_INV_V", "path": "Drivetrain", "fmt": { "len": 16, "max": 400, "min": -400, "div": 10, "sign": true, "unit": "volts" }, "name": "Secondary motor inverter voltage"}
   ]}
