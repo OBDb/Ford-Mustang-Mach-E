@@ -1,0 +1,11 @@
+command_id: 726.72E.224028
+test_cases:
+- expected_values:
+    MACHE_12V_SOC: 85
+  response: '72E0462402855'
+- expected_values:
+    MACHE_12V_SOC: 86
+  response: '72E0462402856'
+- expected_values:
+    MACHE_12V_SOC: 87
+  response: '72E0462402857'

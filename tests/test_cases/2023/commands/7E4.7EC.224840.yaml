@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.224840
+test_cases:
+- expected_values:
+    MACHE_HVBAT_MIN_MOD_V: 3.69
+  response: 7EC056248400E6A
+- expected_values:
+    MACHE_HVBAT_MIN_MOD_V: 3.831
+  response: 7EC056248400EF7
+- expected_values:
+    MACHE_HVBAT_MIN_MOD_V: 3.84
+  response: 7EC056248400F00

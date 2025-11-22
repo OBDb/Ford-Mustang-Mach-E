@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.2248C4
+test_cases:
+- expected_values:
+    MACHE_CHG_MAX_PWR: 500
+  response: 7EA056248C47FFE
