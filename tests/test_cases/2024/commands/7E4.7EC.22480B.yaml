@@ -1,5 +1,23 @@
 command_id: 7E4.7EC.22480B
 test_cases:
 - expected_values:
+    MACHE_HVBAT_A_ALT: 0.5
+  response: 7EC0562480B0019
+- expected_values:
+    MACHE_HVBAT_A_ALT: 0.6
+  response: 7EC0562480B001E
+- expected_values:
+    MACHE_HVBAT_A_ALT: 2.7
+  response: 7EC0562480B0087
+- expected_values:
+    MACHE_HVBAT_A_ALT: 2.8
+  response: 7EC0562480B008C
+- expected_values:
     MACHE_HVBAT_A_ALT: 4.1
   response: 7EC0562480B00CD
+- expected_values:
+    MACHE_HVBAT_A_ALT: 5.2
+  response: 7EC0562480B0104
+- expected_values:
+    MACHE_HVBAT_A_ALT: 7.5
+  response: 7EC0562480B0177
