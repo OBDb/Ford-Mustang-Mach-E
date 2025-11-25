@@ -260,11 +260,11 @@
     {"id": "MACHE_T_RANGE",     "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery temperature range"},
     {"id": "MACHE_T_RANGE_AVG", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery temperature range, average"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4809"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4809"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_CHR_A", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 100, "unit": "amps" }, "name": "HV battery current high range"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "480B"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "480B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_A_ALT", "path": "Battery", "fmt": { "len": 16, "max": 300, "min": -300, "div": 50, "sign": true, "unit": "amps" }, "name": "HV battery current (alternate)"}
   ]},
@@ -276,7 +276,7 @@
   "signals": [
     {"id": "MACHE_HVBAT_AGE", "path": "Battery", "fmt": { "len": 16, "max": 235926, "mul": 720, "div": 200, "unit": "hours" }, "name": "HV battery age"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4815"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4815"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "MACHE_MAX_DISCH_PWR_LIM", "path": "Battery", "fmt": { "len": 8, "max": 63.75, "mul": 25, "div": 100, "unit": "kilowatts" }, "name": "Maximum discharge power limit"}
   ]},
