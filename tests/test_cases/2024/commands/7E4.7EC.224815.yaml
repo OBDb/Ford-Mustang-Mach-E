@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224815
+test_cases:
+- expected_values:
+    MACHE_MAX_DISCH_PWR_LIM: 61
+  response: 7EC04624815F4
