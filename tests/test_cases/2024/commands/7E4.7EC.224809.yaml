@@ -1,5 +1,26 @@
 command_id: 7E4.7EC.224809
 test_cases:
 - expected_values:
+    MACHE_HVBAT_CHR_A: 0.26
+  response: 7EC05624809001A
+- expected_values:
+    MACHE_HVBAT_CHR_A: 0.27
+  response: 7EC05624809001B
+- expected_values:
+    MACHE_HVBAT_CHR_A: 0.29
+  response: 7EC05624809001D
+- expected_values:
+    MACHE_HVBAT_CHR_A: 1.3
+  response: 7EC056248090082
+- expected_values:
+    MACHE_HVBAT_CHR_A: 1.37
+  response: 7EC056248090089
+- expected_values:
     MACHE_HVBAT_CHR_A: 1.87
   response: 7EC0562480900BB
+- expected_values:
+    MACHE_HVBAT_CHR_A: 2.56
+  response: 7EC056248090100
+- expected_values:
+    MACHE_HVBAT_CHR_A: 3.91
+  response: 7EC056248090187
