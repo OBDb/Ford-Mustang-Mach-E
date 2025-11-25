@@ -4,8 +4,8 @@ test_cases:
     MACHE_TP_FL: 31.8
   response: 72E05622813027C
 - expected_values:
-    MACHE_TP_FL: 38.15
-  response: 72E0562281302FB
+    MACHE_TP_FL: 38.3
+  response: 72E0562281302FE
 - expected_values:
     MACHE_TP_FL: 38.4
   response: '72E056228130300'
