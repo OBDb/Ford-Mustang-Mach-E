@@ -4,8 +4,8 @@ test_cases:
     MACHE_VSS_HD: 0
   response: '7E8056215050000'
 - expected_values:
-    MACHE_VSS_HD: 23.875
-  response: 7E8056215050BF0
+    MACHE_VSS_HD: 37.95312
+  response: 7E80562150512FA
 - expected_values:
-    MACHE_VSS_HD: 28.89844
-  response: 7E8056215050E73
+    MACHE_VSS_HD: 38
+  response: '7E8056215051300'

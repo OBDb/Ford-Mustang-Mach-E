@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACHE_GRILL_SHUTTER_POSITION: 0
   response: '7E80462058000'
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 6.66667
+  response: '7E80462058011'
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 73.33333
+  response: 7E804620580BB
