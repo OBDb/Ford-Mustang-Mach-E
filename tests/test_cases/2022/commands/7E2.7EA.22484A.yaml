@@ -1,14 +1,14 @@
 command_id: 7E2.7EA.22484A
 test_cases:
 - expected_values:
-    MACHE_CHG_OUT_V: 362.32
-  response: 7EA0562484A8D88
+    MACHE_CHG_OUT_V: 0.87
+  response: 7EA0562484A0057
 - expected_values:
-    MACHE_CHG_OUT_V: 363.15
-  response: 7EA0562484A8DDB
+    MACHE_CHG_OUT_V: 363.85
+  response: 7EA0562484A8E21
 - expected_values:
-    MACHE_CHG_OUT_V: 364.15
-  response: 7EA0562484A8E3F
+    MACHE_CHG_OUT_V: 391.49
+  response: 7EA0562484A98ED
 - expected_values:
-    MACHE_CHG_OUT_V: 367.13
-  response: 7EA0562484A8F69
+    MACHE_CHG_OUT_V: 392.26
+  response: 7EA0562484A993A

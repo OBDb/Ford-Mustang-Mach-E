@@ -1,32 +1,8 @@
 command_id: 7E6.7EE.224824
 test_cases:
 - expected_values:
-    MACHE_PRI_MOTOR_INV_T: 30
-  response: 7EE05624824001E
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 36
-  response: 7EE056248240024
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 38
-  response: 7EE056248240026
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 40
-  response: 7EE056248240028
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 41
-  response: 7EE056248240029
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 42
-  response: 7EE05624824002A
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 43
-  response: 7EE05624824002B
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 44
-  response: 7EE05624824002C
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 47
-  response: 7EE05624824002F
+    MACHE_PRI_MOTOR_INV_T: 26
+  response: 7EE05624824001A
 - expected_values:
     MACHE_PRI_MOTOR_INV_T: 48
   response: 7EE056248240030
