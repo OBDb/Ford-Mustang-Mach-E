@@ -1,0 +1,26 @@
+command_id: 7E4.7EC.224804
+test_cases:
+- expected_values:
+    MACHE_HV_NEG_LEAK_V: 2.051
+  response: 7EC056248040803
+- expected_values:
+    MACHE_HV_NEG_LEAK_V: 2.122
+  response: 7EC05624804084A
+- expected_values:
+    MACHE_HV_NEG_LEAK_V: 2.153
+  response: 7EC056248040869
+- expected_values:
+    MACHE_HV_NEG_LEAK_V: 2.158
+  response: 7EC05624804086E
+- expected_values:
+    MACHE_HV_NEG_LEAK_V: 2.179
+  response: 7EC056248040883
+- expected_values:
+    MACHE_HV_NEG_LEAK_V: 2.255
+  response: 7EC0562480408CF
+- expected_values:
+    MACHE_HV_NEG_LEAK_V: 2.506
+  response: 7EC0562480409CA
+- expected_values:
+    MACHE_HV_NEG_LEAK_V: 2.507
+  response: 7EC0562480409CB

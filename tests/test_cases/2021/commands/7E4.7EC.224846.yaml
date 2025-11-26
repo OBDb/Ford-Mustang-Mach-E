@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224846
+test_cases:
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 22
+  response: 7EC0462484648

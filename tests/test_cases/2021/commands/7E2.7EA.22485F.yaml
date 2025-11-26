@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.22485F
+test_cases:
+- expected_values:
+    MACHE_AC_CHG_IN_A: 0
+  response: 7EA0462485F00

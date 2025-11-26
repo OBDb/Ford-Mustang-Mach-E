@@ -1,5 +1,8 @@
 command_id: 7C7.2299AB
 test_cases:
 - expected_values:
+    MACHE_AC_COMP_A: 0
+  response: 7CF056299AB0000
+- expected_values:
     MACHE_AC_COMP_A: 4.30006
   response: 7CF056299AB0581
