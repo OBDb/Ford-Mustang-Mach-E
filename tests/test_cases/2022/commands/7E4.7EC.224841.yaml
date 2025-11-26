@@ -7,5 +7,5 @@ test_cases:
     MACHE_HVBAT_AVG_MOD_V: 4.089
   response: 7EC056248410FF9
 - expected_values:
-    MACHE_HVBAT_AVG_MOD_V: 4.099
-  response: 7EC056248411003
+    MACHE_HVBAT_AVG_MOD_V: 4.097
+  response: 7EC056248411001
