@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.2248A0
+test_cases:
+- expected_values:
+    MACHE_CHG_PROX_V: 4.44
+  response: 7EA046248A0DE

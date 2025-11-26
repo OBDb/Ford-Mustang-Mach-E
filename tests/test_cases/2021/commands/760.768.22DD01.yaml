@@ -1,5 +1,8 @@
 command_id: 760.768.22DD01
 test_cases:
 - expected_values:
+    MACHE_ODO_BCM: 42328
+  response: 7680662DD0100A558
+- expected_values:
     MACHE_ODO_BCM: 93733
   response: 7680662DD01016E25
