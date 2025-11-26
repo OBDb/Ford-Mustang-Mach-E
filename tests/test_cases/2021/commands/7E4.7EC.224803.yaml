@@ -1,0 +1,23 @@
+command_id: 7E4.7EC.224803
+test_cases:
+- expected_values:
+    MACHE_HV_POS_LEAK_V: 2.506
+  response: 7EC0562480309CA
+- expected_values:
+    MACHE_HV_POS_LEAK_V: 2.507
+  response: 7EC0562480309CB
+- expected_values:
+    MACHE_HV_POS_LEAK_V: 2.854
+  response: 7EC056248030B26
+- expected_values:
+    MACHE_HV_POS_LEAK_V: 3.087
+  response: 7EC056248030C0F
+- expected_values:
+    MACHE_HV_POS_LEAK_V: 3.241
+  response: 7EC056248030CA9
+- expected_values:
+    MACHE_HV_POS_LEAK_V: 3.476
+  response: 7EC056248030D94
+- expected_values:
+    MACHE_HV_POS_LEAK_V: 3.545
+  response: 7EC056248030DD9

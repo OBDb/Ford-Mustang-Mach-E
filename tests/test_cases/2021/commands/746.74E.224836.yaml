@@ -1,5 +1,11 @@
 command_id: 746.74E.224836
 test_cases:
 - expected_values:
+    MACHE_DCDC_LV_A: 23
+  response: '74E0462483617'
+- expected_values:
+    MACHE_DCDC_LV_A: 24
+  response: '74E0462483618'
+- expected_values:
     MACHE_DCDC_LV_A: 42
   response: 74E046248362A

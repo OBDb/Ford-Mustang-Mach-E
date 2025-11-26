@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.22489E
+test_cases:
+- expected_values:
+    MACHE_DC_CHG_STATUS: NOT_READY
+  response: 7EA0462489E00
