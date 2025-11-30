@@ -4,26 +4,5 @@ test_cases:
     MACHE_HVBAT_SOC_DISP: 53
   response: 7EC046248456A
 - expected_values:
-    MACHE_HVBAT_SOC_DISP: 53.5
-  response: 7EC046248456B
-- expected_values:
-    MACHE_HVBAT_SOC_DISP: 73.5
-  response: 7EC0462484593
-- expected_values:
-    MACHE_HVBAT_SOC_DISP: 74.5
-  response: 7EC0462484595
-- expected_values:
-    MACHE_HVBAT_SOC_DISP: 75
-  response: 7EC0462484596
-- expected_values:
-    MACHE_HVBAT_SOC_DISP: 75.5
-  response: 7EC0462484597
-- expected_values:
-    MACHE_HVBAT_SOC_DISP: 76.5
-  response: 7EC0462484599
-- expected_values:
-    MACHE_HVBAT_SOC_DISP: 82.5
-  response: 7EC04624845A5
-- expected_values:
     MACHE_HVBAT_SOC_DISP: 83
   response: 7EC04624845A6

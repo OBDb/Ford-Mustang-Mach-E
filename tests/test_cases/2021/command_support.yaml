@@ -99,6 +99,7 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 015B:BAT_SOC
   - 7E4.7EC.0104
+  - 7E4.7EC.015B
   - 7E4.7EC.2205A1:MACHE_TARGET_SOC
   - 7E4.7EC.224800
   - 7E4.7EC.224801
