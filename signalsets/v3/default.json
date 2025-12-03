@@ -423,23 +423,23 @@
         }}
     }
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "481A"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "481A"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_TQ", "path": "Drivetrain", "fmt": { "len": 16, "max": 200, "min": -200, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Secondary motor torque"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "481E"}, "freq": 5, "dbgfilter": { "years": [2022], "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "481E"}, "freq": 5, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_INV_T", "path": "Drivetrain", "fmt": { "len": 16, "max": 300, "min": -40, "sign": true, "unit": "celsius" }, "name": "Secondary motor inverter temperature"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4820"}, "freq": 5, "dbgfilter": { "years": [2022], "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4820"}, "freq": 5, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_COIL_T", "path": "Drivetrain", "fmt": { "len": 16, "max": 300, "min": -40, "sign": true, "unit": "celsius" }, "name": "Secondary motor coil temperature"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4821"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4821"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_RPM", "path": "Drivetrain", "fmt": { "len": 16, "max": 12000, "min": -6000, "sign": true, "unit": "rpm" }, "name": "Secondary motor speed"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4823"}, "freq": 1, "dbgfilter": { "years": [2022], "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4823"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "MACHE_SEC_MOTOR_INV_V", "path": "Drivetrain", "fmt": { "len": 16, "max": 400, "min": -400, "div": 10, "sign": true, "unit": "volts" }, "name": "Secondary motor inverter voltage"}
   ]}
