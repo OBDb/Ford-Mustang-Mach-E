@@ -1,5 +1,26 @@
 command_id: 7E7.7EF.224823
 test_cases:
 - expected_values:
+    MACHE_SEC_MOTOR_INV_V: 364.6
+  response: 7EF056248230E3E
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 365.7
+  response: 7EF056248230E49
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 367.8
+  response: 7EF056248230E5E
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 368.1
+  response: 7EF056248230E61
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 369.1
+  response: 7EF056248230E6B
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 370
+  response: 7EF056248230E74
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 373.2
+  response: 7EF056248230E94
+- expected_values:
     MACHE_SEC_MOTOR_INV_V: 375.7
   response: 7EF056248230EAD
