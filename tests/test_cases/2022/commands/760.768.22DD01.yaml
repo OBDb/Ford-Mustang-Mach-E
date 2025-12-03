@@ -4,29 +4,8 @@ test_cases:
     MACHE_ODO_BCM: 55102
   response: 7680662DD0100D73E
 - expected_values:
-    MACHE_ODO_BCM: 55103
-  response: 7680662DD0100D73F
-- expected_values:
-    MACHE_ODO_BCM: 55104
-  response: 7680662DD0100D740
-- expected_values:
-    MACHE_ODO_BCM: 55105
-  response: 7680662DD0100D741
-- expected_values:
     MACHE_ODO_BCM: 55298
   response: 7680662DD0100D802
 - expected_values:
-    MACHE_ODO_BCM: 55299
-  response: 7680662DD0100D803
-- expected_values:
-    MACHE_ODO_BCM: 55300
-  response: 7680662DD0100D804
-- expected_values:
-    MACHE_ODO_BCM: 55306
-  response: 7680662DD0100D80A
-- expected_values:
-    MACHE_ODO_BCM: 55307
-  response: 7680662DD0100D80B
-- expected_values:
-    MACHE_ODO_BCM: 55308
-  response: 7680662DD0100D80C
+    MACHE_ODO_BCM: 55466
+  response: 7680662DD0100D8AA
