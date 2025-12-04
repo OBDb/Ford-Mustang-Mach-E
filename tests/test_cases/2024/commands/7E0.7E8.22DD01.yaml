@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22DD01
 test_cases:
 - expected_values:
+    MACHE_ODO_ECM: 11034
+  response: 7E80662DD01002B1A
+- expected_values:
     MACHE_ODO_ECM: 46171
   response: 7E80662DD0100B45B
 - expected_values:
