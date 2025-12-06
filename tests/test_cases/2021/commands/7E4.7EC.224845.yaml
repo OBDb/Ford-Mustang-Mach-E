@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.224845
 test_cases:
 - expected_values:
-    MACHE_HVBAT_SOC_DISP: 51.5
-  response: 7EC0462484567
+    MACHE_HVBAT_SOC_DISP: 50
+  response: 7EC0462484564
 - expected_values:
     MACHE_HVBAT_SOC_DISP: 83
   response: 7EC04624845A6
