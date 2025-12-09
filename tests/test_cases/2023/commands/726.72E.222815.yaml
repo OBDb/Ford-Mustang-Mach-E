@@ -4,8 +4,8 @@ test_cases:
     MACHE_TP_RR: 34.9
   response: 72E0562281502BA
 - expected_values:
-    MACHE_TP_RR: 38.3
-  response: 72E0562281502FE
+    MACHE_TP_RR: 38.35
+  response: 72E0562281502FF
 - expected_values:
     MACHE_TP_RR: 38.4
   response: '72E056228150300'
