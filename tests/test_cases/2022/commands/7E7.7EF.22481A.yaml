@@ -4,8 +4,8 @@ test_cases:
     MACHE_SEC_MOTOR_TQ: 0
   response: 7EF0562481A0000
 - expected_values:
-    MACHE_SEC_MOTOR_TQ: -21.1
-  response: 7EF0562481AFF2D
+    MACHE_SEC_MOTOR_TQ: -21.3
+  response: 7EF0562481AFF2B
 - expected_values:
     MACHE_SEC_MOTOR_TQ: -0.1
   response: 7EF0562481AFFFF
