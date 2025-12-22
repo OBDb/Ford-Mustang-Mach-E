@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MACHE_SEC_MOTOR_INV_V: 358.5
   response: 7EF056248230E01
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 388.1
+  response: 7EF056248230F29
