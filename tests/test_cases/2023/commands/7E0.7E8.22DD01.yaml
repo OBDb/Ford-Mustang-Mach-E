@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MACHE_ODO_ECM: 21960
   response: 7E80662DD010055C8
+- expected_values:
+    MACHE_ODO_ECM: 32579
+  response: 7E80662DD01007F43

@@ -1,6 +1,9 @@
 command_id: 7E4.7EC.22483F
 test_cases:
 - expected_values:
+    MACHE_HVBAT_MOD_V: 0.003
+  response: 7EC0562483F0003
+- expected_values:
     MACHE_HVBAT_MOD_V: 0.004
   response: 7EC0562483F0004
 - expected_values:
