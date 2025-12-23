@@ -7,23 +7,23 @@ test_cases:
     MACHE_T_RANGE_MIN: 6
   response: 7EC076248083E38373B
 - expected_values:
-    MACHE_T_RANGE: 1
-    MACHE_T_RANGE_AVG: 14
-    MACHE_T_RANGE_MAX: 15
-    MACHE_T_RANGE_MIN: 14
-  response: 7EC0762480841403340
-- expected_values:
-    MACHE_T_RANGE: 2
-    MACHE_T_RANGE_AVG: 17
-    MACHE_T_RANGE_MAX: 18
-    MACHE_T_RANGE_MIN: 16
-  response: 7EC0762480844423443
-- expected_values:
     MACHE_T_RANGE: 2
     MACHE_T_RANGE_AVG: 18
     MACHE_T_RANGE_MAX: 18
     MACHE_T_RANGE_MIN: 16
   response: 7EC0762480844423444
+- expected_values:
+    MACHE_T_RANGE: 0
+    MACHE_T_RANGE_AVG: 18
+    MACHE_T_RANGE_MAX: 18
+    MACHE_T_RANGE_MIN: 17
+  response: 7EC0762480844433244
+- expected_values:
+    MACHE_T_RANGE: 0
+    MACHE_T_RANGE_AVG: 18
+    MACHE_T_RANGE_MAX: 18
+    MACHE_T_RANGE_MIN: 18
+  response: 7EC0762480844443244
 - expected_values:
     MACHE_T_RANGE: 2
     MACHE_T_RANGE_AVG: 18

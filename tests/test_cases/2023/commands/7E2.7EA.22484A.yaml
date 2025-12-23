@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MACHE_CHG_OUT_V: 361
   response: 7EA0562484A8D04
+- expected_values:
+    MACHE_CHG_OUT_V: 363.69
+  response: 7EA0562484A8E11
