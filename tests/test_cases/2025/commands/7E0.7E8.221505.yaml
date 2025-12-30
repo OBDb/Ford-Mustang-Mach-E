@@ -17,5 +17,5 @@ test_cases:
     MACHE_VSS_HD: 23.99219
   response: 7E8056215050BFF
 - expected_values:
-    MACHE_VSS_HD: 126.47656
-  response: 7E8056215053F3D
+    MACHE_VSS_HD: 136.83594
+  response: 7E805621505446B
