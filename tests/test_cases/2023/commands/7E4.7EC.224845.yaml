@@ -4,5 +4,5 @@ test_cases:
     MACHE_HVBAT_SOC_DISP: 61.5
   response: 7EC046248457B
 - expected_values:
-    MACHE_HVBAT_SOC_DISP: 91
-  response: 7EC04624845B6
+    MACHE_HVBAT_SOC_DISP: 92.5
+  response: 7EC04624845B9

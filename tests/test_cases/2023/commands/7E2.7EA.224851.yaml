@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_EVSE_TYPE: NONE
   response: 7EA0462485100
+- expected_values:
+    MACHE_EVSE_TYPE: BASIC_AC
+  response: 7EA0462485106
