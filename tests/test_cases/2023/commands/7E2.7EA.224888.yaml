@@ -7,5 +7,8 @@ test_cases:
     MACHE_AC_CHG_COUPLER_T: 15
   response: 7EA0462488837
 - expected_values:
+    MACHE_AC_CHG_COUPLER_T: 21
+  response: 7EA046248883D
+- expected_values:
     MACHE_AC_CHG_COUPLER_T: 24
   response: 7EA0462488840
