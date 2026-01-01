@@ -1,8 +1,8 @@
 command_id: 726.72E.222815
 test_cases:
 - expected_values:
-    MACHE_TP_RR: 18.8
-  response: '72E056228150178'
+    MACHE_TP_RR: 17.3
+  response: 72E05622815015A
 - expected_values:
     MACHE_TP_RR: 25.55
   response: 72E0562281501FF
