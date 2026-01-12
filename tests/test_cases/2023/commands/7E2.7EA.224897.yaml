@@ -1,6 +1,9 @@
 command_id: 7E2.7EA.224897
 test_cases:
 - expected_values:
+    MACHE_DC_CHG_COUPLER_T1: -6
+  response: 7EA0462489722
+- expected_values:
     MACHE_DC_CHG_COUPLER_T1: 0
   response: 7EA0462489728
 - expected_values:

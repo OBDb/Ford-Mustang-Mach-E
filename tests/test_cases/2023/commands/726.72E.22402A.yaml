@@ -4,26 +4,5 @@ test_cases:
     MACHE_12V_V: 12.7
   response: 72E0462402A86
 - expected_values:
-    MACHE_12V_V: 12.8
-  response: 72E0462402A88
-- expected_values:
-    MACHE_12V_V: 13.3
-  response: 72E0462402A92
-- expected_values:
-    MACHE_12V_V: 13.4
-  response: 72E0462402A94
-- expected_values:
-    MACHE_12V_V: 14.4
-  response: 72E0462402AA8
-- expected_values:
-    MACHE_12V_V: 14.5
-  response: 72E0462402AAA
-- expected_values:
-    MACHE_12V_V: 14.6
-  response: 72E0462402AAC
-- expected_values:
-    MACHE_12V_V: 14.7
-  response: 72E0462402AAE
-- expected_values:
-    MACHE_12V_V: 14.9
-  response: 72E0462402AB2
+    MACHE_12V_V: 15.1
+  response: 72E0462402AB6
