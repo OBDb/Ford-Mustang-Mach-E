@@ -13,5 +13,11 @@ test_cases:
     MACHE_12V_A: 3
   response: 72E0462402B82
 - expected_values:
+    MACHE_12V_A: 4
+  response: 72E0462402B83
+- expected_values:
+    MACHE_12V_A: 5
+  response: 72E0462402B84
+- expected_values:
     MACHE_12V_A: 6
   response: 72E0462402B85
