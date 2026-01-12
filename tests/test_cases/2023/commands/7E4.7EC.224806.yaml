@@ -1,6 +1,9 @@
 command_id: 7E4.7EC.224806
 test_cases:
 - expected_values:
+    MACHE_CONTACTOR_V_NEG: 8.7
+  response: 7EC056248060057
+- expected_values:
     MACHE_CONTACTOR_V_NEG: 8.8
   response: 7EC056248060058
 - expected_values:
