@@ -104,6 +104,8 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 015B:BAT_SOC
   - 7E4.7EC.0104
+  - 7E4.7EC.0105
+  - 7E4.7EC.0131
   - 7E4.7EC.2205A1:MACHE_TARGET_SOC
   - 7E4.7EC.224800
   - 7E4.7EC.224801
@@ -183,7 +185,6 @@ unsupported_commands_by_ecu:
   "7E2":
   - 7E2.7EA.22DD04:MACHE_IAT
   "7E4":
-  - 7E4.7EC.0131
   - 7E4.7EC.0142
   "7E7":
   - 7E7.7EF.0131
