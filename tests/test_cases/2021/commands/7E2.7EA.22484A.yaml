@@ -1,6 +1,9 @@
 command_id: 7E2.7EA.22484A
 test_cases:
 - expected_values:
+    MACHE_CHG_OUT_V: 364.19
+  response: 7EA0562484A8E43
+- expected_values:
     MACHE_CHG_OUT_V: 365.66
   response: 7EA0562484A8ED6
 - expected_values:

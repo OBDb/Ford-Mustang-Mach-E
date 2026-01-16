@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.2248F9
 test_cases:
 - expected_values:
-    MACHE_HVBAT_A: 1.1
-  response: 7EC056248F9000B
+    MACHE_HVBAT_A: 0.8
+  response: 7EC056248F90008
 - expected_values:
-    MACHE_HVBAT_A: 5.6
-  response: 7EC056248F90038
+    MACHE_HVBAT_A: 7.3
+  response: 7EC056248F90049
