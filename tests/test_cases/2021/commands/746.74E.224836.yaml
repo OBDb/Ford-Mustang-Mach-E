@@ -7,5 +7,8 @@ test_cases:
     MACHE_DCDC_LV_A: 24
   response: '74E0462483618'
 - expected_values:
+    MACHE_DCDC_LV_A: 25
+  response: '74E0462483619'
+- expected_values:
     MACHE_DCDC_LV_A: 42
   response: 74E046248362A

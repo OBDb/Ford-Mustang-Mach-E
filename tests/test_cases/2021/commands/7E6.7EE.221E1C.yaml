@@ -1,8 +1,8 @@
 command_id: 7E6.7EE.221E1C
 test_cases:
 - expected_values:
-    MACHE_TT: 28.4375
-  response: 7EE05621E1C01C7
+    MACHE_TT: 14.0625
+  response: 7EE05621E1C00E1
 - expected_values:
     MACHE_TT: 31.8125
   response: 7EE05621E1C01FD
