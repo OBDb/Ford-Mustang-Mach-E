@@ -4,8 +4,8 @@ test_cases:
     MACHE_HVBAT_KWH: 0
   response: 7EC056248480000
 - expected_values:
-    MACHE_HVBAT_KWH: 57.342
-  response: 7EC056248486FFF
+    MACHE_HVBAT_KWH: 37.374
+  response: 7EC0562484848FF
 - expected_values:
     MACHE_HVBAT_KWH: 74.948
   response: 7EC056248489262
