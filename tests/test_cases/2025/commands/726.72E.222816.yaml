@@ -6,8 +6,8 @@ test_cases:
     2228161
     72E05622816029B
 - expected_values:
-    MACHE_TP_RL: 31.55
-  response: '72E056228160277'
+    MACHE_TP_RL: 31.05
+  response: 72E05622816026D
 - expected_values:
     MACHE_TP_RL: 38.3
   response: 72E0562281602FE
