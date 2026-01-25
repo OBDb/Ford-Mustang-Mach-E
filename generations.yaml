@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E"
+
 generations:
   - name: "First Generation"
     start_year: 2021
