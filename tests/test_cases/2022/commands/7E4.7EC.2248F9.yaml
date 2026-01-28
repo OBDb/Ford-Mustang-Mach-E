@@ -4,8 +4,8 @@ test_cases:
     MACHE_HVBAT_A: 0
   response: 7EC056248F90000
 - expected_values:
-    MACHE_HVBAT_A: -15.7
-  response: 7EC056248F9FF63
+    MACHE_HVBAT_A: 25.4
+  response: 7EC056248F900FE
 - expected_values:
-    MACHE_HVBAT_A: -0.5
-  response: 7EC056248F9FFFB
+    MACHE_HVBAT_A: -23.2
+  response: 7EC056248F9FF18
