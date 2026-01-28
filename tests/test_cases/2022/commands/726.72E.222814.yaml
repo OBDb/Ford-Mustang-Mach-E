@@ -1,8 +1,8 @@
 command_id: 726.72E.222814
 test_cases:
 - expected_values:
-    MACHE_TP_FR: 35.15
-  response: 72E0562281402BF
+    MACHE_TP_FR: 34.8
+  response: 72E0562281402B8
 - expected_values:
     MACHE_TP_FR: 38.35
   response: 72E0562281402FF
