@@ -7,5 +7,5 @@ test_cases:
     MACHE_PRI_MOTOR_TQ: 25.5
   response: 7EE0562481C00FF
 - expected_values:
-    MACHE_PRI_MOTOR_TQ: -25.5
-  response: 7EE0562481CFF01
+    MACHE_PRI_MOTOR_TQ: -25.6
+  response: 7EE0562481CFF00
