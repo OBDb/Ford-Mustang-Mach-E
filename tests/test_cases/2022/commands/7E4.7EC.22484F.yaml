@@ -4,5 +4,8 @@ test_cases:
     MACHE_CHRG_STATE: NOT_READY
   response: 7EC0462484F00
 - expected_values:
+    MACHE_CHRG_STATE: READY
+  response: 7EC0462484F01
+- expected_values:
     MACHE_CHRG_STATE: CHARGING
   response: 7EC0462484F05

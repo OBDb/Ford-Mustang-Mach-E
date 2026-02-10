@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACHE_CHG_PWR_AVAIL: 0
   response: 7EA0562484E0000
+- expected_values:
+    MACHE_CHG_PWR_AVAIL: 71.5
+  response: 7EA0562484E37DC
+- expected_values:
+    MACHE_CHG_PWR_AVAIL: 71.6
+  response: 7EA0562484E37F0

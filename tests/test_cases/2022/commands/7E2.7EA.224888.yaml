@@ -4,6 +4,9 @@ test_cases:
     MACHE_AC_CHG_COUPLER_T: 0
   response: 7EA0462488828
 - expected_values:
+    MACHE_AC_CHG_COUPLER_T: 1
+  response: 7EA0462488829
+- expected_values:
     MACHE_AC_CHG_COUPLER_T: 10
   response: 7EA0462488832
 - expected_values:
