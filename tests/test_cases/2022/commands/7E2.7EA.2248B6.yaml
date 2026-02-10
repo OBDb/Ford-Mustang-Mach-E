@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_CHG_PILOT_V: 0
   response: 7EA046248B600
+- expected_values:
+    MACHE_CHG_PILOT_V: 5.2
+  response: 7EA046248B634

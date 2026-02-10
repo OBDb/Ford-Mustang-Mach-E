@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACHE_CHG_OUT_A: 0
   response: 7EC056248500000
+- expected_values:
+    MACHE_CHG_OUT_A: 198
+  response: 7EC056248504D58
+- expected_values:
+    MACHE_CHG_OUT_A: 201
+  response: 7EC056248504E84
