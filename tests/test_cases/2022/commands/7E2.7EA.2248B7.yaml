@@ -4,5 +4,8 @@ test_cases:
     MACHE_EVSE_DIGITAL_MODE: NONE
   response: 7EA046248B700
 - expected_values:
+    MACHE_EVSE_DIGITAL_MODE: DC_E_MINUS
+  response: 7EA046248B701
+- expected_values:
     MACHE_EVSE_DIGITAL_MODE: 'OFF'
   response: 7EA046248B708

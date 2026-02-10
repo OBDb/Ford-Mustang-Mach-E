@@ -1,5 +1,8 @@
 command_id: 6F5.6FD.22489D
 test_cases:
 - expected_values:
+    MACHE_HVDC_CHG_MAX_V: 455
+  response: 6FD0562489D11C6
+- expected_values:
     MACHE_HVDC_CHG_MAX_V: 6553.5
   response: 6FD0562489DFFFF

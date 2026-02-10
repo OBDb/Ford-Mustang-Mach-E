@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACHE_HVBAT_CVR: 0
   response: 7EC0462484400
+- expected_values:
+    MACHE_HVBAT_CVR: 392
+  response: 7EC04624844C4
+- expected_values:
+    MACHE_HVBAT_CVR: 394
+  response: 7EC04624844C5
