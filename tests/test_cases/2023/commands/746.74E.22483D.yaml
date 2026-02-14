@@ -8,6 +8,9 @@ test_cases:
   response: 74E0562483D0193
 - expected_values:
     MACHE_DCDC_ENABLED: 1
+  response: 74E0562483D0195
+- expected_values:
+    MACHE_DCDC_ENABLED: 1
   response: 74E0562483D0196
 - expected_values:
     MACHE_DCDC_ENABLED: 1
