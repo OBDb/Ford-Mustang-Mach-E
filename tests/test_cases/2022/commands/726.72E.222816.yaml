@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MACHE_TP_RL: 38.4
   response: '72E056228160300'
+- expected_values:
+    MACHE_TP_RL: 51.25
+  response: '72E056228160401'
