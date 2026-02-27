@@ -17,5 +17,5 @@ test_cases:
     7EF0562480D8E30
     7EE0562480D8E30
 - expected_values:
-    MACHE_HVBAT_V: 394.28
-  response: 7EC0562480D9A04
+    MACHE_HVBAT_V: 399.42
+  response: 7EC0562480D9C06
