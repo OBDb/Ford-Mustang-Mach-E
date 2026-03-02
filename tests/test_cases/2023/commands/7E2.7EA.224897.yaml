@@ -10,5 +10,8 @@ test_cases:
     MACHE_DC_CHG_COUPLER_T1: 7
   response: 7EA046248972F
 - expected_values:
+    MACHE_DC_CHG_COUPLER_T1: 19
+  response: 7EA046248973B
+- expected_values:
     MACHE_DC_CHG_COUPLER_T1: 23
   response: 7EA046248973F
