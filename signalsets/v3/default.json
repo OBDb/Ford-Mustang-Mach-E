@@ -252,7 +252,7 @@
   "signals": [
     {"id": "MACHE_HVBAT_CHR_A", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 100, "unit": "amps" }, "name": "HV battery current high range"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "480B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "480B"}, "freq": 1, "dbgfilter": { "years": [2022, 2023], "from": 2025 },
   "signals": [
     {"id": "MACHE_HVBAT_A_ALT", "path": "Battery", "fmt": { "len": 16, "max": 300, "min": -300, "div": 50, "sign": true, "unit": "amps" }, "name": "HV battery current, alternate"}
   ]},
