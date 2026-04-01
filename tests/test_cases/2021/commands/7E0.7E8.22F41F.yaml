@@ -4,6 +4,9 @@ test_cases:
     MACHE_RUN_TIME: 616
   response: 7E80562F41F0268
 - expected_values:
+    MACHE_RUN_TIME: 844
+  response: 7E80562F41F034C
+- expected_values:
     MACHE_RUN_TIME: 1178
   response: 7E80562F41F049A
 - expected_values:
