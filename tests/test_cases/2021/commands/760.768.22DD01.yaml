@@ -10,8 +10,8 @@ test_cases:
     MACHE_ODO_BCM: 42496
   response: 7680662DD0100A600
 - expected_values:
-    MACHE_ODO_BCM: 44032
-  response: 7680662DD0100AC00
-- expected_values:
     MACHE_ODO_BCM: 78702
   response: 7680662DD0101336E
+- expected_values:
+    MACHE_ODO_BCM: 118745
+  response: 7680662DD0101CFD9
