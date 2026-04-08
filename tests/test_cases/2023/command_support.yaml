@@ -21,6 +21,7 @@ supported_commands_by_ecu:
   "7C7":
   - 7C7.2299AB:MACHE_AC_COMP_A
   "7DF":
+  - 7DF.0105
   - 7DF.0131
   - 7DF.0144
   "7E0":
@@ -143,6 +144,8 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   - 0149:APP_D
+  - 7E6.7EE.0104
+  - 7E6.7EE.0131
   - 7E6.7EE.221E12:MACHE_GEAR_CMD
   - 7E6.7EE.221E1C:MACHE_TT
   - 7E6.7EE.221E2C:MACHE_PRI_MOTOR_RPM
@@ -173,7 +176,6 @@ supported_commands_by_ecu:
   - 7E7.7EF.224823:MACHE_SEC_MOTOR_INV_V
 unsupported_commands_by_ecu:
   "7DF":
-  - 7DF.0105
   - 7DF.0142
   "7E0":
   - 7E0.7E8.22091A
@@ -186,9 +188,7 @@ unsupported_commands_by_ecu:
   - 7E4.7EC.22480B:MACHE_HVBAT_A_ALT
   - 7E4.7EC.224815:MACHE_MAX_DISCH_PWR_LIM
   "7E6":
-  - 7E6.7EE.0104
   - 7E6.7EE.0105
-  - 7E6.7EE.0131
   - 7E6.7EE.0142
   "7E7":
   - 7E7.7EF.0104
