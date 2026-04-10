@@ -22,6 +22,7 @@ supported_commands_by_ecu:
   - 7C7.2299AB:MACHE_AC_COMP_A
   "7DF":
   - 7DF.0105
+  - 7DF.012F
   - 7DF.0131
   - 7DF.0144
   "7E0":
