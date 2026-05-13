@@ -5,10 +5,10 @@ test_cases:
   response: 7EC056248050CCA
 - expected_values:
     MACHE_CONTACTOR_V_POS: 300
-  response: 7EC056248050DFA
+  response: 7EC056248058D02
 - expected_values:
     MACHE_CONTACTOR_V_POS: 300
-  response: 7EC056248058D02
+  response: 7EC056248058DFD
 - expected_values:
     MACHE_CONTACTOR_V_POS: 300
   response: 7EC0562480592CB

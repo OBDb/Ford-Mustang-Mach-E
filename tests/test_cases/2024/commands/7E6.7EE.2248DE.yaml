@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_COOLANT_HTR_PWR: 0
   response: 7EE056248DE0000
+- expected_values:
+    MACHE_COOLANT_HTR_PWR: 1.086
+  response: 7EE056248DE043E
