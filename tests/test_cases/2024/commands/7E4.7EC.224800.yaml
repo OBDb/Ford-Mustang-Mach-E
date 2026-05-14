@@ -7,6 +7,12 @@ test_cases:
     MACHE_HVBAT_T: 18
   response: 7EC0462480044
 - expected_values:
+    MACHE_HVBAT_T: 24
+  response: 7EC046248004A
+- expected_values:
+    MACHE_HVBAT_T: 25
+  response: 7EC046248004B
+- expected_values:
     MACHE_HVBAT_T: 30
   response: 7EC0462480050
 - expected_values:

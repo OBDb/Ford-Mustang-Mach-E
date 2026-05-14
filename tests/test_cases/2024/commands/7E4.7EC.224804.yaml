@@ -4,11 +4,11 @@ test_cases:
     MACHE_HV_NEG_LEAK_V: 1.44
   response: 7EC0562480405A0
 - expected_values:
+    MACHE_HV_NEG_LEAK_V: 1.826
+  response: 7EC056248040722
+- expected_values:
     MACHE_HV_NEG_LEAK_V: 1.993
   response: 7EC0562480407C9
-- expected_values:
-    MACHE_HV_NEG_LEAK_V: 2.083
-  response: 7EC056248040823
 - expected_values:
     MACHE_HV_NEG_LEAK_V: 2.451
   response: 7EC056248040993

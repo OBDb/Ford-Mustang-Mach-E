@@ -13,6 +13,9 @@ test_cases:
     MACHE_HVBAT_MOD_V: 0.006
   response: 7EC0562483F0006
 - expected_values:
+    MACHE_HVBAT_MOD_V: 0.008
+  response: 7EC0562483F0008
+- expected_values:
     MACHE_HVBAT_MOD_V: 0.01
   response: 7EC0562483F000A
 - expected_values:
