@@ -10,5 +10,5 @@ test_cases:
     MACHE_ODO_ECM: 49521
   response: 7E80662DD0100C171
 - expected_values:
-    MACHE_ODO_ECM: 49541
-  response: 7E80662DD0100C185
+    MACHE_ODO_ECM: 49542
+  response: 7E80662DD0100C186
