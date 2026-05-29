@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     MACHE_12V_AGE: 22152
   response: 72E05624027039B
+- expected_values:
+    MACHE_12V_AGE: 25896
+  response: '72E056240270437'
