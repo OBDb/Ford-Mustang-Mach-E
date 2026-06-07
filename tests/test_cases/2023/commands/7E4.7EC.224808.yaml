@@ -24,3 +24,9 @@ test_cases:
     MACHE_T_RANGE_MAX: 24
     MACHE_T_RANGE_MIN: 22
   response: 7EC076248084A483349
+- expected_values:
+    MACHE_T_RANGE: 0
+    MACHE_T_RANGE_AVG: 24
+    MACHE_T_RANGE_MAX: 24
+    MACHE_T_RANGE_MIN: 23
+  response: 7EC076248084A49324A
