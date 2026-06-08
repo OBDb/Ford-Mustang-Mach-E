@@ -4,5 +4,5 @@ test_cases:
     MACHE_IAT: 0
   response: 7EA0462DD0428
 - expected_values:
-    MACHE_IAT: 34
-  response: 7EA0462DD044A
+    MACHE_IAT: 49
+  response: 7EA0462DD0459
