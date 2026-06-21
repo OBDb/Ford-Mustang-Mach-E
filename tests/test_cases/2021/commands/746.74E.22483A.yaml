@@ -1,6 +1,12 @@
 command_id: 746.74E.22483A
 test_cases:
 - expected_values:
+    MACHE_DCDC_HV_A: 0.7
+  response: 74E0462483A07
+- expected_values:
+    MACHE_DCDC_HV_A: 0.8
+  response: 74E0462483A08
+- expected_values:
     MACHE_DCDC_HV_A: 1
   response: 74E0462483A0A
 - expected_values:
