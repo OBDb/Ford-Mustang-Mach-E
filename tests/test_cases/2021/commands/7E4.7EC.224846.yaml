@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     MACHE_HVBAT_COOLANT_INLET_T: 22
   response: 7EC0462484648
+- expected_values:
+    MACHE_HVBAT_COOLANT_INLET_T: 28
+  response: 7EC046248464E
