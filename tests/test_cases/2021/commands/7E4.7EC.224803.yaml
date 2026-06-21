@@ -1,6 +1,9 @@
 command_id: 7E4.7EC.224803
 test_cases:
 - expected_values:
+    MACHE_HV_POS_LEAK_V: 2.501
+  response: 7EC0562480309C5
+- expected_values:
     MACHE_HV_POS_LEAK_V: 2.506
   response: 7EC0562480309CA
 - expected_values:

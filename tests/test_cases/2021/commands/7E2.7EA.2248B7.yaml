@@ -1,5 +1,8 @@
 command_id: 7E2.7EA.2248B7
 test_cases:
 - expected_values:
+    MACHE_EVSE_DIGITAL_MODE: NONE
+  response: 7EA046248B700
+- expected_values:
     MACHE_EVSE_DIGITAL_MODE: 'OFF'
   response: 7EA046248B708
