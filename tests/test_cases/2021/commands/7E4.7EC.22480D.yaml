@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.22480D
 test_cases:
 - expected_values:
-    MACHE_HVBAT_V: 315.82
-  response: 7EC0562480D7B5E
+    MACHE_HVBAT_V: 314.35
+  response: 7EC0562480D7ACB
 - expected_values:
     MACHE_HVBAT_V: 325.11
   response: 7EC0562480D7EFF
