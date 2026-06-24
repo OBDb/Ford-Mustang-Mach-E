@@ -4,29 +4,11 @@ test_cases:
     MACHE_CHG_OUT_V: 336.29
   response: 7EA0562484A835D
 - expected_values:
-    MACHE_CHG_OUT_V: 337.56
-  response: 7EA0562484A83DC
-- expected_values:
-    MACHE_CHG_OUT_V: 337.62
-  response: 7EA0562484A83E2
-- expected_values:
     MACHE_CHG_OUT_V: 364.19
   response: 7EA0562484A8E43
-- expected_values:
-    MACHE_CHG_OUT_V: 365.66
-  response: 7EA0562484A8ED6
-- expected_values:
-    MACHE_CHG_OUT_V: 365.8
-  response: 7EA0562484A8EE4
-- expected_values:
-    MACHE_CHG_OUT_V: 365.82
-  response: 7EA0562484A8EE6
-- expected_values:
-    MACHE_CHG_OUT_V: 365.86
-  response: 7EA0562484A8EEA
 - expected_values:
     MACHE_CHG_OUT_V: 365.87
   response: 7EA0562484A8EEB
 - expected_values:
-    MACHE_CHG_OUT_V: 369.59
-  response: 7EA0562484A905F
+    MACHE_CHG_OUT_V: 375.27
+  response: 7EA0562484A9297

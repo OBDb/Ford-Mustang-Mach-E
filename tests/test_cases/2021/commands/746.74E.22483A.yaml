@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     MACHE_DCDC_HV_A: 1.6
   response: 74E0462483A10
+- expected_values:
+    MACHE_DCDC_HV_A: 1.8
+  response: 74E0462483A12

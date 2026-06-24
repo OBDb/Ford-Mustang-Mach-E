@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     MACHE_HVBAT_MIN_MOD_V: 3.895
   response: 7EC056248400F37
+- expected_values:
+    MACHE_HVBAT_MIN_MOD_V: 3.984
+  response: 7EC056248400F90
+- expected_values:
+    MACHE_HVBAT_MIN_MOD_V: 4.012
+  response: 7EC056248400FAC
