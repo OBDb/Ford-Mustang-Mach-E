@@ -1,8 +1,8 @@
 command_id: 726.72E.224028
 test_cases:
 - expected_values:
-    MACHE_12V_SOC: 79
-  response: 72E046240284F
+    MACHE_12V_SOC: 76
+  response: 72E046240284C
 - expected_values:
     MACHE_12V_SOC: 92
   response: 72E046240285C
