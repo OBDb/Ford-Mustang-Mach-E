@@ -1,8 +1,8 @@
 command_id: 7E7.7EF.224820
 test_cases:
 - expected_values:
-    MACHE_SEC_MOTOR_COIL_T: 29
-  response: 7EF05624820001D
+    MACHE_SEC_MOTOR_COIL_T: 22
+  response: 7EF056248200016
 - expected_values:
-    MACHE_SEC_MOTOR_COIL_T: 50
-  response: 7EF056248200032
+    MACHE_SEC_MOTOR_COIL_T: 53
+  response: 7EF056248200035
