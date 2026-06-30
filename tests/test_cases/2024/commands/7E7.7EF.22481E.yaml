@@ -4,5 +4,5 @@ test_cases:
     MACHE_SEC_MOTOR_INV_T: 25
   response: 7EF0562481E0019
 - expected_values:
-    MACHE_SEC_MOTOR_INV_T: 53
-  response: 7EF0562481E0035
+    MACHE_SEC_MOTOR_INV_T: 61
+  response: 7EF0562481E003D
