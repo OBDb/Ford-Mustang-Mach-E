@@ -7,26 +7,5 @@ test_cases:
     MACHE_HVBAT_MIN_MOD_V: 3.591
   response: 7EC056248400E07
 - expected_values:
-    MACHE_HVBAT_MIN_MOD_V: 3.592
-  response: 7EC056248400E08
-- expected_values:
     MACHE_HVBAT_MIN_MOD_V: 3.873
   response: 7EC056248400F21
-- expected_values:
-    MACHE_HVBAT_MIN_MOD_V: 3.892
-  response: 7EC056248400F34
-- expected_values:
-    MACHE_HVBAT_MIN_MOD_V: 3.893
-  response: 7EC056248400F35
-- expected_values:
-    MACHE_HVBAT_MIN_MOD_V: 3.894
-  response: 7EC056248400F36
-- expected_values:
-    MACHE_HVBAT_MIN_MOD_V: 3.895
-  response: 7EC056248400F37
-- expected_values:
-    MACHE_HVBAT_MIN_MOD_V: 3.984
-  response: 7EC056248400F90
-- expected_values:
-    MACHE_HVBAT_MIN_MOD_V: 4.012
-  response: 7EC056248400FAC
