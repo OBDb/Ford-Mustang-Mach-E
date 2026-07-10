@@ -1,0 +1,23 @@
+command_id: 7E2.7EA.2248A4
+test_cases:
+- expected_values:
+    MACHE_DC_CHG_COUPLER_T3: 12
+  response: 7EA046248A434
+- expected_values:
+    MACHE_DC_CHG_COUPLER_T3: 19
+  response: 7EA046248A43B
+- expected_values:
+    MACHE_DC_CHG_COUPLER_T3: 24
+  response: 7EA046248A440
+- expected_values:
+    MACHE_DC_CHG_COUPLER_T3: 29
+  response: 7EA046248A445
+- expected_values:
+    MACHE_DC_CHG_COUPLER_T3: 30
+  response: 7EA046248A446
+- expected_values:
+    MACHE_DC_CHG_COUPLER_T3: 57
+  response: 7EA046248A461
+- expected_values:
+    MACHE_DC_CHG_COUPLER_T3: 67
+  response: 7EA046248A46B

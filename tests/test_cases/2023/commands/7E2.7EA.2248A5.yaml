@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.2248A5
+test_cases:
+- expected_values:
+    MACHE_CHG_OUT_REDUCT_T: 100
+  response: 7EA046248A564
