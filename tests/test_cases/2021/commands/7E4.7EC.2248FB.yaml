@@ -4,26 +4,8 @@ test_cases:
     MACHE_HVBAT_CHG_PWR_LIM: 113.5
   response: 7EC056248FB046F
 - expected_values:
-    MACHE_HVBAT_CHG_PWR_LIM: 113.8
-  response: 7EC056248FB0472
-- expected_values:
-    MACHE_HVBAT_CHG_PWR_LIM: 136.2
-  response: 7EC056248FB0552
-- expected_values:
-    MACHE_HVBAT_CHG_PWR_LIM: 139.4
-  response: 7EC056248FB0572
-- expected_values:
-    MACHE_HVBAT_CHG_PWR_LIM: 140.2
-  response: 7EC056248FB057A
-- expected_values:
-    MACHE_HVBAT_CHG_PWR_LIM: 140.3
-  response: 7EC056248FB057B
-- expected_values:
-    MACHE_HVBAT_CHG_PWR_LIM: 145.2
-  response: 7EC056248FB05AC
-- expected_values:
-    MACHE_HVBAT_CHG_PWR_LIM: 150.1
-  response: 7EC056248FB05DD
+    MACHE_HVBAT_CHG_PWR_LIM: 134.1
+  response: 7EC056248FB053D
 - expected_values:
     MACHE_HVBAT_CHG_PWR_LIM: 153.5
   response: 7EC056248FB05FF

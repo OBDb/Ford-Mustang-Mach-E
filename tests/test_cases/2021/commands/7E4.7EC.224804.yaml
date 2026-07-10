@@ -1,11 +1,14 @@
 command_id: 7E4.7EC.224804
 test_cases:
 - expected_values:
-    MACHE_HV_NEG_LEAK_V: 2.051
-  response: 7EC056248040803
+    MACHE_HV_NEG_LEAK_V: 1.641
+  response: 7EC056248040669
 - expected_values:
-    MACHE_HV_NEG_LEAK_V: 2.255
-  response: 7EC0562480408CF
+    MACHE_HV_NEG_LEAK_V: 2.021
+  response: 7EC0562480407E5
+- expected_values:
+    MACHE_HV_NEG_LEAK_V: 2.048
+  response: 7EC056248040800
 - expected_values:
     MACHE_HV_NEG_LEAK_V: 2.499
   response: 7EC0562480409C3
