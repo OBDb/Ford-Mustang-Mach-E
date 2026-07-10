@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.2248BC
+test_cases:
+- expected_values:
+    MACHE_HVBAT_MAX_CHG_A: 15
+  response: 7EA056248BC2710

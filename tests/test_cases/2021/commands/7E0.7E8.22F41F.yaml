@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    MACHE_RUN_TIME: 130
+  response: 7E80562F41F0082
+- expected_values:
+    MACHE_RUN_TIME: 137
+  response: 7E80562F41F0089
+- expected_values:
+    MACHE_RUN_TIME: 150
+  response: 7E80562F41F0096
+- expected_values:
+    MACHE_RUN_TIME: 154
+  response: 7E80562F41F009A
+- expected_values:
+    MACHE_RUN_TIME: 524
+  response: 7E80562F41F020C
+- expected_values:
+    MACHE_RUN_TIME: 616
+  response: 7E80562F41F0268
+- expected_values:
+    MACHE_RUN_TIME: 844
+  response: 7E80562F41F034C
+- expected_values:
+    MACHE_RUN_TIME: 1097
+  response: 7E80562F41F0449
+- expected_values:
+    MACHE_RUN_TIME: 1178
+  response: 7E80562F41F049A
+- expected_values:
+    MACHE_RUN_TIME: 1483
+  response: 7E80562F41F05CB

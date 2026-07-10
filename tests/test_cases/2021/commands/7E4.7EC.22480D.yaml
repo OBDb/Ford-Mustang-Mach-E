@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.22480D
+test_cases:
+- expected_values:
+    MACHE_HVBAT_V: 314.35
+  response: 7EC0562480D7ACB
+- expected_values:
+    MACHE_HVBAT_V: 325.11
+  response: 7EC0562480D7EFF
+- expected_values:
+    MACHE_HVBAT_V: 330.24
+  response: 7EC0562480D8100
+- expected_values:
+    MACHE_HVBAT_V: 389.4
+  response: 7EC0562480D981C

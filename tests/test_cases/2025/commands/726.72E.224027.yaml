@@ -1,0 +1,20 @@
+command_id: 726.72E.224027
+test_cases:
+- expected_values:
+    MACHE_12V_AGE: 3984
+  response: 72E0562402700A6
+- expected_values:
+    MACHE_12V_AGE: 4008
+  response: 72E0562402700A7
+- expected_values:
+    MACHE_12V_AGE: 5616
+  response: 72E0562402700EA
+- expected_values:
+    MACHE_12V_AGE: 6528
+  response: '72E056240270110'
+- expected_values:
+    MACHE_12V_AGE: 7536
+  response: 72E05624027013A
+- expected_values:
+    MACHE_12V_AGE: 11472
+  response: 72E0562402701DE

@@ -1,0 +1,29 @@
+command_id: 7E4.7EC.224810
+test_cases:
+- expected_values:
+    MACHE_HVBAT_AGE: 11210.4
+  response: 7EC056248100C2A
+- expected_values:
+    MACHE_HVBAT_AGE: 14072.4
+  response: 7EC056248100F45
+- expected_values:
+    MACHE_HVBAT_AGE: 19584
+  response: 7EC056248101540
+- expected_values:
+    MACHE_HVBAT_AGE: 20649.6
+  response: 7EC056248101668
+- expected_values:
+    MACHE_HVBAT_AGE: 22186.8
+  response: 7EC056248101813
+- expected_values:
+    MACHE_HVBAT_AGE: 24433.2
+  response: 7EC056248101A83
+- expected_values:
+    MACHE_HVBAT_AGE: 24505.2
+  response: 7EC056248101A97
+- expected_values:
+    MACHE_HVBAT_AGE: 25902
+  response: 7EC056248101C1B
+- expected_values:
+    MACHE_HVBAT_AGE: 30254.4
+  response: 7EC0562481020D4
