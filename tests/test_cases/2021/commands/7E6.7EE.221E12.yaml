@@ -4,5 +4,8 @@ test_cases:
     MACHE_GEAR_CMD: D
   response: 7EE04621E1228
 - expected_values:
+    MACHE_GEAR_CMD: R
+  response: 7EE04621E123C
+- expected_values:
     MACHE_GEAR_CMD: P
   response: 7EE04621E1246
