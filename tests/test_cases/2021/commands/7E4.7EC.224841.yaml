@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.224841
 test_cases:
 - expected_values:
-    MACHE_HVBAT_AVG_MOD_V: 3.542
-  response: 7EC056248410DD6
+    MACHE_HVBAT_AVG_MOD_V: 3.476
+  response: 7EC056248410D94
 - expected_values:
     MACHE_HVBAT_AVG_MOD_V: 3.583
   response: 7EC056248410DFF

@@ -4,23 +4,5 @@ test_cases:
     MACHE_PRI_MOTOR_COIL_T: 17
   response: 7EE0562481F0011
 - expected_values:
-    MACHE_PRI_MOTOR_COIL_T: 19
-  response: 7EE0562481F0013
-- expected_values:
-    MACHE_PRI_MOTOR_COIL_T: 25
-  response: 7EE0562481F0019
-- expected_values:
-    MACHE_PRI_MOTOR_COIL_T: 29
-  response: 7EE0562481F001D
-- expected_values:
-    MACHE_PRI_MOTOR_COIL_T: 33
-  response: 7EE0562481F0021
-- expected_values:
-    MACHE_PRI_MOTOR_COIL_T: 34
-  response: 7EE0562481F0022
-- expected_values:
-    MACHE_PRI_MOTOR_COIL_T: 42
-  response: 7EE0562481F002A
-- expected_values:
-    MACHE_PRI_MOTOR_COIL_T: 45
-  response: 7EE0562481F002D
+    MACHE_PRI_MOTOR_COIL_T: 46
+  response: 7EE0562481F002E
