@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.224862
+test_cases:
+- expected_values:
+    MACHE_CHG_PROX_STATUS: 'OFF'
+  response: 7EA0462486200

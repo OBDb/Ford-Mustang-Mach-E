@@ -1,0 +1,11 @@
+command_id: 7E6.7EE.22481C
+test_cases:
+- expected_values:
+    MACHE_PRI_MOTOR_TQ: 0.1
+  response: 7EE0562481C0001
+- expected_values:
+    MACHE_PRI_MOTOR_TQ: -17.4
+  response: 7EE0562481CFF52
+- expected_values:
+    MACHE_PRI_MOTOR_TQ: -0.1
+  response: 7EE0562481CFFFF

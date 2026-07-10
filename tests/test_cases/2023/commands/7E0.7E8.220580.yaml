@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220580
+test_cases:
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 0
+  response: '7E80462058000'
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 53.33333
+  response: '7E80462058088'
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 60
+  response: '7E80462058099'
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 86.66667
+  response: 7E804620580DD
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 100
+  response: 7E804620580FF
