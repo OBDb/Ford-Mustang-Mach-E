@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     MACHE_DC_CHG_COUPLER_T3: 13
   response: 7EA046248A435
+- expected_values:
+    MACHE_DC_CHG_COUPLER_T3: 19
+  response: 7EA046248A43B
