@@ -4,5 +4,5 @@ test_cases:
     MACHE_AAT: -7
   response: 7EA0462DD0521
 - expected_values:
-    MACHE_AAT: 16
-  response: 7EA0462DD0538
+    MACHE_AAT: 18
+  response: 7EA0462DD053A
