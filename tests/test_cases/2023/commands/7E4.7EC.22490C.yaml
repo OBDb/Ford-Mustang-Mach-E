@@ -7,6 +7,9 @@ test_cases:
     MACHE_HVBAT_SOH: 93
   response: 7EC0462490CBA
 - expected_values:
+    MACHE_HVBAT_SOH: 93.5
+  response: 7EC0462490CBB
+- expected_values:
     MACHE_HVBAT_SOH: 95
   response: 7EC0462490CBE
 - expected_values:
