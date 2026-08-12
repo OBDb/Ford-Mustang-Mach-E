@@ -4,8 +4,8 @@ test_cases:
     MACHE_HVBAT_CHG_PWR_LIM: 113.5
   response: 7EC056248FB046F
 - expected_values:
-    MACHE_HVBAT_CHG_PWR_LIM: 134.1
-  response: 7EC056248FB053D
+    MACHE_HVBAT_CHG_PWR_LIM: 130.5
+  response: 7EC056248FB0519
 - expected_values:
     MACHE_HVBAT_CHG_PWR_LIM: 153.5
   response: 7EC056248FB05FF
