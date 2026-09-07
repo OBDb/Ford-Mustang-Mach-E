@@ -4,5 +4,5 @@ test_cases:
     MACHE_HVBAT_T: 17
   response: 7EC0462480043
 - expected_values:
-    MACHE_HVBAT_T: 34
-  response: 7EC0462480054
+    MACHE_HVBAT_T: 39
+  response: 7EC0462480059
