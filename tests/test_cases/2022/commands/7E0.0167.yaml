@@ -3,6 +3,30 @@ test_cases:
 - expected_values:
     ECT_1: 15
     ECT_1_SUP: 1
+    ECT_2: 21
+    ECT_2_SUP: 1
+  response: 7E805416703373D
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
     ECT_2: 22
     ECT_2_SUP: 1
   response: 7E805416703373E
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
+    ECT_2: 23
+    ECT_2_SUP: 1
+  response: 7E805416703373F
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
+    ECT_2: 24
+    ECT_2_SUP: 1
+  response: '7E8054167033740'
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
+    ECT_2: 25
+    ECT_2_SUP: 1
+  response: '7E8054167033741'
