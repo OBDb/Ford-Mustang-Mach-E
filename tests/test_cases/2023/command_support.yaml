@@ -108,6 +108,7 @@ supported_commands_by_ecu:
   - 015B:BAT_SOC
   - 7E4.7EC.0104
   - 7E4.7EC.0105
+  - 7E4.7EC.010C
   - 7E4.7EC.0131
   - 7E4.7EC.015B
   - 7E4.7EC.2205A1:MACHE_TARGET_SOC
