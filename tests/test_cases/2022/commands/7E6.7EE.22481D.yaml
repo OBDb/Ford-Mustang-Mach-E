@@ -7,8 +7,8 @@ test_cases:
     MACHE_PRI_MOTOR_INV_V: 332.7
   response: 7EE0562481D0CFF
 - expected_values:
-    MACHE_PRI_MOTOR_INV_V: 358.4
-  response: 7EE0562481D0E00
+    MACHE_PRI_MOTOR_INV_V: 332.8
+  response: 7EE0562481D0D00
 - expected_values:
     MACHE_PRI_MOTOR_INV_V: 388
   response: 7EE0562481D0F28
