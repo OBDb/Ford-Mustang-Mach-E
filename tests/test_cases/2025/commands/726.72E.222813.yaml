@@ -1,6 +1,11 @@
 command_id: 726.72E.222813
 test_cases:
 - expected_values:
+    MACHE_TP_FL: 36.4
+  response: |-
+    222813
+    72E0562281302D8
+- expected_values:
     MACHE_TP_FL: 33.35
   response: |-
     2228131
