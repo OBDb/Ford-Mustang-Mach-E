@@ -3,6 +3,11 @@ test_cases:
 - expected_values:
     ECT: 15
   response: |-
+    0105
+    7E803410537
+- expected_values:
+    ECT: 15
+  response: |-
     01051
     7E803410537
 - expected_values:
