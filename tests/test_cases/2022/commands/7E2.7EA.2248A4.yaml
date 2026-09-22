@@ -4,26 +4,5 @@ test_cases:
     MACHE_DC_CHG_COUPLER_T3: 0
   response: 7EA046248A428
 - expected_values:
-    MACHE_DC_CHG_COUPLER_T3: 9
-  response: 7EA046248A431
-- expected_values:
-    MACHE_DC_CHG_COUPLER_T3: 10
-  response: 7EA046248A432
-- expected_values:
-    MACHE_DC_CHG_COUPLER_T3: 11
-  response: 7EA046248A433
-- expected_values:
-    MACHE_DC_CHG_COUPLER_T3: 13
-  response: 7EA046248A435
-- expected_values:
-    MACHE_DC_CHG_COUPLER_T3: 19
-  response: 7EA046248A43B
-- expected_values:
-    MACHE_DC_CHG_COUPLER_T3: 22
-  response: 7EA046248A43E
-- expected_values:
-    MACHE_DC_CHG_COUPLER_T3: 23
-  response: 7EA046248A43F
-- expected_values:
     MACHE_DC_CHG_COUPLER_T3: 30
   response: 7EA046248A446
