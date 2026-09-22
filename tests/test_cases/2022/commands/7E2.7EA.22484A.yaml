@@ -4,11 +4,11 @@ test_cases:
     MACHE_CHG_OUT_V: 0.62
   response: 7EA0562484A003E
 - expected_values:
-    MACHE_CHG_OUT_V: 368.8
-  response: 7EA0562484A9010
+    MACHE_CHG_OUT_V: 365.97
+  response: 7EA0562484A8EF5
 - expected_values:
-    MACHE_CHG_OUT_V: 391.49
-  response: 7EA0562484A98ED
+    MACHE_CHG_OUT_V: 366.08
+  response: 7EA0562484A8F00
 - expected_values:
     MACHE_CHG_OUT_V: 395.97
   response: 7EA0562484A9AAD
