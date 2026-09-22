@@ -4,11 +4,11 @@ test_cases:
     MACHE_HV_POS_LEAK_V: 2.495
   response: 7EC0562480309BF
 - expected_values:
-    MACHE_HV_POS_LEAK_V: 3.086
-  response: 7EC056248030C0E
+    MACHE_HV_POS_LEAK_V: 2.819
+  response: 7EC056248030B03
 - expected_values:
     MACHE_HV_POS_LEAK_V: 3.326
   response: 7EC056248030CFE
 - expected_values:
-    MACHE_HV_POS_LEAK_V: 3.422
-  response: 7EC056248030D5E
+    MACHE_HV_POS_LEAK_V: 3.388
+  response: 7EC056248030D3C
