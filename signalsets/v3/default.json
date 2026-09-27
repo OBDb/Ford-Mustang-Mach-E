@@ -1,4 +1,9 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E2", "type": "charger" },
+    { "hdr": "7E4", "type": "battery" },
+    { "hdr": "7E6", "type": "hybridControl" }
+  ],
+  "commands": [
 { "hdr": "6F5", "rax": "6FD", "cmd": {"22": "4899"}, "freq": 1, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "MACHE_HVDC_CHG_MAX_C", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "amps" }, "name": "HV DC charger maximum current"}
