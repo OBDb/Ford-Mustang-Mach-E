@@ -1,0 +1,5 @@
+command_id: 726.72E.224021
+test_cases:
+- expected_values:
+    MACHE_NORM_CUM_DCHG_BAT_ON: 16.8
+  response: 72E0562402100A8

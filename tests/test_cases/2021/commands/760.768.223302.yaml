@@ -1,0 +1,5 @@
+command_id: 760.768.223302
+test_cases:
+- expected_values:
+    MACHE_BCM_STEER_ANG_ACT: -16.7
+  response: 768056233021DD1

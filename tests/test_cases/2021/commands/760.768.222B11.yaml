@@ -1,0 +1,20 @@
+command_id: 760.768.222B11
+test_cases:
+- expected_values:
+    MACHE_LAT_G: 0.1
+  response: 76805622B110005
+- expected_values:
+    MACHE_LAT_G: 0.12
+  response: 76805622B110006
+- expected_values:
+    MACHE_LAT_G: 0.14
+  response: 76805622B110007
+- expected_values:
+    MACHE_LAT_G: 0.16
+  response: 76805622B110008
+- expected_values:
+    MACHE_LAT_G: 0.18
+  response: 76805622B110009
+- expected_values:
+    MACHE_LAT_G: 0.2
+  response: 76805622B11000A

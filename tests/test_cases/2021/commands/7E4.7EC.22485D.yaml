@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22485D
+test_cases:
+- expected_values:
+    MACHE_BAT_PACK_LIFETIME: 34380
+  response: 7EC0562485D0D6E

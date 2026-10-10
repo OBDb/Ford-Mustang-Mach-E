@@ -1,0 +1,8 @@
+command_id: 726.72E.2241E8
+test_cases:
+- expected_values:
+    MACHE_VEH_BAT_B_V: 14.25
+  response: 72E046241E8A5
+- expected_values:
+    MACHE_VEH_BAT_B_V: 14.3
+  response: 72E046241E8A6

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2203BA
+test_cases:
+- expected_values:
+    MACHE_AAT_V: 1.9306
+  response: 7E8056203BA018B
+- expected_values:
+    MACHE_AAT_V: 1.93548
+  response: 7E8056203BA018C
+- expected_values:
+    MACHE_AAT_V: 1.94037
+  response: 7E8056203BA018D
+- expected_values:
+    MACHE_AAT_V: 1.95992
+  response: 7E8056203BA0191
+- expected_values:
+    MACHE_AAT_V: 1.96481
+  response: 7E8056203BA0192
+- expected_values:
+    MACHE_AAT_V: 1.9697
+  response: 7E8056203BA0193

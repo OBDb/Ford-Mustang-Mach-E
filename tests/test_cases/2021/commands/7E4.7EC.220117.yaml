@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.220117
+test_cases:
+- expected_values:
+    MACHE_CLT_PMP_B_CTRL_SPD_CMD: 60
+  response: 7EC046201173C

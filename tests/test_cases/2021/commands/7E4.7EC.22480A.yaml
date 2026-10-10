@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.22480A
+test_cases:
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 2.4
+  response: 7EC0562480A0078
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 2.46
+  response: 7EC0562480A007B
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 2.52
+  response: 7EC0562480A007E
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 2.58
+  response: 7EC0562480A0081
