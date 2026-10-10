@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2203BA
 test_cases:
 - expected_values:
+    MACHE_AAT_V: 1.92571
+  response: 7E8056203BA018A
+- expected_values:
     MACHE_AAT_V: 1.9306
   response: 7E8056203BA018B
 - expected_values:
@@ -10,6 +13,12 @@ test_cases:
     MACHE_AAT_V: 1.94037
   response: 7E8056203BA018D
 - expected_values:
+    MACHE_AAT_V: 1.94526
+  response: 7E8056203BA018E
+- expected_values:
+    MACHE_AAT_V: 1.95503
+  response: 7E8056203BA0190
+- expected_values:
     MACHE_AAT_V: 1.95992
   response: 7E8056203BA0191
 - expected_values:
@@ -18,3 +27,6 @@ test_cases:
 - expected_values:
     MACHE_AAT_V: 1.9697
   response: 7E8056203BA0193
+- expected_values:
+    MACHE_AAT_V: 2.01369
+  response: 7E8056203BA019C

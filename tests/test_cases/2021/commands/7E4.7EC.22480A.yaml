@@ -12,3 +12,21 @@ test_cases:
 - expected_values:
     MACHE_HVB_CURRENT_LOW: 2.58
   response: 7EC0562480A0081
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 2.64
+  response: 7EC0562480A0084
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 2.7
+  response: 7EC0562480A0087
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 2.76
+  response: 7EC0562480A008A
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 2.82
+  response: 7EC0562480A008D
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 3.02
+  response: 7EC0562480A0097
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: 6.56
+  response: 7EC0562480A0148

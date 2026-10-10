@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MACHE_HIGH_V_DC_CHARGER_T: 107.6
   response: 7EA0462D00C52
+- expected_values:
+    MACHE_HIGH_V_DC_CHARGER_T: 109.4
+  response: 7EA0462D00C53

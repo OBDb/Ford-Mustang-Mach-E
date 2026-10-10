@@ -1,26 +1,11 @@
 command_id: 726.72E.22423C
 test_cases:
 - expected_values:
-    MACHE_VEH_BAT_B_CURRENT: 2.28125
-  response: 72E0562423C0049
+    MACHE_VEH_BAT_B_CURRENT: 2.25
+  response: 72E0562423C0048
 - expected_values:
-    MACHE_VEH_BAT_B_CURRENT: 2.3125
-  response: 72E0562423C004A
+    MACHE_VEH_BAT_B_CURRENT: 4.21875
+  response: 72E0562423C0087
 - expected_values:
-    MACHE_VEH_BAT_B_CURRENT: 2.34375
-  response: 72E0562423C004B
-- expected_values:
-    MACHE_VEH_BAT_B_CURRENT: 2.5625
-  response: 72E0562423C0052
-- expected_values:
-    MACHE_VEH_BAT_B_CURRENT: 2.59375
-  response: 72E0562423C0053
-- expected_values:
-    MACHE_VEH_BAT_B_CURRENT: 2.65625
-  response: 72E0562423C0055
-- expected_values:
-    MACHE_VEH_BAT_B_CURRENT: 2.71875
-  response: 72E0562423C0057
-- expected_values:
-    MACHE_VEH_BAT_B_CURRENT: 2.78125
-  response: 72E0562423C0059
+    MACHE_VEH_BAT_B_CURRENT: 9.375
+  response: 72E0562423C012C
