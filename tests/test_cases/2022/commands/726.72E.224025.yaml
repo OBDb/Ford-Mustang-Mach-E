@@ -1,0 +1,5 @@
+command_id: 726.72E.224025
+test_cases:
+- expected_values:
+    MACHE_BAT_QUIESCENT: 45
+  response: 72E05624025082A

@@ -1,0 +1,32 @@
+command_id: 760.768.22DD05
+test_cases:
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 14
+  response: 7680462DD0536
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 15
+  response: 7680462DD0537
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 16
+  response: 7680462DD0538
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 17
+  response: 7680462DD0539
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 18
+  response: 7680462DD053A
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 19
+  response: 7680462DD053B
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 20
+  response: 7680462DD053C
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 21
+  response: 7680462DD053D
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 22
+  response: 7680462DD053E
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 23
+  response: 7680462DD053F

@@ -1,0 +1,11 @@
+command_id: 726.72E.2240D1
+test_cases:
+- expected_values:
+    MACHE_AUX_12V_BAT_CTRL: 0
+  response: 72E046240D100
+- expected_values:
+    MACHE_AUX_12V_BAT_CTRL: 1
+  response: 72E046240D101
+- expected_values:
+    MACHE_AUX_12V_BAT_CTRL: 2
+  response: 72E046240D102

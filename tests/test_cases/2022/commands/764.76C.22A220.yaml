@@ -1,0 +1,5 @@
+command_id: 764.76C.22A220
+test_cases:
+- expected_values:
+    MACHE_FSM_AUTOMATIC: 0.1
+  response: 76C0562A2200001

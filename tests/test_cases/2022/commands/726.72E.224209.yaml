@@ -1,0 +1,14 @@
+command_id: 726.72E.224209
+test_cases:
+- expected_values:
+    MACHE_BAT_CURRENT: 4194202.5
+  response: 72E07624209FFFE6AC0
+- expected_values:
+    MACHE_BAT_CURRENT: 4194203.25
+  response: 72E07624209FFFE6DE0
+- expected_values:
+    MACHE_BAT_CURRENT: 4194206.75
+  response: 72E07624209FFFE7B00
+- expected_values:
+    MACHE_BAT_CURRENT: 4194221
+  response: 72E07624209FFFEB460

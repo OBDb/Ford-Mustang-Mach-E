@@ -1,0 +1,14 @@
+command_id: 7E2.7EA.22D00C
+test_cases:
+- expected_values:
+    MACHE_HIGH_V_DC_CHARGER_T: 82.4
+  response: 7EA0462D00C44
+- expected_values:
+    MACHE_HIGH_V_DC_CHARGER_T: 84.2
+  response: 7EA0462D00C45
+- expected_values:
+    MACHE_HIGH_V_DC_CHARGER_T: 86
+  response: 7EA0462D00C46
+- expected_values:
+    MACHE_HIGH_V_DC_CHARGER_T: 87.8
+  response: 7EA0462D00C47
