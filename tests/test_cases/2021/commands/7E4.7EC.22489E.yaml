@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22489E
+test_cases:
+- expected_values:
+    MACHE_DC_CHARGER_STAT: 0
+  response: 7EC0462489E00

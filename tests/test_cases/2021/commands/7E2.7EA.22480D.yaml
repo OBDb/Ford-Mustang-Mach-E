@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.22480D
+test_cases:
+- expected_values:
+    MACHE_HVB_V_RAW_CNT: 37250
+  response: 7EA0562480D9182
+- expected_values:
+    MACHE_HVB_V_RAW_CNT: 37300
+  response: 7EA0562480D91B4

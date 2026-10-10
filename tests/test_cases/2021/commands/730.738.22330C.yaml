@@ -1,0 +1,5 @@
+command_id: 730.738.22330C
+test_cases:
+- expected_values:
+    MACHE_STEER_SHFT_TQ: 0
+  response: 7380462330C7F

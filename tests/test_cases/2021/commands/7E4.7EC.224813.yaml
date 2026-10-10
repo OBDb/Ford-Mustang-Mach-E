@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224813
+test_cases:
+- expected_values:
+    MACHE_HIGH_V_LEAKAGE_RES_BUS: 65535
+  response: 7EC05624813FFFF
