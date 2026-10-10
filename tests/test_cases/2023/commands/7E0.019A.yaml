@@ -1,7 +1,7 @@
 command_id: 7E0.019A
 test_cases:
 - expected_values:
-    EHEV_MODE: CSM
+    EHEV_MODE: CDM
     EHEV_MODE_SUP: 1
     HEV_BATT_A: 0
     HEV_BATT_A_SUP: 1
