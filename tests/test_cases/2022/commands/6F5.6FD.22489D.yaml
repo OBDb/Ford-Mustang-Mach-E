@@ -4,5 +4,5 @@ test_cases:
     MACHE_HVDC_CHG_MAX_V: 455
   response: 6FD0562489D11C6
 - expected_values:
-    MACHE_HVDC_CHG_MAX_V: 6553.5
+    MACHE_HVDC_CHG_MAX_V: null
   response: 6FD0562489DFFFF

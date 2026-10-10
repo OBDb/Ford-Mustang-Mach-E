@@ -1,0 +1,42 @@
+command_id: 7E2.7EA.22480B
+test_cases:
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 0.42
+  response: |-
+    7EA0562480B0015
+    7EE0562480B0013
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 2.22
+  response: |-
+    7EA0562480B006F
+    7EE0562480B0070
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 9.88
+  response: |-
+    7EA0562480B01EE
+    7EE0562480B01EE
+- expected_values:
+    MACHE_HIGH_V_CURRENT: -112.22
+  response: |-
+    7EA0562480BEA15
+    7EE0562480BE9AF
+- expected_values:
+    MACHE_HIGH_V_CURRENT: -54.62
+  response: |-
+    7EA0562480BF555
+    7EE0562480BF56C
+- expected_values:
+    MACHE_HIGH_V_CURRENT: -0.42
+  response: |-
+    7EA0562480BFFEB
+    7EE0562480BFFE9
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 0.48
+  response: |-
+    7EE0562480B0018
+    7EA0562480B0018
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 97.42
+  response: |-
+    7EE0562480B1308
+    7EA0562480B1307
