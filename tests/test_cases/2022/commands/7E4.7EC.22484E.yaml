@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22484E
+test_cases:
+- expected_values:
+    MACHE_CHARGER_INPUT_POWER: 0
+  response: 7EC0562484E0000

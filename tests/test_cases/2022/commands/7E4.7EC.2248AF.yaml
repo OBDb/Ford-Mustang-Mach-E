@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.2248AF
+test_cases:
+- expected_values:
+    MACHE_DC_CHG_SYSTEM_V: 0.24
+  response: 7EC056248AF0018
+- expected_values:
+    MACHE_DC_CHG_SYSTEM_V: 0.36
+  response: 7EC056248AF0024

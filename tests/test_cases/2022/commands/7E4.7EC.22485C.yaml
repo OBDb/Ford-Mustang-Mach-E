@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22485C
+test_cases:
+- expected_values:
+    MACHE_BAT_CAP: 253
+  response: 7EC0562485C09E2

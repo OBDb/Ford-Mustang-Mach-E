@@ -1,0 +1,26 @@
+command_id: 730.738.22DD01
+test_cases:
+- expected_values:
+    MACHE_ODO_PSCM: 190256
+  response: 7380662DD0102E730
+- expected_values:
+    MACHE_ODO_PSCM: 190257
+  response: 7380662DD0102E731
+- expected_values:
+    MACHE_ODO_PSCM: 190258
+  response: 7380662DD0102E732
+- expected_values:
+    MACHE_ODO_PSCM: 190259
+  response: 7380662DD0102E733
+- expected_values:
+    MACHE_ODO_PSCM: 190261
+  response: 7380662DD0102E735
+- expected_values:
+    MACHE_ODO_PSCM: 190262
+  response: 7380662DD0102E736
+- expected_values:
+    MACHE_ODO_PSCM: 190264
+  response: 7380662DD0102E738
+- expected_values:
+    MACHE_ODO_PSCM: 190265
+  response: 7380662DD0102E739

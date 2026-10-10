@@ -1,0 +1,11 @@
+command_id: 726.72E.22423C
+test_cases:
+- expected_values:
+    MACHE_VEH_BAT_B_CURRENT: 0
+  response: 72E0562423C0000
+- expected_values:
+    MACHE_VEH_BAT_B_CURRENT: -3.8125
+  response: 72E0562423CFF86
+- expected_values:
+    MACHE_VEH_BAT_B_CURRENT: -0.21875
+  response: 72E0562423CFFF9

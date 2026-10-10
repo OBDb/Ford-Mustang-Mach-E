@@ -1,0 +1,11 @@
+command_id: 7E7.7EF.224819
+test_cases:
+- expected_values:
+    MACHE_SECONDARY_MOTOR_TQ_CMD: 0
+  response: 7EF056248190000
+- expected_values:
+    MACHE_SECONDARY_MOTOR_TQ_CMD: 50.8
+  response: 7EF0562481901FC
+- expected_values:
+    MACHE_SECONDARY_MOTOR_TQ_CMD: -16.8
+  response: 7EF05624819FF58
