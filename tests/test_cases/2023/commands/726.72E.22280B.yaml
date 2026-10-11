@@ -1,6 +1,36 @@
 command_id: 726.72E.22280B
 test_cases:
 - expected_values:
+    MACHE_TYRE_T: 25
+  response: |-
+    72E100C62280B6B2A2C
+    72E218F031141468400
+- expected_values:
+    MACHE_TYRE_T: 28
+  response: |-
+    72E100C62280B6B2A2C
+    72E218F032044468A00
+- expected_values:
+    MACHE_TYRE_T: 29
+  response: |-
+    72E100C62280B6B2A2C
+    72E218F032545468C00
+- expected_values:
+    MACHE_TYRE_T: 24
+  response: |-
+    72E100C62280B6B2A45
+    72E21FC030C40460800
+- expected_values:
+    MACHE_TYRE_T: 26
+  response: |-
+    72E100C62280B6B2A45
+    72E21FC032042460E00
+- expected_values:
+    MACHE_TYRE_T: 25
+  response: |-
+    72E100C62280B6B2A8A
+    72E215F03164146B300
+- expected_values:
     MACHE_TYRE_T: 26
   response: |-
     72E100C62280B6B2A8A

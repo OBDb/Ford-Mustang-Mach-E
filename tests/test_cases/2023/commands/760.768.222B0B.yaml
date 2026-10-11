@@ -1,5 +1,17 @@
 command_id: 760.768.222B0B
 test_cases:
 - expected_values:
+    MACHE_YAW_RATE_SIG: 0
+  response: 76805622B0B0000
+- expected_values:
+    MACHE_YAW_RATE_SIG: 0.4
+  response: 76805622B0B0002
+- expected_values:
+    MACHE_YAW_RATE_SIG: 2.8
+  response: 76805622B0B000E
+- expected_values:
     MACHE_YAW_RATE_SIG: 5.6
   response: 76805622B0B001C
+- expected_values:
+    MACHE_YAW_RATE_SIG: -1
+  response: 76805622B0BFFFB

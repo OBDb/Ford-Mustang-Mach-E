@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22035A
+test_cases:
+- expected_values:
+    MACHE_BARO_V: 3.7781
+  response: 7E80562035A0305
+- expected_values:
+    MACHE_BARO_V: 3.78788
+  response: 7E80562035A0307
+- expected_values:
+    MACHE_BARO_V: 3.79277
+  response: 7E80562035A0308
+- expected_values:
+    MACHE_BARO_V: 3.79765
+  response: 7E80562035A0309
+- expected_values:
+    MACHE_BARO_V: 3.80254
+  response: 7E80562035A030A
+- expected_values:
+    MACHE_BARO_V: 3.80743
+  response: 7E80562035A030B
+- expected_values:
+    MACHE_BARO_V: 3.81232
+  response: 7E80562035A030C
+- expected_values:
+    MACHE_BARO_V: 3.8172
+  response: 7E80562035A030D
+- expected_values:
+    MACHE_BARO_V: 3.82209
+  response: 7E80562035A030E

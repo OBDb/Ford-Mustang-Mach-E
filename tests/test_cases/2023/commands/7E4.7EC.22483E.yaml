@@ -1,0 +1,29 @@
+command_id: 7E4.7EC.22483E
+test_cases:
+- expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.484
+  response: 7EC0562483E01E4
+- expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.485
+  response: 7EC0562483E01E5
+- expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.486
+  response: 7EC0562483E01E6
+- expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.487
+  response: 7EC0562483E01E7
+- expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.488
+  response: 7EC0562483E01E8
+- expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.489
+  response: 7EC0562483E01E9
+- expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.49
+  response: 7EC0562483E01EA
+- expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.492
+  response: 7EC0562483E01EC
+- expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.493
+  response: 7EC0562483E01ED

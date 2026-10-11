@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     MACHE_ODO_PSCM: 91790
   response: 7380662DD0101668E
+- expected_values:
+    MACHE_ODO_PSCM: 91793
+  response: 7380662DD01016691
+- expected_values:
+    MACHE_ODO_PSCM: 91795
+  response: 7380662DD01016693
+- expected_values:
+    MACHE_ODO_PSCM: 91797
+  response: 7380662DD01016695
+- expected_values:
+    MACHE_ODO_PSCM: 91799
+  response: 7380662DD01016697
+- expected_values:
+    MACHE_ODO_PSCM: 91801
+  response: 7380662DD01016699

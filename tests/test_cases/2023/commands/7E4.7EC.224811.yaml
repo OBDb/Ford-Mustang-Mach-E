@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224811
+test_cases:
+- expected_values:
+    MACHE_HIGH_V_LEAKAGE_RES_BUS_POSITIVE: 61803
+  response: 7EC05624811F16B
+- expected_values:
+    MACHE_HIGH_V_LEAKAGE_RES_BUS_POSITIVE: 62193
+  response: 7EC05624811F2F1
+- expected_values:
+    MACHE_HIGH_V_LEAKAGE_RES_BUS_POSITIVE: 62209
+  response: 7EC05624811F301
+- expected_values:
+    MACHE_HIGH_V_LEAKAGE_RES_BUS_POSITIVE: 62982
+  response: 7EC05624811F606
