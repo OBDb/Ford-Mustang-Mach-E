@@ -1,14 +1,14 @@
 command_id: 760.768.223302
 test_cases:
 - expected_values:
-    MACHE_BCM_STEER_ANG_ACT: -23.3
-  response: 768056233021D8F
+    MACHE_BCM_STEER_ANG_ACT: -104.3
+  response: 768056233021A65
 - expected_values:
-    MACHE_BCM_STEER_ANG_ACT: -16.4
-  response: 768056233021DD4
+    MACHE_BCM_STEER_ANG_ACT: -12.4
+  response: 768056233021DFC
 - expected_values:
-    MACHE_BCM_STEER_ANG_ACT: -9.8
-  response: '768056233021E16'
+    MACHE_BCM_STEER_ANG_ACT: -12
+  response: '768056233021E00'
 - expected_values:
     MACHE_BCM_STEER_ANG_ACT: 181.4
   response: 76805623302258E

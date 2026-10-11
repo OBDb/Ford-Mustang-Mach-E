@@ -1,11 +1,11 @@
 command_id: 7E4.7EC.22480A
 test_cases:
 - expected_values:
-    MACHE_HVB_CURRENT_LOW: 0.82
-  response: 7EC0562480A0029
+    MACHE_HVB_CURRENT_LOW: 0.02
+  response: 7EC0562480A0001
 - expected_values:
-    MACHE_HVB_CURRENT_LOW: 71.94
-  response: 7EC0562480A0E0D
+    MACHE_HVB_CURRENT_LOW: 30.72
+  response: 7EC0562480A0600
 - expected_values:
     MACHE_HVB_CURRENT_LOW: -5.14
   response: 7EC0562480AFEFF
