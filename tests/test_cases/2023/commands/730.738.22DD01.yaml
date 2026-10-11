@@ -1,0 +1,5 @@
+command_id: 730.738.22DD01
+test_cases:
+- expected_values:
+    MACHE_ODO_PSCM: 91790
+  response: 7380662DD0101668E

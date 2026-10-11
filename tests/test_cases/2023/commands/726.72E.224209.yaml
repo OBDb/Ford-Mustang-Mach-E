@@ -1,0 +1,5 @@
+command_id: 726.72E.224209
+test_cases:
+- expected_values:
+    MACHE_BAT_CURRENT: -98.25
+  response: 72E07624209FFFE77C0
