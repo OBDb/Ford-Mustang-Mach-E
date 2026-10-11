@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     MACHE_FR_VSS: 0
   response: 76804622B0600
+- expected_values:
+    MACHE_FR_VSS: 25
+  response: 76804622B0619
+- expected_values:
+    MACHE_FR_VSS: 30
+  response: 76804622B061E
+- expected_values:
+    MACHE_FR_VSS: 41
+  response: 76804622B0629
+- expected_values:
+    MACHE_FR_VSS: 87
+  response: 76804622B0657

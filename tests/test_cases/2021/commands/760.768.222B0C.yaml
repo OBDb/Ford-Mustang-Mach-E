@@ -6,3 +6,18 @@ test_cases:
 - expected_values:
     MACHE_LAT_ANG: 1
   response: 76805622B0C0001
+- expected_values:
+    MACHE_LAT_ANG: 2
+  response: 76805622B0C0002
+- expected_values:
+    MACHE_LAT_ANG: 3
+  response: 76805622B0C0003
+- expected_values:
+    MACHE_LAT_ANG: 7
+  response: 76805622B0C0007
+- expected_values:
+    MACHE_LAT_ANG: 39
+  response: 76805622B0C0027
+- expected_values:
+    MACHE_LAT_ANG: 77
+  response: 76805622B0C004D
