@@ -1,0 +1,20 @@
+command_id: 7E2.7EA.22480B
+test_cases:
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 1.82
+  response: 7EA0562480B005B
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 10.08
+  response: 7EA0562480B01F8
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 23.08
+  response: 7EA0562480B0482
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 100.68
+  response: 7EA0562480B13AA
+- expected_values:
+    MACHE_HIGH_V_CURRENT: 140.02
+  response: 7EA0562480B1B59
+- expected_values:
+    MACHE_HIGH_V_CURRENT: -61.62
+  response: 7EA0562480BF3F7

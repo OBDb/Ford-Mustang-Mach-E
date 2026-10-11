@@ -1,5 +1,20 @@
 command_id: 760.768.222B09
 test_cases:
 - expected_values:
+    MACHE_RL_VSS: 4
+  response: 76804622B0904
+- expected_values:
     MACHE_RL_VSS: 16
   response: 76804622B0910
+- expected_values:
+    MACHE_RL_VSS: 33
+  response: 76804622B0921
+- expected_values:
+    MACHE_RL_VSS: 46
+  response: 76804622B092E
+- expected_values:
+    MACHE_RL_VSS: 53
+  response: 76804622B0935
+- expected_values:
+    MACHE_RL_VSS: 54
+  response: 76804622B0936
