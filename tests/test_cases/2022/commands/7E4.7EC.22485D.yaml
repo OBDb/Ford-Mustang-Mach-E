@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MACHE_BAT_PACK_LIFETIME: 198900
   response: 7EC0562485D4DB2
+- expected_values:
+    MACHE_BAT_PACK_LIFETIME: 198910
+  response: 7EC0562485D4DB3

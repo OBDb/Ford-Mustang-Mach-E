@@ -7,11 +7,26 @@ test_cases:
     MACHE_VEH_BAT_B_V: 12.85
   response: 72E046241E889
 - expected_values:
+    MACHE_VEH_BAT_B_V: 12.9
+  response: 72E046241E88A
+- expected_values:
     MACHE_VEH_BAT_B_V: 13.35
   response: 72E046241E893
+- expected_values:
+    MACHE_VEH_BAT_B_V: 13.4
+  response: 72E046241E894
 - expected_values:
     MACHE_VEH_BAT_B_V: 14.35
   response: 72E046241E8A7
 - expected_values:
     MACHE_VEH_BAT_B_V: 14.4
   response: 72E046241E8A8
+- expected_values:
+    MACHE_VEH_BAT_B_V: 14.7
+  response: 72E046241E8AE
+- expected_values:
+    MACHE_VEH_BAT_B_V: 14.75
+  response: 72E046241E8AF
+- expected_values:
+    MACHE_VEH_BAT_B_V: 14.8
+  response: 72E046241E8B0
