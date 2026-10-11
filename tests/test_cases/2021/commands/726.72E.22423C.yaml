@@ -4,8 +4,8 @@ test_cases:
     MACHE_VEH_BAT_B_CURRENT: 2.25
   response: 72E0562423C0048
 - expected_values:
-    MACHE_VEH_BAT_B_CURRENT: 4.21875
-  response: 72E0562423C0087
+    MACHE_VEH_BAT_B_CURRENT: 4.375
+  response: 72E0562423C008C
 - expected_values:
     MACHE_VEH_BAT_B_CURRENT: 9.375
   response: 72E0562423C012C

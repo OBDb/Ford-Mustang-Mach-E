@@ -4,5 +4,11 @@ test_cases:
     MACHE_CC_TGT_VSS: 0
   response: 76C0562A2240000
 - expected_values:
+    MACHE_CC_TGT_VSS: -82.8
+  response: 76C0562A224FF1A
+- expected_values:
+    MACHE_CC_TGT_VSS: -14.4
+  response: 76C0562A224FFD8
+- expected_values:
     MACHE_CC_TGT_VSS: -3.6
   response: 76C0562A224FFF6

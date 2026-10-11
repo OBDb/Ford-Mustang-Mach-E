@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     MACHE_YAW_RATE_SIG: 0
   response: 76805622B0B0000
+- expected_values:
+    MACHE_YAW_RATE_SIG: 0.8
+  response: 76805622B0B0004
+- expected_values:
+    MACHE_YAW_RATE_SIG: 8.4
+  response: 76805622B0B002A
+- expected_values:
+    MACHE_YAW_RATE_SIG: 22.8
+  response: 76805622B0B0072
+- expected_values:
+    MACHE_YAW_RATE_SIG: -0.4
+  response: 76805622B0BFFFE
