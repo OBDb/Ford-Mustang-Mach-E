@@ -1,0 +1,57 @@
+command_id: 726.72E.22280B
+test_cases:
+- expected_values:
+    MACHE_TYRE_T: 21
+  response: |-
+    72E100C62280B6B6B64
+    72E216E02BC3D058600
+- expected_values:
+    MACHE_TYRE_T: 23
+  response: |-
+    72E100C62280B6B6B64
+    72E216E02CB3F46CC00
+- expected_values:
+    MACHE_TYRE_T: 25
+  response: |-
+    72E100C62280B6B6B64
+    72E216E02CB414BD300
+- expected_values:
+    MACHE_TYRE_T: 27
+  response: |-
+    72E100C62280B6B6B64
+    72E216E02D54346D200
+- expected_values:
+    MACHE_TYRE_T: 28
+  response: |-
+    72E100C62280B6B6B64
+    72E216E02DF4446D500
+- expected_values:
+    MACHE_TYRE_T: 21
+  response: |-
+    72E100C62280B6B6B67
+    72E211702BC3D467300
+- expected_values:
+    MACHE_TYRE_T: 24
+  response: |-
+    72E100C62280B6B6B67
+    72E211702CB40467900
+- expected_values:
+    MACHE_TYRE_T: -40
+  response: |-
+    72E100C62280B6B6B67
+    72E211702D0004B3100
+- expected_values:
+    MACHE_TYRE_T: 26
+  response: |-
+    72E100C62280B6B6B67
+    72E211702D542467D00
+- expected_values:
+    MACHE_TYRE_T: 28
+  response: |-
+    72E100C62280B6B6B67
+    72E211702DF44054000
+- expected_values:
+    MACHE_TYRE_T: 25
+  response: |-
+    72E100C62280B6B6B77
+    72E21D502C641464700
