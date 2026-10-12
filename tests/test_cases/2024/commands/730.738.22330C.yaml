@@ -1,0 +1,8 @@
+command_id: 730.738.22330C
+test_cases:
+- expected_values:
+    MACHE_STEER_SHFT_TQ: -2.8
+  response: 7380462330C63
+- expected_values:
+    MACHE_STEER_SHFT_TQ: 2.5
+  response: 7380462330C98

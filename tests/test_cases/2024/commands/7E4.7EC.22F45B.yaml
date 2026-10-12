@@ -1,0 +1,17 @@
+command_id: 7E4.7EC.22F45B
+test_cases:
+- expected_values:
+    MACHE_HYBRID_BAT_PACK: 33.72549
+  response: 7EC0462F45B56
+- expected_values:
+    MACHE_HYBRID_BAT_PACK: 34.11765
+  response: 7EC0462F45B57
+- expected_values:
+    MACHE_HYBRID_BAT_PACK: 34.5098
+  response: 7EC0462F45B58
+- expected_values:
+    MACHE_HYBRID_BAT_PACK: 34.90196
+  response: 7EC0462F45B59
+- expected_values:
+    MACHE_HYBRID_BAT_PACK: 35.29412
+  response: 7EC0462F45B5A
