@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_HVB_CURRENT_LOW: -125
   response: 7EC0562480AE796
+- expected_values:
+    MACHE_HVB_CURRENT_LOW: -124.92
+  response: 7EC0562480AE79A

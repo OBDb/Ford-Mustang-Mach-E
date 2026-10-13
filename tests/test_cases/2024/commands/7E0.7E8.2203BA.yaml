@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2203BA
 test_cases:
 - expected_values:
-    MACHE_AAT_V: 2.80547
-  response: 7E8056203BA023E
+    MACHE_AAT_V: 2.61975
+  response: 7E8056203BA0218
 - expected_values:
     MACHE_AAT_V: 2.97654
   response: 7E8056203BA0261
