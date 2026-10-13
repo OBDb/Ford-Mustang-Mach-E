@@ -1,0 +1,26 @@
+command_id: 730.738.22330C
+test_cases:
+- expected_values:
+    MACHE_STEER_SHFT_TQ: -1.5
+  response: 7380462330C70
+- expected_values:
+    MACHE_STEER_SHFT_TQ: -1.1
+  response: 7380462330C74
+- expected_values:
+    MACHE_STEER_SHFT_TQ: -0.8
+  response: 7380462330C77
+- expected_values:
+    MACHE_STEER_SHFT_TQ: -0.7
+  response: 7380462330C78
+- expected_values:
+    MACHE_STEER_SHFT_TQ: -0.1
+  response: 7380462330C7E
+- expected_values:
+    MACHE_STEER_SHFT_TQ: 0.2
+  response: 7380462330C81
+- expected_values:
+    MACHE_STEER_SHFT_TQ: 0.8
+  response: 7380462330C87
+- expected_values:
+    MACHE_STEER_SHFT_TQ: 1
+  response: 7380462330C89

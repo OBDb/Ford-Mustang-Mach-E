@@ -1,0 +1,5 @@
+command_id: 7E6.7EE.224820
+test_cases:
+- expected_values:
+    MACHE_GEN_COIL_T_7E6: 367.2
+  response: 7EE0562482000CC
