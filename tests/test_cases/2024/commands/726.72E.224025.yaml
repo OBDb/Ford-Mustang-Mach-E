@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACHE_BAT_QUIESCENT: 42
   response: '72E056240250824'
+- expected_values:
+    MACHE_BAT_QUIESCENT: 45
+  response: 72E05624025082A

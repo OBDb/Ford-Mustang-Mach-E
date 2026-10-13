@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     MACHE_OUTDOOR_T_BCM: 23
   response: 7680462DD053F
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 24
+  response: 7680462DD0540
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 25
+  response: 7680462DD0541
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 26
+  response: 7680462DD0542
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 27
+  response: 7680462DD0543

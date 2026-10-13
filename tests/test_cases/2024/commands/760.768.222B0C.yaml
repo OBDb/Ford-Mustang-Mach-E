@@ -4,8 +4,8 @@ test_cases:
     MACHE_LAT_ANG: 0
   response: 76805622B0C0000
 - expected_values:
-    MACHE_LAT_ANG: -31
-  response: 76805622B0CFFE1
+    MACHE_LAT_ANG: -36
+  response: 76805622B0CFFDC
 - expected_values:
-    MACHE_LAT_ANG: -3
-  response: 76805622B0CFFFD
+    MACHE_LAT_ANG: -1
+  response: 76805622B0CFFFF
