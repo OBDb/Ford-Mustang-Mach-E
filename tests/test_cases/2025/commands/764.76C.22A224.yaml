@@ -1,0 +1,23 @@
+command_id: 764.76C.22A224
+test_cases:
+- expected_values:
+    MACHE_CC_TGT_VSS: 0
+  response: 76C0562A2240000
+- expected_values:
+    MACHE_CC_TGT_VSS: -54
+  response: 76C0562A224FF6A
+- expected_values:
+    MACHE_CC_TGT_VSS: -36
+  response: 76C0562A224FF9C
+- expected_values:
+    MACHE_CC_TGT_VSS: -21.6
+  response: 76C0562A224FFC4
+- expected_values:
+    MACHE_CC_TGT_VSS: -18
+  response: 76C0562A224FFCE
+- expected_values:
+    MACHE_CC_TGT_VSS: -7.2
+  response: 76C0562A224FFEC
+- expected_values:
+    MACHE_CC_TGT_VSS: -3.6
+  response: 76C0562A224FFF6

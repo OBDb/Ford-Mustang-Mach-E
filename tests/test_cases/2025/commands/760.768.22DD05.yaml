@@ -1,0 +1,8 @@
+command_id: 760.768.22DD05
+test_cases:
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 23
+  response: 7680462DD053F
+- expected_values:
+    MACHE_OUTDOOR_T_BCM: 24
+  response: 7680462DD0540

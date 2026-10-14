@@ -1,0 +1,29 @@
+command_id: 726.72E.224209
+test_cases:
+- expected_values:
+    MACHE_BAT_CURRENT: -107.75
+  response: 72E07624209FFFE51C0
+- expected_values:
+    MACHE_BAT_CURRENT: -107.25
+  response: 72E07624209FFFE5300
+- expected_values:
+    MACHE_BAT_CURRENT: -107.25
+  response: 72E07624209FFFE5360
+- expected_values:
+    MACHE_BAT_CURRENT: -107.25
+  response: 72E07624209FFFE53A0
+- expected_values:
+    MACHE_BAT_CURRENT: -106.25
+  response: 72E07624209FFFE5700
+- expected_values:
+    MACHE_BAT_CURRENT: -106
+  response: 72E07624209FFFE58A0
+- expected_values:
+    MACHE_BAT_CURRENT: -105.25
+  response: 72E07624209FFFE5B20
+- expected_values:
+    MACHE_BAT_CURRENT: -105
+  response: 72E07624209FFFE5C00
+- expected_values:
+    MACHE_BAT_CURRENT: -102.5
+  response: 72E07624209FFFE6680

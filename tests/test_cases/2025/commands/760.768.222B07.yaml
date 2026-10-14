@@ -1,0 +1,26 @@
+command_id: 760.768.222B07
+test_cases:
+- expected_values:
+    MACHE_FL_VSS: 1
+  response: 76804622B0701
+- expected_values:
+    MACHE_FL_VSS: 5
+  response: 76804622B0705
+- expected_values:
+    MACHE_FL_VSS: 6
+  response: 76804622B0706
+- expected_values:
+    MACHE_FL_VSS: 8
+  response: 76804622B0708
+- expected_values:
+    MACHE_FL_VSS: 22
+  response: 76804622B0716
+- expected_values:
+    MACHE_FL_VSS: 25
+  response: 76804622B0719
+- expected_values:
+    MACHE_FL_VSS: 40
+  response: 76804622B0728
+- expected_values:
+    MACHE_FL_VSS: 58
+  response: 76804622B073A

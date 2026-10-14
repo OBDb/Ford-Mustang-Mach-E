@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22032B
+test_cases:
+- expected_values:
+    MACHE_ACC_POS: 0
+  response: 7E80462032B00
+- expected_values:
+    MACHE_ACC_POS: 8
+  response: 7E80462032B10
+- expected_values:
+    MACHE_ACC_POS: 11
+  response: 7E80462032B16
+- expected_values:
+    MACHE_ACC_POS: 13
+  response: 7E80462032B1A
+- expected_values:
+    MACHE_ACC_POS: 14
+  response: 7E80462032B1C
+- expected_values:
+    MACHE_ACC_POS: 14.5
+  response: 7E80462032B1D
+- expected_values:
+    MACHE_ACC_POS: 19.5
+  response: 7E80462032B27
+- expected_values:
+    MACHE_ACC_POS: 23
+  response: 7E80462032B2E
+- expected_values:
+    MACHE_ACC_POS: 43.5
+  response: 7E80462032B57

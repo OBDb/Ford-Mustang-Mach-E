@@ -1,0 +1,29 @@
+command_id: 760.768.222B09
+test_cases:
+- expected_values:
+    MACHE_RL_VSS: 0
+  response: 76804622B0900
+- expected_values:
+    MACHE_RL_VSS: 3
+  response: 76804622B0903
+- expected_values:
+    MACHE_RL_VSS: 5
+  response: 76804622B0905
+- expected_values:
+    MACHE_RL_VSS: 6
+  response: 76804622B0906
+- expected_values:
+    MACHE_RL_VSS: 13
+  response: 76804622B090D
+- expected_values:
+    MACHE_RL_VSS: 21
+  response: 76804622B0915
+- expected_values:
+    MACHE_RL_VSS: 25
+  response: 76804622B0919
+- expected_values:
+    MACHE_RL_VSS: 38
+  response: 76804622B0926
+- expected_values:
+    MACHE_RL_VSS: 58
+  response: 76804622B093A
