@@ -4,26 +4,8 @@ test_cases:
     MACHE_SECONDARY_MOTOR_TQ_CMD: 0
   response: 7EF056248190000
 - expected_values:
-    MACHE_SECONDARY_MOTOR_TQ_CMD: 0.3
-  response: 7EF056248190003
+    MACHE_SECONDARY_MOTOR_TQ_CMD: -1.8
+  response: 7EF05624819FFEE
 - expected_values:
-    MACHE_SECONDARY_MOTOR_TQ_CMD: 1.4
-  response: 7EF05624819000E
-- expected_values:
-    MACHE_SECONDARY_MOTOR_TQ_CMD: 1.7
-  response: 7EF056248190011
-- expected_values:
-    MACHE_SECONDARY_MOTOR_TQ_CMD: 1.9
-  response: 7EF056248190013
-- expected_values:
-    MACHE_SECONDARY_MOTOR_TQ_CMD: 2.1
-  response: 7EF056248190015
-- expected_values:
-    MACHE_SECONDARY_MOTOR_TQ_CMD: 25.2
-  response: 7EF0562481900FC
-- expected_values:
-    MACHE_SECONDARY_MOTOR_TQ_CMD: 38.1
-  response: 7EF05624819017D
-- expected_values:
-    MACHE_SECONDARY_MOTOR_TQ_CMD: -78.2
-  response: 7EF05624819FCF2
+    MACHE_SECONDARY_MOTOR_TQ_CMD: -0.2
+  response: 7EF05624819FFFE
