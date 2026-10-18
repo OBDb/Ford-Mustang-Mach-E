@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACHE_SECONDARY_MOTOR_TQ_CMD: 0
   response: 7EF056248190000
+- expected_values:
+    MACHE_SECONDARY_MOTOR_TQ_CMD: 2.2
+  response: 7EF056248190016
+- expected_values:
+    MACHE_SECONDARY_MOTOR_TQ_CMD: 3.1
+  response: 7EF05624819001F
