@@ -4,8 +4,28 @@ test_cases:
     MACHE_SEC_MOTOR_TQ: 0
   response: 7EF0562481A0000
 - expected_values:
+    MACHE_SEC_MOTOR_TQ: 0.4
+  response: |-
+    7EF0562481A0004
+    7EF06410098180013
+- expected_values:
     MACHE_SEC_MOTOR_TQ: 25.5
   response: 7EF0562481A00FF
 - expected_values:
+    MACHE_SEC_MOTOR_TQ: -28.2
+  response: |-
+    7EF0562481AFEE6
+    7EF06410098180013
+- expected_values:
     MACHE_SEC_MOTOR_TQ: -25.6
   response: 7EF0562481AFF00
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: -55.2
+  response: |-
+    7EF06410098180013
+    7EF0562481AFDD8
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: -25.2
+  response: |-
+    7EF06410098180013
+    7EF0562481AFF04

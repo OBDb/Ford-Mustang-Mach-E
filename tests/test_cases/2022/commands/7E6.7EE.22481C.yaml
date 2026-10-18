@@ -9,13 +9,23 @@ test_cases:
     7EE0562481C0005
     7EE06410098180013
 - expected_values:
-    MACHE_PRI_MOTOR_TQ: 0.7
-  response: |-
-    7EE0562481C0007
-    7EE06410098180013
-- expected_values:
     MACHE_PRI_MOTOR_TQ: 25.5
   response: 7EE0562481C00FF
 - expected_values:
+    MACHE_PRI_MOTOR_TQ: -106
+  response: |-
+    7EE0562481CFBDC
+    7EE06410098180013
+- expected_values:
     MACHE_PRI_MOTOR_TQ: -25.6
   response: 7EE0562481CFF00
+- expected_values:
+    MACHE_PRI_MOTOR_TQ: -9.3
+  response: |-
+    7EE0562481CFFA3
+    7EE06410098180013
+- expected_values:
+    MACHE_PRI_MOTOR_TQ: -83.3
+  response: |-
+    7EE06410098180013
+    7EE0562481CFCBF

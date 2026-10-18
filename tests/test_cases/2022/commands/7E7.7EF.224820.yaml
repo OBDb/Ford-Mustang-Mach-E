@@ -4,5 +4,15 @@ test_cases:
     MACHE_SEC_MOTOR_COIL_T: 0
   response: 7EF056248200000
 - expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 51
+  response: |-
+    7EF056248200033
+    7EF06410098180013
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 52
+  response: |-
+    7EF056248200034
+    7EF06410098180013
+- expected_values:
     MACHE_SEC_MOTOR_COIL_T: -3
   response: 7EF05624820FFFD
