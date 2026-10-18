@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MACHE_NORM_CUM_DCHG_BAT_OFF: 100.9
   response: 72E0562402603F1
+- expected_values:
+    MACHE_NORM_CUM_DCHG_BAT_OFF: 101.4
+  response: 72E0562402603F6
