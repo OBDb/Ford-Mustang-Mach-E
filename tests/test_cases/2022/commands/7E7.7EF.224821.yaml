@@ -12,13 +12,18 @@ test_cases:
     MACHE_SEC_MOTOR_RPM: 1279
   response: 7EF0562482104FF
 - expected_values:
-    MACHE_SEC_MOTOR_RPM: 3529
+    MACHE_SEC_MOTOR_RPM: 3834
   response: |-
-    7EF056248210DC9
+    7EF056248210EFA
     7EF06410098180013
 - expected_values:
     MACHE_SEC_MOTOR_RPM: -245
   response: 7EF05624821FF0B
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 1592
+  response: |-
+    7EF06410098180013
+    7EF056248210638
 - expected_values:
     MACHE_SEC_MOTOR_RPM: 2414
   response: |-

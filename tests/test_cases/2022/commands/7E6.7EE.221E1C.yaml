@@ -7,5 +7,15 @@ test_cases:
     MACHE_TT: 31.9375
   response: 7EE05621E1C01FF
 - expected_values:
+    MACHE_TT: 41.5
+  response: |-
+    7EE05621E1C0298
+    7EE06410098180013
+- expected_values:
+    MACHE_TT: 44.6875
+  response: |-
+    7EE05621E1C02CB
+    7EE06410098180013
+- expected_values:
     MACHE_TT: -6.25
   response: 7EE05621E1CFF9C
