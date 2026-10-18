@@ -4,9 +4,9 @@ test_cases:
     MACHE_PRI_MOTOR_INV_T: 20
   response: 7EE056248240014
 - expected_values:
-    MACHE_PRI_MOTOR_INV_T: 46
+    MACHE_PRI_MOTOR_INV_T: 35
   response: |-
-    7EE05624824002E
+    7EE056248240023
     7EE06410098180013
 - expected_values:
     MACHE_PRI_MOTOR_INV_T: 55

@@ -22,22 +22,6 @@ test_cases:
     7EC06410098180003
 - expected_values:
     MACHE_T_RANGE: 8
-    MACHE_T_RANGE_AVG: 10
-    MACHE_T_RANGE_MAX: 16
-    MACHE_T_RANGE_MIN: 8
-  response: |-
-    7EC07624808423A3A3C
-    7EC06410098180003
-- expected_values:
-    MACHE_T_RANGE: 8
-    MACHE_T_RANGE_AVG: 10
-    MACHE_T_RANGE_MAX: 17
-    MACHE_T_RANGE_MIN: 8
-  response: |-
-    7EC07624808433A3A3C
-    7EC06410098180003
-- expected_values:
-    MACHE_T_RANGE: 8
     MACHE_T_RANGE_AVG: 11
     MACHE_T_RANGE_MAX: 17
     MACHE_T_RANGE_MIN: 8
@@ -48,8 +32,16 @@ test_cases:
     MACHE_T_RANGE: 9
     MACHE_T_RANGE_AVG: 11
     MACHE_T_RANGE_MAX: 18
+    MACHE_T_RANGE_MIN: 8
+  response: 7EC07624808443A3B3D
+- expected_values:
+    MACHE_T_RANGE: 9
+    MACHE_T_RANGE_AVG: 11
+    MACHE_T_RANGE_MAX: 18
     MACHE_T_RANGE_MIN: 9
-  response: 7EC07624808443B3B3D
+  response: |-
+    7EC07624808443B3B3D
+    7EC06410098180003
 - expected_values:
     MACHE_T_RANGE: 8
     MACHE_T_RANGE_AVG: 23

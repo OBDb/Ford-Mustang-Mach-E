@@ -17,9 +17,9 @@ test_cases:
     7E80562150503FC
     7E8064100AA082013
 - expected_values:
-    MACHE_VSS_HD: 77.76562
+    MACHE_VSS_HD: 87.63281
   response: |-
-    7E80562150526E2
+    7E8056215052BD1
     7E8064100AA082013
 - expected_values:
     MACHE_VSS_HD: 143.98438
