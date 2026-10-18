@@ -4,20 +4,20 @@ test_cases:
     MACHE_PRI_MOTOR_INV_V: 1
   response: 7EE0562481D000A
 - expected_values:
+    MACHE_PRI_MOTOR_INV_V: 326.1
+  response: |-
+    7EE0562481D0CBD
+    7EE06410098180013
+- expected_values:
     MACHE_PRI_MOTOR_INV_V: 332.7
   response: 7EE0562481D0CFF
 - expected_values:
     MACHE_PRI_MOTOR_INV_V: 332.8
   response: 7EE0562481D0D00
 - expected_values:
-    MACHE_PRI_MOTOR_INV_V: 339
+    MACHE_PRI_MOTOR_INV_V: 333.2
   response: |-
-    7EE0562481D0D3E
-    7EE06410098180013
-- expected_values:
-    MACHE_PRI_MOTOR_INV_V: 339.1
-  response: |-
-    7EE0562481D0D3F
+    7EE0562481D0D04
     7EE06410098180013
 - expected_values:
     MACHE_PRI_MOTOR_INV_V: 384
