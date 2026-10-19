@@ -7,6 +7,26 @@ test_cases:
     MACHE_CHRG_STATE: NOT_READY
   response: |-
     7EC0462484F00
+    7EC03410400
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC05624801B05E
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC056248F90037
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC056248F9FFEC
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
     7EC06410098180003
 - expected_values:
     MACHE_CHRG_STATE: READY
