@@ -29,6 +29,14 @@ test_cases:
     7EC07624808433A3A3D
     7EC06410098180003
 - expected_values:
+    MACHE_T_RANGE: 4
+    MACHE_T_RANGE_AVG: 14
+    MACHE_T_RANGE_MAX: 17
+    MACHE_T_RANGE_MIN: 13
+  response: |-
+    7EC07624808433F3640
+    7EC04410C0000
+- expected_values:
     MACHE_T_RANGE: 9
     MACHE_T_RANGE_AVG: 11
     MACHE_T_RANGE_MAX: 18

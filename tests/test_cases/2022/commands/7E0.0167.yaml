@@ -9,6 +9,55 @@ test_cases:
 - expected_values:
     ECT_1: 15
     ECT_1_SUP: 1
+    ECT_2: 27
+    ECT_2_SUP: 1
+  response: |-
+    7E8054167033743
+    7E80441440000
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
+    ECT_2: 32
+    ECT_2_SUP: 1
+  response: |-
+    7E8054167033748
+    7E8056215050CEF
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
+    ECT_2: 33
+    ECT_2_SUP: 1
+  response: |-
+    7E8054167033749
+    7E80641A6001D26C4
+    7E80441440000
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
+    ECT_2: 37
+    ECT_2_SUP: 1
+  response: |-
+    7E805416703374D
+    7E803410537
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
+    ECT_2: 38
+    ECT_2_SUP: 1
+  response: |-
+    7E805416703374E
+    7E8056215051942
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
+    ECT_2: 39
+    ECT_2_SUP: 1
+  response: |-
+    7E805416703374F
+    7E80641A6001D26AD
+- expected_values:
+    ECT_1: 15
+    ECT_1_SUP: 1
     ECT_2: 55
     ECT_2_SUP: 1
   response: 7E805416703375F
