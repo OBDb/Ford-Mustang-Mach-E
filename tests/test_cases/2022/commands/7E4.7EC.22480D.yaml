@@ -37,5 +37,45 @@ test_cases:
     7EF0562480D8E30
     7EE0562480D8E30
 - expected_values:
+    MACHE_HVBAT_V: 377.54
+  response: |-
+    7EC0562480D937A
+    7EC03410400
+- expected_values:
+    MACHE_HVBAT_V: 379.13
+  response: |-
+    7EC0562480D9419
+    7EC03410400
+- expected_values:
+    MACHE_HVBAT_V: 380.96
+  response: |-
+    7EC0562480D94D0
+    7EC04410C0000
+- expected_values:
+    MACHE_HVBAT_V: 382.67
+  response: |-
+    7EC0562480D957B
+    7EC05624801B000
+- expected_values:
+    MACHE_HVBAT_V: 383.28
+  response: |-
+    7EC0562480D9594
+    7EC0562480D95B8
+- expected_values:
+    MACHE_HVBAT_V: 383.04
+  response: |-
+    7EC0562480D95A0
+    7EC04410C0000
+- expected_values:
+    MACHE_HVBAT_V: 383.53
+  response: |-
+    7EC0562480D95D1
+    7EC056248F9FE8A
+- expected_values:
+    MACHE_HVBAT_V: 387.44
+  response: |-
+    7EC0562480D9758
+    7EC056248F9FAC8
+- expected_values:
     MACHE_HVBAT_V: 399.42
   response: 7EC0562480D9C06

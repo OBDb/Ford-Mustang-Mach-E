@@ -20,5 +20,20 @@ test_cases:
     MACHE_HVBAT_SOC: 24.064
   response: 7EC056248012F00
 - expected_values:
+    MACHE_HVBAT_SOC: 89.582
+  response: |-
+    7EC05624801AEF7
+    7EC056248F90469
+- expected_values:
+    MACHE_HVBAT_SOC: 89.618
+  response: |-
+    7EC05624801AF09
+    7EC03410400
+- expected_values:
+    MACHE_HVBAT_SOC: 90.45
+  response: |-
+    7EC05624801B0A9
+    7EC03410400
+- expected_values:
     MACHE_HVBAT_SOC: 96.256
   response: 7EC05624801BC00

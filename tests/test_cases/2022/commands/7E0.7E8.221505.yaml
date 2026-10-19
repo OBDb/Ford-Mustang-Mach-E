@@ -2,7 +2,22 @@ command_id: 7E0.7E8.221505
 test_cases:
 - expected_values:
     MACHE_VSS_HD: 0
+  response: |-
+    7E803410537
+    7E8056215050000
+- expected_values:
+    MACHE_VSS_HD: 0
   response: '7E8056215050000'
+- expected_values:
+    MACHE_VSS_HD: 0
+  response: |-
+    7E8056215050000
+    7E80441440000
+- expected_values:
+    MACHE_VSS_HD: 0
+  response: |-
+    7E8056215050000
+    7E8056215050000
 - expected_values:
     MACHE_VSS_HD: 0
   response: |-
@@ -12,10 +27,41 @@ test_cases:
     MACHE_VSS_HD: 1.99219
   response: 7E80562150500FF
 - expected_values:
+    MACHE_VSS_HD: 2.64844
+  response: |-
+    7E8056215050179
+    7E80441440000
+    7E8056215050153
+- expected_values:
     MACHE_VSS_HD: 7.96875
   response: |-
     7E80562150503FC
     7E8064100AA082013
+- expected_values:
+    MACHE_VSS_HD: 21.78125
+  response: |-
+    7E8056215050AE4
+    7E8056215050AE4
+- expected_values:
+    MACHE_VSS_HD: 50.94531
+  response: |-
+    7E8056215051979
+    7E803410537
+- expected_values:
+    MACHE_VSS_HD: 59.49219
+  response: |-
+    7E8056215051DBF
+    7E803410537
+- expected_values:
+    MACHE_VSS_HD: 71.09375
+  response: |-
+    7E805621505238C
+    7E80441440000
+- expected_values:
+    MACHE_VSS_HD: 80.94531
+  response: |-
+    7E8056215052879
+    7E803410537
 - expected_values:
     MACHE_VSS_HD: 87.63281
   response: |-
