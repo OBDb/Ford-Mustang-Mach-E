@@ -25,6 +25,31 @@ test_cases:
     7EC056248485B07
     7EC06410098180003
 - expected_values:
+    MACHE_HVBAT_KWH: 70.478
+  response: |-
+    7EC0562484889A7
+    7EC05624801A3EB
+    7EC056248F9FE74
+    7EC03410400
+    7EC0562480D9279
+- expected_values:
+    MACHE_HVBAT_KWH: 71.568
+  response: |-
+    7EC056248488BC8
+    7EC056248F9FE05
+    7EC05624801A63A
+    7EC03410400
+- expected_values:
+    MACHE_HVBAT_KWH: 71.71
+  response: |-
+    7EC056248488C0F
+    7EC04410C0000
+- expected_values:
+    MACHE_HVBAT_KWH: 73.286
+  response: |-
+    7EC056248488F23
+    7EC04410C0000
+- expected_values:
     MACHE_HVBAT_KWH: 76.048
   response: |-
     7EC056248489488
