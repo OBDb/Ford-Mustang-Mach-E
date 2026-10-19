@@ -11,8 +11,8 @@ test_cases:
     2228141
     72E0562281402A0
 - expected_values:
-    MACHE_TP_FR: 29.4
-  response: 72E05622814024C
+    MACHE_TP_FR: 29.3
+  response: 72E05622814024A
 - expected_values:
     MACHE_TP_FR: 38.35
   response: 72E0562281402FF
