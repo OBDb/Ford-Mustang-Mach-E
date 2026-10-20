@@ -14,6 +14,12 @@ test_cases:
   response: 7EC0762480845433344
 - expected_values:
     MACHE_T_RANGE: 2
+    MACHE_T_RANGE_AVG: 19
+    MACHE_T_RANGE_MAX: 21
+    MACHE_T_RANGE_MIN: 19
+  response: 7EC0762480847453445
+- expected_values:
+    MACHE_T_RANGE: 2
     MACHE_T_RANGE_AVG: 23
     MACHE_T_RANGE_MAX: 25
     MACHE_T_RANGE_MIN: 22

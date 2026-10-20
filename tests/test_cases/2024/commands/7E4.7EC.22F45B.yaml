@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     MACHE_HYBRID_BAT_PACK: 35.29412
   response: 7EC0462F45B5A
+- expected_values:
+    MACHE_HYBRID_BAT_PACK: 82.35294
+  response: 7EC0462F45BD2

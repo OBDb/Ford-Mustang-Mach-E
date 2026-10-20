@@ -4,5 +4,5 @@ test_cases:
     MACHE_HIGH_V_AC_CHARGER_T: 75.2
   response: 7EA0462D11740
 - expected_values:
-    MACHE_HIGH_V_AC_CHARGER_T: 95
-  response: 7EA0462D1174B
+    MACHE_HIGH_V_AC_CHARGER_T: 105.8
+  response: 7EA0462D11751
