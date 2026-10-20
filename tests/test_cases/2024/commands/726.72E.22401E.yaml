@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MACHE_NORM_CUM_CHG_IGN_ON: 52.7
   response: 72E0562401E020F
+- expected_values:
+    MACHE_NORM_CUM_CHG_IGN_ON: 87.1
+  response: 72E0562401E0367
