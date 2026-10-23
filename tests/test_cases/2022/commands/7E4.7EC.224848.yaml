@@ -39,6 +39,11 @@ test_cases:
     7EC056248485B07
     7EC06410098180003
 - expected_values:
+    MACHE_HVBAT_KWH: 51.064
+  response: |-
+    7EC0562484863BC
+    7EC06410098180003
+- expected_values:
     MACHE_HVBAT_KWH: 70.478
   response: |-
     7EC0562484889A7
