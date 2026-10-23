@@ -84,3 +84,8 @@ test_cases:
   response: |-
     7EC06410098180003
     7EC056248F90276
+- expected_values:
+    MACHE_HVBAT_A: 450.9
+  response: |-
+    7EC06410098180003
+    7EC056248F9119D
