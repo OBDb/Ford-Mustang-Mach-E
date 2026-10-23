@@ -9,11 +9,6 @@ test_cases:
     72E0562281302D2
     72E0562281402DC
 - expected_values:
-    MACHE_TP_FL: 36.6
-  response: |-
-    72E0562281302DC
-    72E0562281402E6
-- expected_values:
     MACHE_TP_FL: 37.05
   response: |-
     72E0562281302E5
@@ -29,6 +24,11 @@ test_cases:
 - expected_values:
     MACHE_TP_FL: 38.4
   response: '72E056228130300'
+- expected_values:
+    MACHE_TP_FL: 38.75
+  response: |-
+    72E056228130307
+    72E05622814030C
 - expected_values:
     MACHE_TP_FL: 51.2
   response: '72E056228130400'
