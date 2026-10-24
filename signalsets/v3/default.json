@@ -747,7 +747,7 @@
   ]},
 { "hdr": "7E6", "rax": "7EE", "cmd": {"22": "4820"}, "freq": 5, "dbgfilter": { "from": 2026 },
   "signals": [
-    {"id": "MACHE_GEN_COIL_T_7E6", "path": "Engine", "fmt": { "len": 16, "max": 58980, "min": -58982, "mul": 9, "div": 5, "sign": true, "unit": "celsius" }, "name": "Generator coil temperature"}
+    {"id": "MACHE_GEN_COIL_T_7E6", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Generator coil temperature raw"}
   ]},
 { "hdr": "7E6", "rax": "7EE", "cmd": {"22": "4824"}, "freq": 5, "dbgfilter": { "from": 2026 },
   "signals": [
