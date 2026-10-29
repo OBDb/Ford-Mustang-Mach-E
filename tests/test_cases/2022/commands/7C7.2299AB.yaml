@@ -7,5 +7,5 @@ test_cases:
     MACHE_AC_COMP_A: 3.90027
   response: 7CF056299AB04FE
 - expected_values:
-    MACHE_AC_COMP_A: 5.60015
-  response: 7CF056299AB072B
+    MACHE_AC_COMP_A: 6.29902
+  response: 7CF056299AB0810
