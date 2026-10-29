@@ -14,8 +14,8 @@ test_cases:
     7EF0562481E003D
     7EF06410098180013
 - expected_values:
-    MACHE_SEC_MOTOR_INV_T: 66
-  response: 7EF0562481E0042
+    MACHE_SEC_MOTOR_INV_T: 69
+  response: 7EF0562481E0045
 - expected_values:
     MACHE_SEC_MOTOR_INV_T: 54
   response: |-
