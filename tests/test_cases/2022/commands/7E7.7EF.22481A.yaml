@@ -65,6 +65,11 @@ test_cases:
     7EF0562481AFFFB
     7EF06410098180013
 - expected_values:
+    MACHE_SEC_MOTOR_TQ: -0.3
+  response: |-
+    7EF0562481AFFFD
+    7EF03410D00
+- expected_values:
     MACHE_SEC_MOTOR_TQ: 69.5
   response: |-
     7EF06410098180013
