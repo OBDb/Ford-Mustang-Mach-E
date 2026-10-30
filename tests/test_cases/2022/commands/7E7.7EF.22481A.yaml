@@ -4,13 +4,48 @@ test_cases:
     MACHE_SEC_MOTOR_TQ: 0
   response: 7EF0562481A0000
 - expected_values:
+    MACHE_SEC_MOTOR_TQ: 0.1
+  response: |-
+    7EF0562481A0001
+    7EF03410D00
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: 0.4
+  response: |-
+    7EF0562481A0003
+    7EF0562481A0004
+- expected_values:
     MACHE_SEC_MOTOR_TQ: 0.4
   response: |-
     7EF0562481A0004
     7EF06410098180013
 - expected_values:
+    MACHE_SEC_MOTOR_TQ: 2.9
+  response: |-
+    7EF0562481A001D
+    7EF03410D57
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: 22.1
+  response: |-
+    7EF0562481A00DD
+    7EF03410D1F
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: 24
+  response: |-
+    7EF0562481A00F5
+    7EF0562481A00F0
+- expected_values:
     MACHE_SEC_MOTOR_TQ: 25.5
   response: 7EF0562481A00FF
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: -62.5
+  response: |-
+    7EF0562481AFD91
+    7EF0562481AFD8F
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: -31.7
+  response: |-
+    7EF0562481AFEDC
+    7EF0562481AFEC3
 - expected_values:
     MACHE_SEC_MOTOR_TQ: -25.6
   response: 7EF0562481AFF00
@@ -19,6 +54,11 @@ test_cases:
   response: |-
     7EF0562481AFF6A
     7EF06410098180013
+- expected_values:
+    MACHE_SEC_MOTOR_TQ: -5.9
+  response: |-
+    7EF0562481AFFC5
+    7EF03410D25
 - expected_values:
     MACHE_SEC_MOTOR_TQ: -0.5
   response: |-

@@ -12,6 +12,11 @@ test_cases:
     MACHE_VSS_HD: 0
   response: |-
     7E8056215050000
+    7E803410D00
+- expected_values:
+    MACHE_VSS_HD: 0
+  response: |-
+    7E8056215050000
     7E80441440000
 - expected_values:
     MACHE_VSS_HD: 0
@@ -39,6 +44,11 @@ test_cases:
     7E80441440000
     7E8056215050153
 - expected_values:
+    MACHE_VSS_HD: 7.75781
+  response: |-
+    7E80562150503E1
+    7E803410D07
+- expected_values:
     MACHE_VSS_HD: 7.96875
   response: |-
     7E80562150503FC
@@ -56,16 +66,6 @@ test_cases:
     7E8056215050AE4
     7E8056215050AE4
 - expected_values:
-    MACHE_VSS_HD: 40.08594
-  response: |-
-    7E805621505140B
-    7E803410537
-- expected_values:
-    MACHE_VSS_HD: 59.49219
-  response: |-
-    7E8056215051DBF
-    7E803410537
-- expected_values:
     MACHE_VSS_HD: 68.28906
   response: |-
     7E8056215052219
@@ -82,15 +82,25 @@ test_cases:
     7E805621505275D
     7E805621505275C
 - expected_values:
-    MACHE_VSS_HD: 80.94531
+    MACHE_VSS_HD: 80.83594
   response: |-
-    7E8056215052879
-    7E803410537
+    7E805621505286B
+    7E803410D50
+- expected_values:
+    MACHE_VSS_HD: 87.3125
+  response: |-
+    7E8056215052BA8
+    7E803410D57
 - expected_values:
     MACHE_VSS_HD: 87.63281
   response: |-
     7E8056215052BD1
     7E8064100AA082013
+- expected_values:
+    MACHE_VSS_HD: 87.96875
+  response: |-
+    7E8056215052BFC
+    7E803410D57
 - expected_values:
     MACHE_VSS_HD: 143.98438
   response: 7E80562150547FE

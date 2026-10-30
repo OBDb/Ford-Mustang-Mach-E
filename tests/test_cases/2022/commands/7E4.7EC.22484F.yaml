@@ -12,6 +12,49 @@ test_cases:
     MACHE_CHRG_STATE: NOT_READY
   response: |-
     7EC0462484F00
+    7EC03410D00
+    7EC0562484865AF
+    7EC056248F9004E
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC03410D0D
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC03410D2E
+    7EC056248487466
+    7EC056248F900DC
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC03410D45
+    7EC05624848692C
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC03410D50
+    7EC0562484872B8
+    7EC056248F9FE80
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC03410D51
+    7EC0562484869D7
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC03410D56
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
     7EC04410C0000
 - expected_values:
     MACHE_CHRG_STATE: NOT_READY
@@ -28,12 +71,17 @@ test_cases:
     MACHE_CHRG_STATE: NOT_READY
   response: |-
     7EC0462484F00
-    7EC056248F90037
+    7EC056248F9000E
 - expected_values:
     MACHE_CHRG_STATE: NOT_READY
   response: |-
     7EC0462484F00
     7EC056248F9008F
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0462484F00
+    7EC056248F9FEF2
 - expected_values:
     MACHE_CHRG_STATE: NOT_READY
   response: |-
@@ -47,6 +95,16 @@ test_cases:
 - expected_values:
     MACHE_CHRG_STATE: CHARGING
   response: 7EC0462484F05
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC0562484874B9
+    7EC0462484F00
+- expected_values:
+    MACHE_CHRG_STATE: NOT_READY
+  response: |-
+    7EC056248F90038
+    7EC0462484F00
 - expected_values:
     MACHE_CHRG_STATE: NOT_READY
   response: |-

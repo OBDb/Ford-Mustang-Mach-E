@@ -1,6 +1,11 @@
 command_id: 7E0.7E8.220580
 test_cases:
 - expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 13.33333
+  response: |-
+    7E803410D17
+    7E80462058022
+- expected_values:
     MACHE_GRILL_SHUTTER_POSITION: 0
   response: |-
     7E80441440000
@@ -17,6 +22,16 @@ test_cases:
     MACHE_GRILL_SHUTTER_POSITION: 0
   response: |-
     7E80462058000
+    7E803410D4F
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 0
+  response: |-
+    7E80462058000
+    7E803410D53
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 0
+  response: |-
+    7E80462058000
     7E8056215051616
 - expected_values:
     MACHE_GRILL_SHUTTER_POSITION: 0
@@ -28,6 +43,11 @@ test_cases:
   response: |-
     7E80462058011
     7E8064100AA082013
+- expected_values:
+    MACHE_GRILL_SHUTTER_POSITION: 60
+  response: |-
+    7E80462058099
+    7E803410D00
 - expected_values:
     MACHE_GRILL_SHUTTER_POSITION: 100
   response: 7E804620580FF

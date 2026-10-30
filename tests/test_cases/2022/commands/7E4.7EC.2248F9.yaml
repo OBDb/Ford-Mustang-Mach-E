@@ -1,6 +1,12 @@
 command_id: 7E4.7EC.2248F9
 test_cases:
 - expected_values:
+    MACHE_HVBAT_A: 40.2
+  response: |-
+    7EC03410D52
+    7EC056248486931
+    7EC056248F90192
+- expected_values:
     MACHE_HVBAT_A: 0
   response: 7EC056248F90000
 - expected_values:
@@ -13,6 +19,21 @@ test_cases:
   response: |-
     7EC056248F90008
     7EC06410098180003
+- expected_values:
+    MACHE_HVBAT_A: 2.5
+  response: |-
+    7EC056248F90019
+    7EC056248F90019
+- expected_values:
+    MACHE_HVBAT_A: 3.4
+  response: |-
+    7EC056248F90022
+    7EC0562484875FF
+- expected_values:
+    MACHE_HVBAT_A: 5.3
+  response: |-
+    7EC056248F90035
+    7EC056248486640
 - expected_values:
     MACHE_HVBAT_A: 7.8
   response: |-
@@ -28,11 +49,6 @@ test_cases:
     7EC056248F90090
     7EC05624801A367
 - expected_values:
-    MACHE_HVBAT_A: 14.6
-  response: |-
-    7EC056248F90092
-    7EC03410400
-- expected_values:
     MACHE_HVBAT_A: 18.7
   response: |-
     7EC056248F900BB
@@ -41,15 +57,38 @@ test_cases:
     MACHE_HVBAT_A: 25.5
   response: 7EC056248F900FF
 - expected_values:
-    MACHE_HVBAT_A: 44.8
+    MACHE_HVBAT_A: 61.2
   response: |-
-    7EC056248F901C0
-    7EC0562480D94AC
+    7EC056248F90264
+    7EC03410D56
+- expected_values:
+    MACHE_HVBAT_A: 64.4
+  response: |-
+    7EC056248F90284
+    7EC03410D42
+    7EC0562484868B5
 - expected_values:
     MACHE_HVBAT_A: 72.1
   response: |-
     7EC056248F902D1
     7EC0462484F00
+- expected_values:
+    MACHE_HVBAT_A: 72.6
+  response: |-
+    7EC056248F902D6
+    7EC056248486E77
+- expected_values:
+    MACHE_HVBAT_A: 75.8
+  response: |-
+    7EC056248F902EE
+    7EC056248F902F6
+- expected_values:
+    MACHE_HVBAT_A: 60
+  response: |-
+    7EC056248F903B2
+    7EC03410D44
+    7EC05624848692C
+    7EC056248F90258
 - expected_values:
     MACHE_HVBAT_A: 117
   response: |-
@@ -72,8 +111,23 @@ test_cases:
     7EC056248F9FDF3
     7EC06410098180003
 - expected_values:
+    MACHE_HVBAT_A: -46.1
+  response: |-
+    7EC056248F9FE48
+    7EC056248F9FE33
+- expected_values:
+    MACHE_HVBAT_A: -29.8
+  response: |-
+    7EC056248F9FED6
+    7EC03410D4A
+- expected_values:
     MACHE_HVBAT_A: -25.6
   response: 7EC056248F9FF00
+- expected_values:
+    MACHE_HVBAT_A: -19.1
+  response: |-
+    7EC056248F9FF41
+    7EC03410D2C
 - expected_values:
     MACHE_HVBAT_A: -15.6
   response: |-

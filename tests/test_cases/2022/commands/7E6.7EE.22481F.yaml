@@ -1,13 +1,53 @@
 command_id: 7E6.7EE.22481F
 test_cases:
 - expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 36
+  response: |-
+    7EE0562481C0040
+    7EE0562481F0024
+- expected_values:
     MACHE_PRI_MOTOR_COIL_T: 14
   response: 7EE0562481F000E
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 29
+  response: |-
+    7EE0562481F001D
+    7EE03410D25
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 30
+  response: |-
+    7EE0562481F001E
+    7EE0562481C0291
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 36
+  response: |-
+    7EE0562481F0024
+    7EE03410D4F
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 36
+  response: |-
+    7EE0562481F0024
+    7EE03410D57
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 38
+  response: |-
+    7EE0562481F0026
+    7EE03410D57
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 43
+  response: |-
+    7EE0562481F002B
+    7EE0562481C0003
 - expected_values:
     MACHE_PRI_MOTOR_COIL_T: 43
   response: |-
     7EE0562481F002B
     7EE06410098180013
+- expected_values:
+    MACHE_PRI_MOTOR_COIL_T: 46
+  response: |-
+    7EE0562481F002E
+    7EE0562481CFFFF
 - expected_values:
     MACHE_PRI_MOTOR_COIL_T: 53
   response: |-

@@ -1,8 +1,33 @@
 command_id: 7E7.7EF.224821
 test_cases:
 - expected_values:
+    MACHE_SEC_MOTOR_RPM: 1050
+  response: |-
+    7EF03410D0F
+    7EF05624821041A
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 5921
+  response: |-
+    7EF03410D57
+    7EF056248211721
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 0
+  response: |-
+    7EF0562481AFFFD
+    7EF056248210000
+- expected_values:
     MACHE_SEC_MOTOR_RPM: 0
   response: 7EF056248210000
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 0
+  response: |-
+    7EF056248210000
+    7EF03410D00
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 0
+  response: |-
+    7EF056248210000
+    7EF0562481A0000
 - expected_values:
     MACHE_SEC_MOTOR_RPM: 0
   response: |-
@@ -12,10 +37,30 @@ test_cases:
     MACHE_SEC_MOTOR_RPM: 1279
   response: 7EF0562482104FF
 - expected_values:
+    MACHE_SEC_MOTOR_RPM: 1924
+  response: |-
+    7EF056248210784
+    7EF0562481A023D
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 2082
+  response: |-
+    7EF056248210822
+    7EF03410D1F
+- expected_values:
     MACHE_SEC_MOTOR_RPM: 3834
   response: |-
     7EF056248210EFA
     7EF06410098180013
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 5885
+  response: |-
+    7EF0562482116FD
+    7EF03410D56
+- expected_values:
+    MACHE_SEC_MOTOR_RPM: 5901
+  response: |-
+    7EF05624821170D
+    7EF03410D57
 - expected_values:
     MACHE_SEC_MOTOR_RPM: -248
   response: 7EF05624821FF08

@@ -1,6 +1,11 @@
 command_id: 7E4.7EC.224848
 test_cases:
 - expected_values:
+    MACHE_HVBAT_KWH: 52.232
+  response: |-
+    7EC03410D1B
+    7EC056248486604
+- expected_values:
     MACHE_HVBAT_KWH: 4.98
   response: 7EC0562484809BA
 - expected_values:
@@ -43,6 +48,110 @@ test_cases:
   response: |-
     7EC0562484863BC
     7EC06410098180003
+- expected_values:
+    MACHE_HVBAT_KWH: 52.038
+  response: |-
+    7EC0562484865A3
+    7EC03410D00
+    7EC0562484865A3
+- expected_values:
+    MACHE_HVBAT_KWH: 52.118
+  response: |-
+    7EC0562484865CB
+    7EC056248F90031
+- expected_values:
+    MACHE_HVBAT_KWH: 52.304
+  response: |-
+    7EC056248486628
+    7EC056248486628
+- expected_values:
+    MACHE_HVBAT_KWH: 52.536
+  response: |-
+    7EC05624848669C
+    7EC03410D0A
+- expected_values:
+    MACHE_HVBAT_KWH: 52.544
+  response: |-
+    7EC0562484866A0
+    7EC0562484866A0
+- expected_values:
+    MACHE_HVBAT_KWH: 53.414
+  response: |-
+    7EC056248486853
+    7EC056248F9FEB7
+- expected_values:
+    MACHE_HVBAT_KWH: 53.784
+  response: |-
+    7EC05624848690C
+    7EC03410D53
+    7EC05624848690C
+    7EC056248F90082
+- expected_values:
+    MACHE_HVBAT_KWH: 53.882
+  response: |-
+    7EC05624848693D
+    7EC056248F9FEE7
+- expected_values:
+    MACHE_HVBAT_KWH: 53.888
+  response: |-
+    7EC056248486940
+    7EC03410D4F
+    7EC056248486940
+- expected_values:
+    MACHE_HVBAT_KWH: 56.004
+  response: |-
+    7EC056248486D62
+    7EC03410D56
+    7EC056248486D62
+    7EC056248F901C7
+- expected_values:
+    MACHE_HVBAT_KWH: 56.334
+  response: |-
+    7EC056248486E07
+    7EC03410D58
+    7EC056248486E07
+    7EC056248F902AD
+- expected_values:
+    MACHE_HVBAT_KWH: 56.996
+  response: |-
+    7EC056248486F52
+    7EC03410D51
+- expected_values:
+    MACHE_HVBAT_KWH: 58.682
+  response: |-
+    7EC05624848729D
+    7EC03410D4C
+- expected_values:
+    MACHE_HVBAT_KWH: 59.026
+  response: |-
+    7EC056248487349
+    7EC03410D56
+    7EC056248487349
+- expected_values:
+    MACHE_HVBAT_KWH: 59.384
+  response: |-
+    7EC0562484873FC
+    7EC056248F90199
+- expected_values:
+    MACHE_HVBAT_KWH: 60.318
+  response: |-
+    7EC0562484875CF
+    7EC056248F90022
+- expected_values:
+    MACHE_HVBAT_KWH: 60.59
+  response: |-
+    7EC056248487657
+    7EC03410D00
+- expected_values:
+    MACHE_HVBAT_KWH: 61.662
+  response: |-
+    7EC05624848786F
+    7EC05624848786F
+- expected_values:
+    MACHE_HVBAT_KWH: 63.054
+  response: |-
+    7EC056248487B27
+    7EC03410D00
 - expected_values:
     MACHE_HVBAT_KWH: 70.478
   response: |-
