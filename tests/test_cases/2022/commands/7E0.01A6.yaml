@@ -71,3 +71,28 @@ test_cases:
   response: |-
     7E80641A6001D3A2C
     7E8064100AA082013
+- expected_values:
+    ODO: 192456.1
+  response: |-
+    7E80641A6001D5DD1
+    7E803410D00
+- expected_values:
+    ODO: 192460
+  response: |-
+    7E80641A6001D5DF8
+    7E803410D1E
+- expected_values:
+    ODO: 192465.5
+  response: |-
+    7E80641A6001D5E2F
+    7E803410D3F
+- expected_values:
+    ODO: 192475.5
+  response: |-
+    7E80641A6001D5E93
+    7E803410D57
+- expected_values:
+    ODO: 192488.6
+  response: |-
+    7E80641A6001D5F16
+    7E803410D54

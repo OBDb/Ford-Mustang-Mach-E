@@ -1,13 +1,73 @@
 command_id: 7E7.7EF.224820
 test_cases:
 - expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 54
+  response: |-
+    7EF03410D29
+    7EF056248200036
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 55
+  response: |-
+    7EF03410D51
+    7EF056248200037
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 49
+  response: |-
+    7EF0562481A0001
+    7EF056248200031
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 51
+  response: |-
+    7EF0562481A01E3
+    7EF056248200033
+- expected_values:
     MACHE_SEC_MOTOR_COIL_T: 0
   response: 7EF056248200000
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 33
+  response: |-
+    7EF056248200021
+    7EF0562481A0005
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 38
+  response: |-
+    7EF056248200026
+    7EF03410D29
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 42
+  response: |-
+    7EF05624820002A
+    7EF03410D4F
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 42
+  response: |-
+    7EF05624820002A
+    7EF03410D57
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 45
+  response: |-
+    7EF05624820002D
+    7EF0562481A005C
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 49
+  response: |-
+    7EF056248200031
+    7EF03410D00
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 49
+  response: |-
+    7EF056248200031
+    7EF0562481A00A0
 - expected_values:
     MACHE_SEC_MOTOR_COIL_T: 51
   response: |-
     7EF056248200033
     7EF06410098180013
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 54
+  response: |-
+    7EF056248200036
+    7EF0562481AFFC1
 - expected_values:
     MACHE_SEC_MOTOR_COIL_T: 59
   response: |-

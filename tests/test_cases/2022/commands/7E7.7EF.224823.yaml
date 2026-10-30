@@ -1,6 +1,11 @@
 command_id: 7E7.7EF.224823
 test_cases:
 - expected_values:
+    MACHE_SEC_MOTOR_INV_V: 355.1
+  response: |-
+    7EF0562481A002E
+    7EF056248230DDF
+- expected_values:
     MACHE_SEC_MOTOR_INV_V: 310.4
   response: 7EF056248230C20
 - expected_values:
@@ -19,6 +24,56 @@ test_cases:
 - expected_values:
     MACHE_SEC_MOTOR_INV_V: 332.8
   response: 7EF056248230D00
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 349.2
+  response: |-
+    7EF056248230DA4
+    7EF0562481A02D5
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 353.6
+  response: |-
+    7EF056248230DD0
+    7EF03410D5D
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 353.9
+  response: |-
+    7EF056248230DD3
+    7EF0562481AFFEB
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 354.6
+  response: |-
+    7EF056248230DDA
+    7EF03410D00
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 355.8
+  response: |-
+    7EF056248230DE6
+    7EF0562481A0047
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 356.2
+  response: |-
+    7EF056248230DEA
+    7EF0562481A01FA
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 356.8
+  response: |-
+    7EF056248230DF0
+    7EF03410D53
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 358.8
+  response: |-
+    7EF056248230E04
+    7EF03410D59
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 362.2
+  response: |-
+    7EF056248230E26
+    7EF0562481AFFA1
+- expected_values:
+    MACHE_SEC_MOTOR_INV_V: 362.6
+  response: |-
+    7EF056248230E2A
+    7EF0562481AFFF8
 - expected_values:
     MACHE_SEC_MOTOR_INV_V: 384
   response: 7EF056248230F00

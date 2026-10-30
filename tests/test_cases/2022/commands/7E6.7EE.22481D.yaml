@@ -25,5 +25,66 @@ test_cases:
     7EE0562481D0D04
     7EE06410098180013
 - expected_values:
+    MACHE_PRI_MOTOR_INV_V: 350.4
+  response: |-
+    7EE0562481D0DB0
+    7EE0562481C02A8
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 353.5
+  response: |-
+    7EE0562481D0DCF
+    7EE0562481C0318
+    7EE03410D38
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 354.2
+  response: |-
+    7EE0562481D0DD6
+    7EE03410D04
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 354.6
+  response: |-
+    7EE0562481D0DDA
+    7EE03410D50
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 354.7
+  response: |-
+    7EE0562481D0DDB
+    7EE03410D1D
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 354.7
+  response: |-
+    7EE0562481D0DDB
+    7EE0562481CFFFE
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 355.2
+  response: |-
+    7EE0562481D0DE0
+    7EE0562481CFFBF
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 356
+  response: |-
+    7EE0562481D0DE8
+    7EE0562481C0002
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 356.7
+  response: |-
+    7EE0562481D0DEF
+    7EE03410D57
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 356.8
+  response: |-
+    7EE0562481D0DF0
+    7EE0562481C028B
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 358.9
+  response: |-
+    7EE0562481D0E05
+    7EE0562481CFFFE
+- expected_values:
+    MACHE_PRI_MOTOR_INV_V: 364.9
+  response: |-
+    7EE0562481D0E41
+    7EE0562481C0000
+- expected_values:
     MACHE_PRI_MOTOR_INV_V: 384
   response: 7EE0562481D0F00

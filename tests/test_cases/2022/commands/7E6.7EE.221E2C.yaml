@@ -9,6 +9,16 @@ test_cases:
     7EE05621E2C0000
     7EE06410098180013
 - expected_values:
+    MACHE_PRI_MOTOR_RPM: 161
+  response: |-
+    7EE05621E2C00A1
+    7EE0562481C0300
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 415
+  response: |-
+    7EE05621E2C019F
+    7EE03410D06
+- expected_values:
     MACHE_PRI_MOTOR_RPM: 767
   response: 7EE05621E2C02FF
 - expected_values:
@@ -22,8 +32,43 @@ test_cases:
     7EE05621E2C07FB
     7EE06410098180013
 - expected_values:
+    MACHE_PRI_MOTOR_RPM: 3872
+  response: |-
+    7EE05621E2C0F20
+    7EE03410D39
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 4322
+  response: |-
+    7EE05621E2C10E2
+    7EE03410D3F
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 5617
+  response: |-
+    7EE05621E2C15F1
+    7EE0562481C02BD
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 5720
+  response: |-
+    7EE05621E2C1658
+    7EE0562481CFF9E
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 5862
+  response: |-
+    7EE05621E2C16E6
+    7EE0562481C008F
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 6022
+  response: |-
+    7EE05621E2C1786
+    7EE03410D58
+- expected_values:
     MACHE_PRI_MOTOR_RPM: -256
   response: 7EE05621E2CFF00
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 2796
+  response: |-
+    7EE0562481C01D7
+    7EE05621E2C0AEC
 - expected_values:
     MACHE_PRI_MOTOR_RPM: 2587
   response: |-

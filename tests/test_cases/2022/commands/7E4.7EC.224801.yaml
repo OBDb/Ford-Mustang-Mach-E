@@ -40,6 +40,69 @@ test_cases:
     7EC0562480172D1
     7EC06410098180003
 - expected_values:
+    MACHE_HVBAT_SOC: 63.546
+  response: |-
+    7EC056248017C1D
+    7EC056248F902AB
+- expected_values:
+    MACHE_HVBAT_SOC: 63.638
+  response: |-
+    7EC056248017C4B
+    7EC056248F9FFA9
+- expected_values:
+    MACHE_HVBAT_SOC: 63.728
+  response: |-
+    7EC056248017C78
+    7EC03410D00
+    7EC056248486604
+- expected_values:
+    MACHE_HVBAT_SOC: 65.366
+  response: |-
+    7EC056248017FAB
+    7EC03410D50
+- expected_values:
+    MACHE_HVBAT_SOC: 65.57
+  response: |-
+    7EC056248018011
+    7EC03410D54
+    7EC056248486921
+- expected_values:
+    MACHE_HVBAT_SOC: 67.404
+  response: |-
+    7EC0562480183A6
+    7EC056248486C40
+- expected_values:
+    MACHE_HVBAT_SOC: 71.106
+  response: |-
+    7EC056248018AE1
+    7EC03410D4F
+- expected_values:
+    MACHE_HVBAT_SOC: 71.692
+  response: |-
+    7EC056248018C06
+    7EC03410D57
+- expected_values:
+    MACHE_HVBAT_SOC: 72.412
+  response: |-
+    7EC056248018D6E
+    7EC03410D32
+    7EC0562484874E3
+- expected_values:
+    MACHE_HVBAT_SOC: 74.236
+  response: |-
+    7EC0562480190FE
+    7EC056248487826
+- expected_values:
+    MACHE_HVBAT_SOC: 74.256
+  response: |-
+    7EC056248019108
+    7EC05624848782F
+- expected_values:
+    MACHE_HVBAT_SOC: 75.098
+  response: |-
+    7EC0562480192AD
+    7EC056248F9001E
+- expected_values:
     MACHE_HVBAT_SOC: 83.704
   response: |-
     7EC05624801A37C
@@ -55,25 +118,10 @@ test_cases:
     7EC05624801A3D6
     7EC0462484F00
 - expected_values:
-    MACHE_HVBAT_SOC: 83.89
-  response: |-
-    7EC05624801A3D9
-    7EC0562480D926D
-- expected_values:
     MACHE_HVBAT_SOC: 84.998
   response: |-
     7EC05624801A603
     7EC056248F9FC19
-- expected_values:
-    MACHE_HVBAT_SOC: 87.392
-  response: |-
-    7EC05624801AAB0
-    7EC05624801AAB0
-- expected_values:
-    MACHE_HVBAT_SOC: 88.112
-  response: |-
-    7EC05624801AC18
-    7EC056248489128
 - expected_values:
     MACHE_HVBAT_SOC: 88.16
   response: |-
@@ -92,11 +140,6 @@ test_cases:
     7EC05624801AEF7
     7EC056248F90469
 - expected_values:
-    MACHE_HVBAT_SOC: 89.618
-  response: |-
-    7EC05624801AF09
-    7EC03410400
-- expected_values:
     MACHE_HVBAT_SOC: 90.45
   response: |-
     7EC05624801B0A9
@@ -104,3 +147,8 @@ test_cases:
 - expected_values:
     MACHE_HVBAT_SOC: 96.256
   response: 7EC05624801BC00
+- expected_values:
+    MACHE_HVBAT_SOC: 64.024
+  response: |-
+    7EC05624848668C
+    7EC056248017D0C
