@@ -44,11 +44,6 @@ test_cases:
     7EF05624820002A
     7EF03410D57
 - expected_values:
-    MACHE_SEC_MOTOR_COIL_T: 45
-  response: |-
-    7EF05624820002D
-    7EF0562481A005C
-- expected_values:
     MACHE_SEC_MOTOR_COIL_T: 49
   response: |-
     7EF056248200031
@@ -68,6 +63,11 @@ test_cases:
   response: |-
     7EF056248200036
     7EF0562481AFFC1
+- expected_values:
+    MACHE_SEC_MOTOR_COIL_T: 56
+  response: |-
+    7EF056248200038
+    7EF0562481A000D
 - expected_values:
     MACHE_SEC_MOTOR_COIL_T: 59
   response: |-

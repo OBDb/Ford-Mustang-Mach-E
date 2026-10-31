@@ -6,6 +6,11 @@ test_cases:
     7EE03410D00
     7EE0562481C0002
 - expected_values:
+    MACHE_PRI_MOTOR_TQ: 41.8
+  response: |-
+    7EE03410D53
+    7EE0562481C01A2
+- expected_values:
     MACHE_PRI_MOTOR_TQ: 0
   response: 7EE0562481C0000
 - expected_values:
@@ -24,10 +29,10 @@ test_cases:
     7EE0562481C0005
     7EE06410098180013
 - expected_values:
-    MACHE_PRI_MOTOR_TQ: 11.8
+    MACHE_PRI_MOTOR_TQ: 4.9
   response: |-
-    7EE0562481C0076
-    7EE03410D56
+    7EE0562481C0031
+    7EE03410D59
 - expected_values:
     MACHE_PRI_MOTOR_TQ: 19.1
   response: |-
@@ -55,6 +60,11 @@ test_cases:
     7EE0562481CFFAA
     7EE03410D54
 - expected_values:
+    MACHE_PRI_MOTOR_TQ: -6.8
+  response: |-
+    7EE0562481CFFB8
+    7EE0562481CFFBC
+- expected_values:
     MACHE_PRI_MOTOR_TQ: -0.5
   response: |-
     7EE0562481CFFFB
@@ -64,11 +74,6 @@ test_cases:
   response: |-
     7EE0562481CFFFE
     7EE03410D00
-- expected_values:
-    MACHE_PRI_MOTOR_TQ: 0.6
-  response: |-
-    7EE0562481CFFFE
-    7EE0562481C0006
 - expected_values:
     MACHE_PRI_MOTOR_TQ: -0.2
   response: |-

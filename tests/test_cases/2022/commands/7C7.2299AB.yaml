@@ -4,8 +4,127 @@ test_cases:
     MACHE_AC_COMP_A: 0
   response: 7CF056299AB0000
 - expected_values:
+    MACHE_AC_COMP_A: 0
+  response: |-
+    7CF056299AB0000
+    7DF02010D
+    7E803410D00
+    7EE03410D00
+    7EF03410D00
+    7EC03410D00
+- expected_values:
+    MACHE_AC_COMP_A: 2.70089
+  response: |-
+    7CF056299AB0375
+    7E4032248F9
+    7EC056248F9050D
+- expected_values:
+    MACHE_AC_COMP_A: 2.89926
+  response: |-
+    7CF056299AB03B6
+    7E70322481A
+    7EF0562481A0173
+- expected_values:
+    MACHE_AC_COMP_A: 3.50047
+  response: |-
+    7CF056299AB047B
+    7DF0322481C
+    7EE0562481C008B
+- expected_values:
+    MACHE_AC_COMP_A: 3.50047
+  response: |-
+    7CF056299AB047B
+    7E20322480D
+    7EA0562480D8854
+- expected_values:
+    MACHE_AC_COMP_A: 3.79955
+  response: |-
+    7CF056299AB04DD
+    7E4032248F9
+    7EC056248F901EA
+- expected_values:
+    MACHE_AC_COMP_A: 3.79955
+  response: |-
+    7CF056299AB04DD
+    7E4032248F9
+    7EC056248F904C9
+    7E70322481A
+    7EF0562481A022B
+    7DF0322481C
+    7EE0562481C024C
+- expected_values:
     MACHE_AC_COMP_A: 3.90027
   response: 7CF056299AB04FE
 - expected_values:
+    MACHE_AC_COMP_A: 4.00098
+  response: |-
+    7CF056299AB051F
+    7E4032248F9
+    7EC056248F9022B
+    7E70322481A
+    7EF0562481A0106
+    7DF0322481C
+    7EE0562481C00DF
+- expected_values:
+    MACHE_AC_COMP_A: 4.99893
+  response: |-
+    7CF056299AB0666
+    7DF02010D
+    7EE03410D00
+    7EC03410D00
+    7EF03410D00
+    7E803410D00
+- expected_values:
     MACHE_AC_COMP_A: 6.29902
   response: 7CF056299AB0810
+- expected_values:
+    MACHE_AC_COMP_A: 3.69884
+  response: |-
+    7DF0322481C
+    7CF056299AB04BC
+    7EE0562481C00B8
+- expected_values:
+    MACHE_AC_COMP_A: 2.89926
+  response: |-
+    7DF0322481C
+    7EE0562481C0056
+    7CF056299AB03B6
+- expected_values:
+    MACHE_AC_COMP_A: 2.79855
+  response: |-
+    7E20322480D
+    7CF056299AB0395
+    7EA0562480D8A48
+- expected_values:
+    MACHE_AC_COMP_A: 2.60018
+  response: |-
+    7E4032248F9
+    7CF056299AB0354
+    7EC056248F9FE6E
+- expected_values:
+    MACHE_AC_COMP_A: 3.60118
+  response: |-
+    7E4032248F9
+    7EC056248F9001A
+    7CF056299AB049C
+    7E70322481A
+    7EF0562481AFF95
+- expected_values:
+    MACHE_AC_COMP_A: 2.89926
+  response: |-
+    7E70322481A
+    7CF056299AB03B6
+    7EF0562481AFFE3
+- expected_values:
+    MACHE_AC_COMP_A: 3.69884
+  response: |-
+    7E803410D02
+    7CF056299AB04BC
+- expected_values:
+    MACHE_AC_COMP_A: 3.10068
+  response: |-
+    7EF03410D48
+    7E803410D48
+    7EE03410D48
+    7CF056299AB03F8
+    7EC03410D48

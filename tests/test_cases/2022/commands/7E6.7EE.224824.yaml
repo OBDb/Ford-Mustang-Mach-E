@@ -9,10 +9,20 @@ test_cases:
     MACHE_PRI_MOTOR_INV_T: 20
   response: 7EE056248240014
 - expected_values:
+    MACHE_PRI_MOTOR_INV_T: 27
+  response: |-
+    7EE05624824001B
+    7EE03410D00
+- expected_values:
     MACHE_PRI_MOTOR_INV_T: 35
   response: |-
     7EE056248240023
     7EE06410098180013
+- expected_values:
+    MACHE_PRI_MOTOR_INV_T: 36
+  response: |-
+    7EE056248240024
+    7EE03410D55
 - expected_values:
     MACHE_PRI_MOTOR_INV_T: 39
   response: |-
@@ -23,11 +33,6 @@ test_cases:
   response: |-
     7EE056248240027
     7EE0562481CFFFE
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 40
-  response: |-
-    7EE056248240028
-    7EE03410D57
 - expected_values:
     MACHE_PRI_MOTOR_INV_T: 40
   response: |-
@@ -43,11 +48,6 @@ test_cases:
   response: |-
     7EE056248240029
     7EE0562481C0001
-- expected_values:
-    MACHE_PRI_MOTOR_INV_T: 42
-  response: |-
-    7EE05624824002A
-    7EE03410D00
 - expected_values:
     MACHE_PRI_MOTOR_INV_T: 43
   response: |-

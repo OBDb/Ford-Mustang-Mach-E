@@ -4,5 +4,20 @@ test_cases:
     MACHE_COOLANT_HTR_OP_MODE: 'OFF'
   response: 7EE046248DF00
 - expected_values:
+    MACHE_COOLANT_HTR_OP_MODE: 'OFF'
+  response: |-
+    7EE046248DF00
+    7EE03410D00
+- expected_values:
+    MACHE_COOLANT_HTR_OP_MODE: 'OFF'
+  response: |-
+    7EE046248DF00
+    7EE03410D25
+- expected_values:
+    MACHE_COOLANT_HTR_OP_MODE: 'OFF'
+  response: |-
+    7EE046248DF00
+    7EE03410D57
+- expected_values:
     MACHE_COOLANT_HTR_OP_MODE: 'ON'
   response: 7EE046248DF01
