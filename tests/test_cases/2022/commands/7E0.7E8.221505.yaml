@@ -6,6 +6,11 @@ test_cases:
     7E803410537
     7E8056215050000
 - expected_values:
+    MACHE_VSS_HD: 84.30469
+  response: |-
+    7E803410D54
+    7E8056215052A27
+- expected_values:
     MACHE_VSS_HD: 0
   response: '7E8056215050000'
 - expected_values:
@@ -87,11 +92,6 @@ test_cases:
     7E805621505286B
     7E803410D50
 - expected_values:
-    MACHE_VSS_HD: 87.3125
-  response: |-
-    7E8056215052BA8
-    7E803410D57
-- expected_values:
     MACHE_VSS_HD: 87.63281
   response: |-
     7E8056215052BD1
@@ -101,6 +101,11 @@ test_cases:
   response: |-
     7E8056215052BFC
     7E803410D57
+- expected_values:
+    MACHE_VSS_HD: 88.53125
+  response: |-
+    7E8056215052C44
+    7E803410D58
 - expected_values:
     MACHE_VSS_HD: 143.98438
   response: 7E80562150547FE
