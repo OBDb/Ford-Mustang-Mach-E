@@ -712,15 +712,15 @@
   "signals": [
     {"id": "MACHE_HYBRID_BAT_PACK", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Hybrid battery pack remaining charge"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E12"}, "freq": 1, "dbgfilter": { "from": 2026 },
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "from": 2026 },
   "signals": [
-    {"id": "MACHE_GEAR_CMD", "path": "Transmission", "name": "Gear commanded", "fmt": {"len": 8, "map": {
+    {"id": "MACHE_GEAR_CMD", "path": "Transmission", "name": "Gear commanded", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
           "0":   { "description": "Unknown", "value": "UNKNOWN" },
-          "20":  { "description": "L",       "value": "L" },
-          "40":  { "description": "D",       "value": "D" },
-          "50":  { "description": "N",       "value": "N" },
-          "60":  { "description": "R",       "value": "R" },
-          "70":  { "description": "P",       "value": "P" },
+          "20":  { "description": "Low",     "value": "LOW" },
+          "40":  { "description": "Drive",   "value": "DRIVE" },
+          "50":  { "description": "Neutral", "value": "NEUTRAL" },
+          "60":  { "description": "Reverse", "value": "REVERSE" },
+          "70":  { "description": "Park",    "value": "PARK" },
           "255": { "description": "Fault",   "value": "FAULT" }
         }}
     }
