@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22484D
+test_cases:
+- expected_values:
+    MACHE_HVBAT_CHG_STATUS: NOT_READY
+  response: 7EC0462484D00

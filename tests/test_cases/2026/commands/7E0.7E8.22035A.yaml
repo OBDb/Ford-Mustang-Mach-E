@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22035A
+test_cases:
+- expected_values:
+    MACHE_BARO_V: 3.79277
+  response: 7E80562035A0308
+- expected_values:
+    MACHE_BARO_V: 3.97361
+  response: 7E80562035A032D

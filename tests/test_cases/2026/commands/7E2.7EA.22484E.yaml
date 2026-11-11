@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.22484E
+test_cases:
+- expected_values:
+    MACHE_CHG_PWR_AVAIL: 0
+  response: 7EA0562484E0000

@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.22485D
+test_cases:
+- expected_values:
+    MACHE_BAT_PACK_LIFETIME: 13490
+  response: 7EC0562485D0545
+- expected_values:
+    MACHE_BAT_PACK_LIFETIME: 13500
+  response: 7EC0562485D0546
+- expected_values:
+    MACHE_BAT_PACK_LIFETIME: 13510
+  response: 7EC0562485D0547

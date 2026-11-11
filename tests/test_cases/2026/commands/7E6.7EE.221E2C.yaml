@@ -1,0 +1,11 @@
+command_id: 7E6.7EE.221E2C
+test_cases:
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 0
+  response: 7EE05621E2C0000
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 4603
+  response: 7EE05621E2C11FB
+- expected_values:
+    MACHE_PRI_MOTOR_RPM: 6237
+  response: 7EE05621E2C185D
