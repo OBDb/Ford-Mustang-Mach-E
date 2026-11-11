@@ -1,6 +1,9 @@
 command_id: 7E2.7EA.22480B
 test_cases:
 - expected_values:
+    MACHE_HIGH_V_CURRENT: 1.02
+  response: 7EA0562480B0033
+- expected_values:
     MACHE_HIGH_V_CURRENT: 1.82
   response: 7EA0562480B005B
 - expected_values:

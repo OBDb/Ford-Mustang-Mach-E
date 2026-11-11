@@ -1,6 +1,9 @@
 command_id: 7E6.7EE.22DD05
 test_cases:
 - expected_values:
+    MACHE_OUTSIDE_T: 48.2
+  response: 7EE0462DD0531
+- expected_values:
     MACHE_OUTSIDE_T: 64.4
   response: 7EE0462DD053A
 - expected_values:
