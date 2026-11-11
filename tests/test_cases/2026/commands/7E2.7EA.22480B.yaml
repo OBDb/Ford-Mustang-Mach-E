@@ -4,11 +4,11 @@ test_cases:
     MACHE_HIGH_V_CURRENT: 0.88
   response: 7EA0562480B002C
 - expected_values:
-    MACHE_HIGH_V_CURRENT: 76.68
-  response: 7EA0562480B0EFA
-- expected_values:
     MACHE_HIGH_V_CURRENT: 143.42
   response: 7EA0562480B1C03
 - expected_values:
-    MACHE_HIGH_V_CURRENT: -0.56
-  response: 7EA0562480BFFE4
+    MACHE_HIGH_V_CURRENT: 163.82
+  response: 7EA0562480B1FFF
+- expected_values:
+    MACHE_HIGH_V_CURRENT: -0.72
+  response: 7EA0562480BFFDC

@@ -4,5 +4,5 @@ test_cases:
     MACHE_ODO_PSCM: 18796
   response: 7380662DD0100496C
 - expected_values:
-    MACHE_ODO_PSCM: 18816
-  response: 7380662DD01004980
+    MACHE_ODO_PSCM: 18839
+  response: 7380662DD01004997

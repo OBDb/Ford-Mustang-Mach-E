@@ -1,20 +1,11 @@
 command_id: 726.72E.222816
 test_cases:
 - expected_values:
-    MACHE_TP_RL: 38.7
-  response: '72E056228160306'
+    MACHE_TP_RL: 37.35
+  response: 72E0562281602EB
 - expected_values:
-    MACHE_TP_RL: 38.8
-  response: '72E056228160308'
+    MACHE_TP_RL: 38.3
+  response: 72E0562281602FE
 - expected_values:
-    MACHE_TP_RL: 38.95
-  response: 72E05622816030B
-- expected_values:
-    MACHE_TP_RL: 39.05
-  response: 72E05622816030D
-- expected_values:
-    MACHE_TP_RL: 39.2
-  response: '72E056228160310'
-- expected_values:
-    MACHE_TP_RL: 39.45
-  response: '72E056228160315'
+    MACHE_TP_RL: 38.4
+  response: '72E056228160300'

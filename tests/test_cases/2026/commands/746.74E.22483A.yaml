@@ -4,26 +4,5 @@ test_cases:
     MACHE_DCDC_HV_A: 0.5
   response: 74E0462483A05
 - expected_values:
-    MACHE_DCDC_HV_A: 0.7
-  response: 74E0462483A07
-- expected_values:
-    MACHE_DCDC_HV_A: 0.8
-  response: 74E0462483A08
-- expected_values:
-    MACHE_DCDC_HV_A: 0.9
-  response: 74E0462483A09
-- expected_values:
-    MACHE_DCDC_HV_A: 1
-  response: 74E0462483A0A
-- expected_values:
-    MACHE_DCDC_HV_A: 1.1
-  response: 74E0462483A0B
-- expected_values:
-    MACHE_DCDC_HV_A: 1.2
-  response: 74E0462483A0C
-- expected_values:
-    MACHE_DCDC_HV_A: 1.3
-  response: 74E0462483A0D
-- expected_values:
-    MACHE_DCDC_HV_A: 1.4
-  response: 74E0462483A0E
+    MACHE_DCDC_HV_A: 2.3
+  response: 74E0462483A17

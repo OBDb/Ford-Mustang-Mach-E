@@ -10,5 +10,8 @@ test_cases:
     MACHE_VEH_BAT_B_V: 13.45
   response: 72E046241E895
 - expected_values:
+    MACHE_VEH_BAT_B_V: 14.65
+  response: 72E046241E8AD
+- expected_values:
     MACHE_VEH_BAT_B_V: 14.7
   response: 72E046241E8AE

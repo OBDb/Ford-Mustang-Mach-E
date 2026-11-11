@@ -4,5 +4,5 @@ test_cases:
     MACHE_ACC_POS: 0
   response: 7E80462032B00
 - expected_values:
-    MACHE_ACC_POS: 39
-  response: 7E80462032B4E
+    MACHE_ACC_POS: 42
+  response: 7E80462032B54

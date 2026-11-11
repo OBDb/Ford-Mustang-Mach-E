@@ -4,5 +4,5 @@ test_cases:
     MACHE_FL_VSS: 0
   response: 76804622B0700
 - expected_values:
-    MACHE_FL_VSS: 85
-  response: 76804622B0755
+    MACHE_FL_VSS: 93
+  response: 76804622B075D

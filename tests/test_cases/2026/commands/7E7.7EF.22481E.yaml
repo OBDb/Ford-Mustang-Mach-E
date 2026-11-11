@@ -1,8 +1,8 @@
 command_id: 7E7.7EF.22481E
 test_cases:
 - expected_values:
-    MACHE_SEC_MOTOR_INV_T: 26
-  response: 7EF0562481E001A
+    MACHE_SEC_MOTOR_INV_T: 20
+  response: 7EF0562481E0014
 - expected_values:
     MACHE_SEC_MOTOR_INV_T: 48
   response: 7EF0562481E0030
