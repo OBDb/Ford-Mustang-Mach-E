@@ -4,29 +4,5 @@ test_cases:
     MACHE_BARO: 14.03083
   response: '7E8056203530183'
 - expected_values:
-    MACHE_BARO: 14.06709
-  response: '7E8056203530184'
-- expected_values:
-    MACHE_BARO: 14.17585
-  response: '7E8056203530187'
-- expected_values:
-    MACHE_BARO: 14.21211
-  response: '7E8056203530188'
-- expected_values:
-    MACHE_BARO: 14.24836
-  response: '7E8056203530189'
-- expected_values:
-    MACHE_BARO: 14.28462
-  response: 7E805620353018A
-- expected_values:
-    MACHE_BARO: 14.32087
-  response: 7E805620353018B
-- expected_values:
-    MACHE_BARO: 14.35713
-  response: 7E805620353018C
-- expected_values:
-    MACHE_BARO: 14.39339
-  response: 7E805620353018D
-- expected_values:
-    MACHE_BARO: 14.42964
-  response: 7E805620353018E
+    MACHE_BARO: 14.50215
+  response: '7E8056203530190'

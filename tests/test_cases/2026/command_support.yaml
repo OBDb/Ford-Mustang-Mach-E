@@ -72,6 +72,7 @@ supported_commands_by_ecu:
   - 01AA:V_SET
   - 7E0.0105:ECT
   - 7E0.010D:VSS
+  - 7E0.011C:OBDSUP
   - 7E0.0131:CLR_DIST
   - 7E0.0142:VPWR
   - 7E0.01A6:ODO

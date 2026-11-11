@@ -4,5 +4,5 @@ test_cases:
     MACHE_BARO_V: 3.79277
   response: 7E80562035A0308
 - expected_values:
-    MACHE_BARO_V: 3.97361
-  response: 7E80562035A032D
+    MACHE_BARO_V: 4.00293
+  response: 7E80562035A0333

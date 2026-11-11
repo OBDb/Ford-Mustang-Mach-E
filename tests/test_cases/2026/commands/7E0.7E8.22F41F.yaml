@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
-    MACHE_RUN_TIME: 1478
-  response: 7E80562F41F05C6
+    MACHE_RUN_TIME: 698
+  response: 7E80562F41F02BA
 - expected_values:
-    MACHE_RUN_TIME: 2563
-  response: 7E80562F41F0A03
+    MACHE_RUN_TIME: 1539
+  response: 7E80562F41F0603
 - expected_values:
     MACHE_RUN_TIME: 2811
   response: 7E80562F41F0AFB

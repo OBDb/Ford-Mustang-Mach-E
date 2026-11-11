@@ -4,5 +4,5 @@ test_cases:
     MACHE_RR_VSS: 0
   response: 76804622B0800
 - expected_values:
-    MACHE_RR_VSS: 85
-  response: 76804622B0855
+    MACHE_RR_VSS: 93
+  response: 76804622B085D
