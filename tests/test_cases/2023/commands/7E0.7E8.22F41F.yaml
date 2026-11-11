@@ -7,5 +7,5 @@ test_cases:
     MACHE_RUN_TIME: 1277
   response: 7E80562F41F04FD
 - expected_values:
-    MACHE_RUN_TIME: 2567
-  response: 7E80562F41F0A07
+    MACHE_RUN_TIME: 3907
+  response: 7E80562F41F0F43

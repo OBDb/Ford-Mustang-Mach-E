@@ -7,6 +7,9 @@ test_cases:
     MACHE_STEER_SHFT_TQ: -0.6
   response: 7380462330C79
 - expected_values:
+    MACHE_STEER_SHFT_TQ: -0.2
+  response: 7380462330C7D
+- expected_values:
     MACHE_STEER_SHFT_TQ: 0
   response: 7380462330C7F
 - expected_values:
