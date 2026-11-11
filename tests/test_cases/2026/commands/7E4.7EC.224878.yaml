@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224878
+test_cases:
+- expected_values:
+    MACHE_CHG_INHIBIT_REQ: 0
+  response: 7EC0462487800
