@@ -287,9 +287,11 @@ unsupported_commands_by_ecu:
   - 7E4.7EC.22DD04:MACHE_T_INSIDE_CAR
   "7E6":
   - 7E6.7EE.0105
+  - 7E6.7EE.010C
   - 7E6.7EE.0142
   "7E7":
   - 7E7.7EF.0104
   - 7E7.7EF.0105
+  - 7E7.7EF.010C
   - 7E7.7EF.0131
   - 7E7.7EF.0142
