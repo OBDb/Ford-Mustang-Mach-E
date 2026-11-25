@@ -1,6 +1,9 @@
 command_id: 7E4.7EC.22F45B
 test_cases:
 - expected_values:
+    MACHE_HYBRID_BAT_PACK: 55.68627
+  response: 7EC0462F45B8E
+- expected_values:
     MACHE_HYBRID_BAT_PACK: 56.86275
   response: 7EC0462F45B91
 - expected_values:

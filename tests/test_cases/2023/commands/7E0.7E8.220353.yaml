@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     MACHE_BARO: 14.17585
   response: '7E8056203530187'
+- expected_values:
+    MACHE_BARO: 14.42964
+  response: 7E805620353018E

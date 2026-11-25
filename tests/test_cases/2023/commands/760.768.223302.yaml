@@ -16,6 +16,9 @@ test_cases:
     MACHE_BCM_STEER_ANG_ACT: 9.4
   response: 768056233021ED6
 - expected_values:
+    MACHE_BCM_STEER_ANG_ACT: 17.4
+  response: 768056233021F26
+- expected_values:
     MACHE_BCM_STEER_ANG_ACT: 31.8
   response: 768056233021FB6
 - expected_values:

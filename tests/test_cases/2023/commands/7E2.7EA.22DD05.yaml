@@ -1,8 +1,8 @@
 command_id: 7E2.7EA.22DD05
 test_cases:
 - expected_values:
-    MACHE_AAT: -1
-  response: 7EA0462DD0527
+    MACHE_AAT: -2
+  response: 7EA0462DD0526
 - expected_values:
     MACHE_AAT: 33
   response: 7EA0462DD0549
