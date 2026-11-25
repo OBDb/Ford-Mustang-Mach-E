@@ -1,6 +1,9 @@
 command_id: 7E4.7EC.22483E
 test_cases:
 - expected_values:
+    MACHE_HVB_SOC_VARIATION: 0.37
+  response: 7EC0562483E0172
+- expected_values:
     MACHE_HVB_SOC_VARIATION: 0.484
   response: 7EC0562483E01E4
 - expected_values:

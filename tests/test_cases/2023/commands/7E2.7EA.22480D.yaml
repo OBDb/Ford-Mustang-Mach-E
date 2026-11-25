@@ -4,6 +4,9 @@ test_cases:
     MACHE_HVB_V_RAW_CNT: 34700
   response: 7EA0562480D878C
 - expected_values:
+    MACHE_HVB_V_RAW_CNT: 34750
+  response: 7EA0562480D87BE
+- expected_values:
     MACHE_HVB_V_RAW_CNT: 34850
   response: 7EA0562480D8822
 - expected_values:

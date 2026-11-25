@@ -1,8 +1,8 @@
 command_id: 7E4.7EC.224805
 test_cases:
 - expected_values:
-    MACHE_CONTACTOR_V_POS: 348.3
-  response: 7EC05624805880E
+    MACHE_CONTACTOR_V_POS: 347.54
+  response: 7EC0562480587C2
 - expected_values:
     MACHE_CONTACTOR_V_POS: 355.74
   response: 7EC056248058AF6
