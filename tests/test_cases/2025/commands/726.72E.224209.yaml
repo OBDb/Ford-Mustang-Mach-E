@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     MACHE_BAT_CURRENT: -102.5
   response: 72E07624209FFFE6680
+- expected_values:
+    MACHE_BAT_CURRENT: -82
+  response: 72E07624209FFFEB8E0
