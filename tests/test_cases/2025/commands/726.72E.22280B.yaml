@@ -1,6 +1,11 @@
 command_id: 726.72E.22280B
 test_cases:
 - expected_values:
+    MACHE_TYRE_T: 15
+  response: |-
+    72E100C62280B6015C4
+    72E21FF02C137465200
+- expected_values:
     MACHE_TYRE_T: 23
   response: |-
     72E100C62280B6016C3
